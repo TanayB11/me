@@ -1,0 +1,15 @@
+baseURL = "https://tanaybiradar.com/"
+languageCode = "en-us"
+title = "Tanay Biradar"
+
+# Novela settings
+theme = "github.com/forestryio/hugo-theme-novela"
+
+paginate = 6
+
+[social]
+github= "https://github.com/TanayB11"
+linkedin= "https://www.linkedin.com/in/tanayb11"
+
+[taxonomies]
+author = "authors"
