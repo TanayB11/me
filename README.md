@@ -10,4 +10,4 @@ hugo new post/post-name.md # creates new post
 ```
 
 ## Deployment
-Using Vercel
+Using Netlify
