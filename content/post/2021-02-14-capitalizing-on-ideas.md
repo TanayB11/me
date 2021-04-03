@@ -1,7 +1,7 @@
 ---
 title: Capitalizing on Ideas
 date: 2021-02-14
-hero: /images/capitalizing-on-ideas-cover.jpg
+hero: /images/post-covers/capitalizing-on-ideas-cover.jpg
 excerpt: Execution is always the hardest part
 timeToRead: 3
 authors:
