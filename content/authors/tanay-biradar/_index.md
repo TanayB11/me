@@ -2,8 +2,8 @@
 title: Tanay Biradar
 featured: true
 bio: |
-  I love learning and building things with the knowledge I acquire, and I also
-  enjoy sharing my creations with people around me.
+  Hi! I'm Tanay, I'm a student and maker who likes to play with math and
+  computers.
 
 avatar: /images/tanay-biradar.jpg
 ---
