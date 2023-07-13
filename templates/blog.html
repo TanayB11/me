@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  <p>Posts with 🌱 have less developed ideas, 🌳 are more thought-out.</p>
+
+  <ul class="blog-posts">
+    <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->  
+    {% for page in section.pages %}
+      <li>
+        <span>
+          <i>
+            <time datetime={{ page.date }}>
+              {{ page.date }}
+            </time>
+          </i>
+        </span>
+        <a href="{{ page.permalink | safe }}">{{ page.title }} {{ page.description }}</a>
+      </li>
+
+    {% endfor %}
+  </ul>
+
+{% endblock content %}
