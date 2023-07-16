@@ -1,14 +1,12 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap'); */
-
 @font-face {
   font-family: 'Jost';
-  src: url('/fonts/Jost-Regular.ttf') format('ttf');
+  src: url('/fonts/Jost-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 body {
-  font-family: 'Jost', Verdana, sans-serif;
+  font-family: 'Jost', sans-serif;
   margin: auto;
   padding: 20px;
   max-width: 720px;
