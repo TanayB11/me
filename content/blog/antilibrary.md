@@ -16,6 +16,7 @@ Welcome to my digital collection of books: read, being-read, and to-be-read!
 - *Bad Blood* - John Carreyrou
 - *The Diary of a Young Girl* - Anne Frank
 - *Man's Search for Meaning* - Viktor E. Frankl
+- [x] *I Am Malala* - Malala Yousafzai
 - [x] *Steve Jobs* - Walter Isaacson
 - [x] *When Breath Becomes Air* - Paul Kalanithi
 	- A short but very meaningful read. "As a resident, my highest ideal was not saving lives—everyone dies eventually—but guiding a patient or family to an understanding of death or illness."
@@ -43,6 +44,8 @@ Welcome to my digital collection of books: read, being-read, and to-be-read!
 - *80,000 Hours: Find a fulfilling career that does good* - Benjamin Todd
 - [x] *The Richest Man in Babylon* - George Clason
 	- Often described as timeless advice, this book gives financial principles to live by (guard your hard-earned money, put money to work for you). Most of the advice seems applicable today, but some feels a bit archaic.
+- [x] *I Will Teach You to Be Rich* - Ramit Sethi
+	- Much more modern and timely advice: Get the big things right and don't stress so much about the small ones. I enjoy his focus on the idea of a "rich life"—one where you can "spend lavishly on things you really enjoy, but cut back mercilessly on other things."
 
 #### Other
 - *The Power of Habit* - Charles Duhigg
@@ -80,5 +83,6 @@ Welcome to my digital collection of books: read, being-read, and to-be-read!
 	- One of the best books I've read - just as good as—if not better than—*The Martian*. Amazing characters and scientific detail, just like his first novel.
 - [x] *Norwegian Wood* - Haruki Murakami
 	- I enjoyed how artfully Murakami sets mundane scenes, but some poorly developed characters really broke the book for me.
+- [x] *Siddhartha* - Hermann Hesse
 
 Ideas copied from <a href="https://jzhao.xyz/books">Jacky Zhao</a>.
