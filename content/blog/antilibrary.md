@@ -10,6 +10,8 @@ Welcome to my digital collection of books: read, being-read, and to-be-read!
   Instead of a celebration of everything you know, an antilibrary is an ode
   to everything you want to explore.
 
+I got the idea from <a href="https://jzhao.xyz/books">Jacky Zhao</a>.
+
 ### Biographical/Memoir
 - *Born a Crime* - Trevor Noah
 - *Elon Musk* - Walter Isaacson
@@ -85,4 +87,3 @@ Welcome to my digital collection of books: read, being-read, and to-be-read!
 	- I enjoyed how artfully Murakami sets mundane scenes, but some poorly developed characters really broke the book for me.
 - [x] *Siddhartha* - Hermann Hesse
 
-Ideas copied from <a href="https://jzhao.xyz/books">Jacky Zhao</a>.
