@@ -14,7 +14,7 @@ the things I've done. It reminds me of what I've learned from failure,
 acknowledges that I've worked hard for the things I care about, and motivates
 me to keep doing so.
 
-Like the [antilibrary](/antilibrary), I copied this excellent idea from [Jacky Zhao](https://jzhao.xyz/posts/a-failure-resume).
+Like the [antilibrary](/blog/antilibrary), I copied this excellent idea from [Jacky Zhao](https://jzhao.xyz/posts/a-failure-resume).
 
 ### 2023
 - Rejected from an undergrad TA position in the CS department (again)
