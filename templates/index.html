@@ -1,7 +1,13 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <h2>Hello! 👋🏽</h2>
+  <nav>
+    <a href="/blog">Blog</a>
+    <a href="https://github.com/TanayB11/">Github</a>
+    <a href="https://www.linkedin.com/in/tanayb11/">LinkedIn</a>
+  </nav>
+
+  <p>Hello! 👋🏽</p>
 
   <p>
     I'm a CS student at UC Santa Barbara. I aim to work with awesome tech
@@ -12,22 +18,27 @@
   <p>
     Currently, I'm most interested in
     <a href="https://github.com/TanayB11/pylot">reinforcement learning</a>,
-    but I've previously spent significant time on software engineering
-    <a href="https://github.com/jadeocr/">projects</a>.
-    I also love to
-    <a href="https://github.com/quantum-computing-initiative/quantum-computing-lessons">teach</a>!
+    but I do spend significant time on software-related 
+    <a href="https://github.com/TanayB11/">projects</a>.
+    I also love to teach!
   </p>
 
   <p>
-    My hobbies (currently) include cooking, bouldering, cycling, and playing
-    <em>Tears of the Kingdom</em>.
+    My hobbies currently include cooking, bouldering, and cycling.
   </p>
 
   <p>
-    I sometimes write about my thoughts — tech-related and otherwise —
-    <a href="/blog">here</a>. Here's what I'm doing <a href="/now">now</a>.
+    I occasionally write here. Here are some places you may want to visit:
   </p>
 
-  <a href="mailto:me@tanaybiradar.com">Drop me a message!</a>
+  <ul>
+    <li>My <a href="/blog/now">"now"</a> page: a public list of projects + goals</li>
+    <li>My <a href="/blog/antilibrary">antilibrary</a>: a collection of books: read, being-read, and to-be-read</li>
+    <!-- <li>My <a href="/blog/failures">failure resume</a> (and my <a href="https://linkedin.com/in/tanayb11">actual one</a>)</li> -->
+  </ul>
+
+  Send me a <a href="mailto:me@tanaybiradar.com">message</a> if you'd like to get in touch!
+
+  <p class="handwritten">See you around!<br> - Tanay</p>
 {% endblock content %}
 

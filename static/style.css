@@ -5,6 +5,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Twilight Wind';
+  src: url('/fonts/Twilight Wind.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: 'Jost', sans-serif;
   margin: auto;
@@ -14,9 +21,13 @@ body {
   background-color: #f4f4f4;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  line-height: 1.5;
+  line-height: 1.4;
   color: #444;
   font-size: 120%;
+}
+
+.handwritten {
+  font-family: 'Twilight Wind', sans-serif;
 }
 
 h1,
@@ -64,10 +75,6 @@ textarea {
 
 input {
   font-size: 16px;
-}
-
-content {
-  line-height: 1.6;
 }
 
 table {
