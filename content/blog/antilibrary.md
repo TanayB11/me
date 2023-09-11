@@ -16,6 +16,9 @@ Welcome to my digital collection of books: read, being-read, and to-be-read!
 - *Bad Blood* - John Carreyrou
 - *The Diary of a Young Girl* - Anne Frank
 - *Man's Search for Meaning* - Viktor E. Frankl
+- [x] *Steve Jobs* - Walter Isaacson
+- [x] *When Breath Becomes Air* - Paul Kalanithi
+	- A short but very meaningful read. "As a resident, my highest ideal was not saving lives—everyone dies eventually—but guiding a patient or family to an understanding of death or illness."
 
 ### Science, Math, and Philosophy
 - *Meditations* - Marcus Aurelius
@@ -28,6 +31,7 @@ Welcome to my digital collection of books: read, being-read, and to-be-read!
 - *General Relativity* - Leonard Susskind
 - *How to Avoid a Climate Disaster* - Bill Gates
 - *Why We Sleep: Unlocking the Power of Sleep and Dreams* - Matthew Walker
+- [x] *21 Lessons for the 21st Century* - Yuval Noah Harari
 - [x] *Permanent Record* - Edward Snowden
 	- I recommend this to basically everybody. Highlights the massive danger companies and governments create by disrespecting people's privacy. Reminded me to pursue a responsible career in tech.
 
