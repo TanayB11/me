@@ -1,6 +1,6 @@
 +++
 title = "The Antilibrary"
-date = 2023-09-10
+date = 2023-09-16
 description = ""
 +++
 
@@ -69,6 +69,10 @@ I got the idea from <a href="https://jzhao.xyz/books">Jacky Zhao</a>.
 
 ### Fiction
 - *Foundation* - Isaac Asimov
+- *I, Robot* - Isaac Asimov
+- *Stranger in a Strange Land* - Robert Heinlein
+- *Slaughterhouse Five* - Kurt Vonnegut
+- *Cat's Cradle* - Kurt Vonnegut
 - *The Posthumous Memoirs of Bras Cubas* - Joaquim Maria Machado de Assis
 - *1984* - George Orwell
 - *The Hitchhiker's Guide to the Galaxy* - Douglas Adams (DNF)
