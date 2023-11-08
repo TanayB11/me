@@ -47,7 +47,7 @@ $$
 **Inverse document frequency** is calculated by dividing the total number of documents by the number of documents that contain the term $t$. We throw a logarithm in there, too. Here, $N$ is the number of documents and $D$ is the set of all documents. We add a $1$ on the numerator and denominator to avoid dividing by zero.
 
 $$
-\text{idf}(t, d) = \log \frac{N + 1}{|\{ d \in D \vert t \in d \}| + 1}$$
+\text{idf}(t, d) = \log \frac{N + 1}{|\\{ d \in D \vert t \in d \\}| + 1}$$
 
 We can then multiply the two values together to get a single TF-IDF score:
 
