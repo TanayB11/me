@@ -13,7 +13,7 @@ Welcome to my digital collection of books: read, being-read, and to-be-read!
 I got the idea from <a href="https://jzhao.xyz/books">Jacky Zhao</a>.
 
 ### Biographical/Memoir
-- *Born a Crime* - Trevor Noah
+- *[x] Born a Crime* - Trevor Noah
 - *Elon Musk* - Walter Isaacson
 - *Bad Blood* - John Carreyrou
 - *The Diary of a Young Girl* - Anne Frank
