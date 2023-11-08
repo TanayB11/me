@@ -9,6 +9,8 @@ They are heavily adapted from Vicki Boykis's [Embeddings](https://raw.githubuser
 
 This is more of a roadmap, less of a tutorial/lecture. It's intended to be a starting point for learning more about embeddings and how NLP works!
 
+The target audience for this workshop was students with some background in ML and a good familiarity with probability and linear algebra.
+
 ## Embeddings
 
 Say we have a set of all words (or parts of words) our model knows, called a vocabulary:
