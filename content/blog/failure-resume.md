@@ -17,9 +17,10 @@ me to keep doing so.
 Like the [antilibrary](/blog/antilibrary), I copied this excellent idea from [Jacky Zhao](https://jzhao.xyz/posts/a-failure-resume).
 
 ### 2023
-- Rejected from an undergrad TA position in the CS department (again)
 - Rejected (placed low on waitlist) by [ERSP](https://ersp.cs.ucsb.edu/)
-	- Finally found a ML research lab and contributed to a RL project anyway, so this failure wasn't that big of a deal.
+	- Ended up finding a ML research lab and contributing to a RL project anyway, so the above wasn't that big of a deal.
+- Rejected from an undergrad TA position in the CS department (again)
+    - Accepted the 3rd time around for Fall 2023! It's been great
 - Gave up on joining a UCSB quantum computing lab and an NLP lab
 	- Strategically giving up is not easy. I lost interest in theoretical quantum computing (a la error-correction algorithms) and didn't see a good fit in that NLP lab. In this case, the strategy worked well.
 
