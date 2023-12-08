@@ -6,7 +6,7 @@ description = "🌱"
 
 i took a detour...
 
-nearly 9 years ago, in april 2015, i walked into my first speed-cubing competition. a few years later, i started uploading youtube videos about rubiks' cubes.
+nearly 9 years ago, in april 2015, i walked into my first speed-cubing competition. a few years later, i started uploading youtube videos about rubik's cubes.
 
 i was 12 then, and in some ways i was more brave than i am now. i had filmed a travel vlog. i had auditioned for the main character in the class play—with a comical impression of a british accent. i had rickrolled an entire class.
 
