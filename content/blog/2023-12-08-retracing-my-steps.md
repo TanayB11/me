@@ -34,19 +34,19 @@ my time became so centered on "work" that i neglected everything else i could sp
 
 in college, i finally realized how absurd it was that:
 
-1. i've been afraid to make eye contact with people
-2. i've thought too much about asking friends to eat lunch/dinner together
-3. i've hesitated to ask strangers to watch over my bag at a coffee shop
-4. i forgot how to start new hobbies
+1. i've been afraid to make eye contact with people.
+2. i've thought too much about asking friends to eat lunch/dinner together.
+3. i've hesitated to ask strangers to watch over my bag at a coffee shop.
+4. i forgot how to start new hobbies.
 
 but over the past two years, i've been re-learning how to:
 
 - embrace discomfort. even in small things.
 	- i've attended bhangra practices with no dance experience and joined 45-mile bike rides with near-strangers.
 	- i've attended friends' casual gatherings, even with few familiar faces around.
-	- write and publish blog posts like this one
+	- write and publish blog posts like this one.
 - ask for what i want
-	- ask people to watch over my items at coffee shops
+	- ask people to watch over my items at coffee shops.
 	- this skill has also helped my academic life. i've asked professors to make me the first learning assistant for an ml course and allow me into classes that i don't meet prerequisites for.
 - have fun
 	- i'm finally learning to play the guitar, cook, and climb!
