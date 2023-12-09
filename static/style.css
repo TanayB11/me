@@ -1,3 +1,5 @@
+@import url('/flexoki.css');
+
 @font-face {
   font-family: 'Jost';
   src: url('/fonts/Jost-Regular.ttf') format('truetype');
@@ -18,11 +20,11 @@ body {
   padding: 20px;
   max-width: 720px;
   text-align: left;
-  background-color: #f4f4f4;
+  background-color: var(--flexoki-paper);
   word-wrap: break-word;
   overflow-wrap: break-word;
   line-height: 1.4;
-  color: #444;
+  color: var(--flexoki-black);
   font-size: 120%;
 }
 
@@ -42,8 +44,7 @@ b {
 }
 
 a {
-  color: #3273dc;
-  text-decoration: none;
+  color: var(--flexoki-blue-400);
   opacity: 100%;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 100ms;
@@ -111,7 +112,7 @@ div.highlight code {
 
 blockquote {
   border-left: 1px solid #999;
-  color: #222;
+  color: var(--flexoki-600);
   padding-left: 20px;
   font-style: italic;
 }
@@ -146,7 +147,7 @@ ul.blog-posts li span {
 }
 
 ul.blog-posts li a:visited {
-  color: #8b6fcb;
+  color: var(--flexoki-purple-400);
 }
 
 .footnote-definition {
