@@ -1,5 +1,5 @@
 +++
-title = "Capitalizing on Ideas"
+title = "Capitalizing on ideas"
 date = 2021-02-14
 description = "🌳"
 +++

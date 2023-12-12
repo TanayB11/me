@@ -1,5 +1,5 @@
 +++
-title = "Intro to NLP (Notes on Embeddings)"
+title = "Intro to NLP (notes on embeddings)"
 date = 2023-11-07
 description = "🌱"
 +++

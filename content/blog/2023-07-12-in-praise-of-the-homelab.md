@@ -1,5 +1,5 @@
 +++
-title = "In Praise of the Homelab"
+title = "In praise of the homelab"
 date = 2023-07-12
 description = "🌳"
 +++

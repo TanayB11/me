@@ -1,6 +1,6 @@
 
 +++
-title = "Reading AI Research Papers"
+title = "Reading AI research papers"
 date = 2023-09-04
 description = "🌳"
 +++

@@ -1,5 +1,5 @@
 +++
-title = "Deploying a Full-Stack Web Application"
+title = "Deploying a full-stack web application"
 date = 2021-04-03
 description = "🌳"
 +++
