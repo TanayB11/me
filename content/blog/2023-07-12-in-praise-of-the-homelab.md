@@ -1,7 +1,7 @@
 +++
 title = "In praise of the homelab"
 date = 2023-07-12
-description = "🌳"
+description = "🌱"
 +++
 
 > Few of us understood it at the time, but none of the things that we’d go on to share would belong to us anymore.... Our attention, our activities, our locations, our desires—everything about us that we revealed, knowingly or not, was being surveilled and sold in secret.
