@@ -1,7 +1,7 @@
 +++
 title = "retracing my steps"
 date = 2023-12-08
-description = "🌳"
+description = "🌱"
 +++
 
 i took a detour...
