@@ -15,7 +15,8 @@ The first forces me to find something that injects novelty into my routine. The 
 These questions aren't meant for the travel-the-world, ride-a-rollercoaster kind of fun; they're about uncovering little adventures—like ditching the library for a secret spot in a new building, discovering a new coffee shop and ordering whatever the employees recommend, taking a detour to ride around the lagoon at midnight, or actually waking up to watch a sunrise by the ocean.
 
 <center>
-    <img src="/images/finding-mini-adventures.jpeg" width="75%"/>
+    <img src="/images/finding-mini-adventures.jpeg" width="75%"
+    style="border-radius: 0.5em;"/>
 </center>
 
 
