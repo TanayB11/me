@@ -11,7 +11,7 @@ There are two popular camps in probability: the **Frequentist** camp and the **B
 1. The **Frequentists** see that probability and [think](https://www.lesswrong.com/tag/bayesianism), "If we simulated tomorrow a lot of times (approaching an infinite number of times), then 35% of those simulations will have rain."
 2. The **Bayesians**, on the other hand think, "We're 35% *confident* that it'll rain tomorrow." They see probabilities as confidence scores on a scale from 0 to 1.
 
-The Bayesian view is often convenient: if you're a frequentist, it doesn't really make immediate sense to say, "There's a 3% chance that nuclear war breaks out in the next 10 years." We aren't looking into 1000 alternative 10-year timelines and saying "nuclear war breaks out in 30 of them." No. We're saying that we're 3% *confident* that nuclear war will happen in our 10-year timeline.
+The Bayesian view is often convenient: if you're a frequentist, it doesn't really make immediate sense to say, "There's a 3% chance that nuclear war breaks out in the next 10 years." We aren't looking into 1000 alternative 10-year timelines and saying "Nuclear war breaks out in 30 of them." No. We're saying that we're 3% *confident* that nuclear war will happen in our 10-year timeline.
 
 ## Bayes' Theorem
 
