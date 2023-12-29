@@ -35,6 +35,8 @@ I got the idea from <a href="https://jzhao.xyz/books">Jacky Zhao</a>.
 - *How to Avoid a Climate Disaster* - Bill Gates
 - *Why We Sleep: Unlocking the Power of Sleep and Dreams* - Matthew Walker
 - *Walden* - Henry David Thoreau
+- *The Heart of the Buddha's Teaching* - Thich Nhat Hanh
+- *How to Love* - Thich Nhat Hanh
 - [x] *21 Lessons for the 21st Century* - Yuval Noah Harari
 - [x] *Permanent Record* - Edward Snowden
 	- I recommend this to basically everybody. Highlights the massive danger companies and governments create by disrespecting people's privacy. Reminded me to pursue a responsible career in tech.
