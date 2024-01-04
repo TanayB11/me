@@ -21,7 +21,7 @@ description = "🌳"
     }
 </style>
 
-<p> Secluded from the real world, a young student enters the Garden of Productivity, ready to learn the ways of the master.  </p>
+<p> Secluded from the real world, a young student enters the Garden of Productivity, ready to learn the ways of the Master.  </p>
 
 <p class="student">Master, how do I best optimize my workflow?</p>
 
