@@ -16,7 +16,8 @@ I got the idea from <a href="https://jzhao.xyz/books">Jacky Zhao</a>.
 - *Elon Musk* - Walter Isaacson
 - *Bad Blood* - John Carreyrou
 - *The Diary of a Young Girl* - Anne Frank
-- *Man's Search for Meaning* - Viktor E. Frankl
+- [x] *Man's Search for Meaning* - Viktor E. Frankl
+	- The first ~50% was focused on his experiences in concentration camps. The rest was spent on explaining logotherapy—a psychological school of thought focused on finding meaning. I was expecting the two subjects to be blended into a normal memoir, so this wasn't what I expected. Worthwhile read!
 - [x] *Born a Crime* - Trevor Noah
 - [x] *I Am Malala* - Malala Yousafzai
 - [x] *Steve Jobs* - Walter Isaacson
@@ -71,6 +72,7 @@ I got the idea from <a href="https://jzhao.xyz/books">Jacky Zhao</a>.
 - *On Food and Cooking* - Harold McGee
 
 ### Fiction
+- *The Lord of the Rings* - J.R.R. Tolkein
 - *Foundation* - Isaac Asimov
 - *I, Robot* - Isaac Asimov
 - *Stranger in a Strange Land* - Robert Heinlein
@@ -82,6 +84,7 @@ I got the idea from <a href="https://jzhao.xyz/books">Jacky Zhao</a>.
 - *The Count of Monte Cristo* - Alexandre Dumas
 	- Finished it a long time ago, DNFed while re-reading recently.
 - *The Kite Runner* - Khaled Hosseini
+- *The Three Body Problem* - Cixin Liu
 - *Exhalation* – Ted Chiang
 - *Don Quixote* - Miguel De Cervantes Saavedra
 - [x] *Stories of Your Life and Others* - Ted Chiang
