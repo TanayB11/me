@@ -6,7 +6,7 @@ description = "🌱"
 
 For a change, I take out my earbuds before riding the empty bike paths at 9am. Somehow, the racing line feels a little faster as I hear the wind rush by. I feel brave (or maybe stupid?) enough to lean harder into the roundabouts.
 
-Lately, I've been trying to have a little more [fun](blog/retracing-my-steps/). So, I aspire to regularly ask myself two questions:
+Lately, I've been trying to have a little more [fun](/blog/retracing-my-steps/). So, I aspire to regularly ask myself two questions:
 1. "What new or interesting thing can I do today?"
 2. "Will I regret it?"
 
