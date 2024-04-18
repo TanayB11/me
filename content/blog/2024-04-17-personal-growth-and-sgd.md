@@ -4,9 +4,7 @@ date = 2024-04-17
 description = "🌱"
 +++
 
-Dreams are not stable: they change as we change.
-
-I've long believed that you don't always need an end goal; you just need a direction. At any given moment, you need to be clear about what you're doing: Weighing different options, gathering data, *figuring out* what you want.
+I've long believed that you don't always need an end goal; you just need a direction. At any given moment, you need to be clear about what you're doing: weighing different options, gathering data, *figuring out* what you want.
 
 ## College
 I'm in college right now, and I don't know *exactly* what career path I want to pursue. But I'm very consciously trying to narrow it down. I always have a direction that comes from searching for answers to different questions:
