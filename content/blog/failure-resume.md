@@ -1,6 +1,6 @@
 +++
 title = "A Failure Resume"
-date = 2023-09-11
+date = 2024-04-05
 description = ""
 +++
 
@@ -8,13 +8,21 @@ Success isn't linear. Most progress is one step back, two steps forward. I've
 had a lot of [achievements](https://www.linkedin.com/in/tanayb11/) over the
 past few years, but this isn't the place for that.
 
-This is my anti-LinkedIn page; it's the salt in a good cookie. It makes my
-successes sweeter, but it more importantly paints a realistic picture of
-the things I've done. It reminds me of what I've learned from failure,
-acknowledges that I've worked hard for the things I care about, and motivates
-me to keep doing so.
+This is my anti-LinkedIn page. It makes my successes sweeter, but more importantly,
+it paints a realistic picture of the things I've done. It reminds me that I've
+worked hard for the things I care about, and motivates me to keep doing so.
 
 Like the [antilibrary](/blog/antilibrary), I copied this excellent idea from [Jacky Zhao](https://jzhao.xyz/posts/a-failure-resume).
+
+### 2024
+- Rejected from an undergrad TA position in the CS department for Spring 2024 (even after serving for 2 consecutive quarters)
+    - Probably not a reflection on my performance—lots of excellent students I know also didn't get a returning offer
+- Rejected from 3/3 NSF [REUs](https://www.nsf.gov/crssprgm/reu/)
+- Rejected from ~375 internship applications
+    - In the end, I accepted a role to work at Cisco as a SWE intern over the
+    summer! This year's search ended in success, so it technically doesn't
+    belong here. I'm leaving it to remind myself how long it can take to see
+    results.
 
 ### 2023
 - Rejected (placed low on waitlist) by [ERSP](https://ersp.cs.ucsb.edu/)

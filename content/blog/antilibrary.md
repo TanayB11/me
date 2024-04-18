@@ -65,7 +65,7 @@ I got the idea from <a href="https://jzhao.xyz/books">Jacky Zhao</a>.
 
 ### Cookbooks
 - *Flour Water Salt Yeast* - Ken Forkish
-- *The Wok* - J. Kenji Lopez-Alt
+- [x] *The Wok* - J. Kenji Lopez-Alt
 	- Amazing cookbook that answers the *why* of cooking more so than the *how*. I've used his principles to make excellent stir-fried noodles and tofu.
 - *The Food Lab* - J. Kenji Lopez-Alt
 - *Salt, Fat, Acid, Heat* - Samin Nosrat
