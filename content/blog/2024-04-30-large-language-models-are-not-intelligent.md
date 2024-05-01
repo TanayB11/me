@@ -32,7 +32,7 @@ This relationship between overtraining and benchmarks leads me to wonder: What d
 
 ### It's all about the data
 
-About a week ago, I read a little post titled [The “it” in AI models is the dataset.](https://nonint.com/2023/06/10/the-it-in-ai-models-is-the-dataset/). And that got me thinking...there's a reason Meta, Mistral, and other companies that release "open" models don't release their training data.
+About a week ago, I read a little post titled [The “it” in AI models is the dataset](https://nonint.com/2023/06/10/the-it-in-ai-models-is-the-dataset/). And that got me thinking...there's a reason Meta, Mistral, and other companies that release "open" models don't release their training data.
 
 [This paper](https://arxiv.org/abs/2309.14402) from Meta uses controlled studies to really show how much training data matters.  Successfully fine-tuning a LLM on question-answering tasks depends *highly* on data augmentation: One of the paper's experiments shows a 9.7% knowledge extraction accuracy without augmentation, but a 96.6% accuracy with data augmentation.
 
