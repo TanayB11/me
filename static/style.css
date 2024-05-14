@@ -25,7 +25,7 @@ body {
   overflow-wrap: break-word;
   line-height: 1.4;
   color: var(--flexoki-black);
-  font-size: 120%;
+  font-size: 100%;
 }
 
 .handwritten {
