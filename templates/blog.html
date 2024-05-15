@@ -10,20 +10,29 @@
     <br> Subscribe to my <a href="/rss.xml" target="_blank">RSS feed!</a>
   </p>
 
+  <p>
+    <a href="/blog/now">The 'Now' Page</a> • 
+    <a href="/blog/antilibrary">The Antilibrary</a> • 
+    <a href="/blog/failure-resume">A Failure Resume</a>
+  </p>
+
   <ul class="blog-posts">
     <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->  
     {% for page in section.pages %}
-      <li>
-        <span>
-          <i>
-            <time datetime={{ page.date }}>
-              {{ page.date }}
-            </time>
-          </i>
-        </span>
-        <a href="{{ page.permalink | safe }}">{{ page.title }} {{ page.description }}</a>
-      </li>
+      {% if page.title not in ['The Antilibrary', 'A Failure Resume', "The 'Now' Page"] %}
 
+        <li>
+          <span>
+            <i>
+              <time datetime={{ page.date }}>
+                {{ page.date }}
+              </time>
+            </i>
+          </span>
+          <a href="{{ page.permalink | safe }}"> {{ page.description }} {{ page.title }}</a>
+        </li>
+
+      {% endif %}
     {% endfor %}
   </ul>
 
