@@ -22,8 +22,9 @@ If we take any random person, we're 8% confident that they have COVID. But if we
 1. The number 8% is our **prior** probability (belief) that the person has COVID
 2. We can use Bayes' Theorem to calculate the **posterior** probability that the person has COVID. This is the probability after we've factored in the given information (that they tested positive).
 
-We want to find the probability $P(C|+)$, the probability the person has COVID ($C$) *given* that they've tested positive ($+$). Using the definition of conditional probability,
+We want to find the probability <small>$P(C|+)$</small>, the probability the person has COVID (<small>$C$</small>) *given* that they've tested positive (<small>$+$</small>). Using the definition of conditional probability,
 
+<small>
 $$
 P(C|+) = \frac{P(C \text{ and } +)}{P(+)} \tag{1}
 $$
@@ -33,18 +34,23 @@ P(+|C) = \frac{P(C \text{ and } +)}{P(C)} \implies
 P(C \text{ and } +) = P(+|C)P(C)
 \tag{2}
 $$
+</small>
 
-Then, when we substitute the final result from $(2)$ into $(1)$, we see that
+Then, when we substitute the final result from <small>$(2)$</small> into <small>$(1)$</small>, we see that
 
+<small>
 $$
 P(C|+) = \frac{P(+|C)P(C)}{P(+)} \tag{3}
 $$
+</small>
 
 This is Bayes' Theorem! If we plug in our numbers, then we get that:
 
+<small>
 $$
 P(C|+) = \frac{0.99 \cdot 0.08}{0.10} = 0.792
 $$
+</small>
 
 The end result is counterintuitive—if someone told you the test has a 99% true positive rate (meaning that it correctly identifies 99% of people with COVID), then you might be pretty worried. There's a high chance the person has COVID, given they tested positive, but it's not as straightforward as it might seem because COVID isn't that common in the general population.
 
@@ -54,24 +60,22 @@ It's possible to apply the idea of Bayes' Theorem to everyday life as well! Even
 
 If a reliable news source (you are very confident they will publish any truthful story) releases an article about an extremely unlikely event (aliens landing on the surface of Earth), then it makes sense to be skeptical.
 
+<small>
 $$
 P(\text{truthful} | \text{published}) = \frac{P(\text{published} | \text{truthful})P(\text{truthful})}{P(\text{published})}
 $$
+</small>
 
 Let's break this down again:
 
-1. $P(\text{truthful} | \text{published})$ is what we're interested in: it's our posterior. We can use this to represent our trust (higher posterior probability means higher trust).
-1. Maybe you're confident they will publish *any truthful* story they come across, so $P(\text{published} | \text{truthful})$ is high. This is called the **likelihood**. More on this in a second.
-1. Aliens landing on Earth is very improbable (given our current beliefs), so $P(\text{truthful})$ is low. This is the prior.
+1. <small>$P(\text{truthful} | \text{published})$</small> is what we're interested in: it's our posterior. We can use this to represent our trust (higher posterior probability means higher trust).
+1. Maybe you're confident they will publish *any truthful* story they come across, so <small>$P(\text{published} | \text{truthful})$</small> is high. This is called the **likelihood**. More on this in a second.
+1. Aliens landing on Earth is very improbable (given our current beliefs), so <small>$P(\text{truthful})$</small> is low. This is the prior.
     1. Since aliens are unlikely to land on Earth (the prior is low), then our posterior will also be lower because of this.
-1. $P(\text{published})$ is the probability *any* story is published by the source. This is called the **marginal**.
-	1. If they don't publish a lot of stories, then our trust (posterior belief) increases. If they publish a lot of stories, then our trust won't be *as* high. [^1]
+1. <small>$P(\text{published})$</small> is the probability *any* story is published by the source. This is called the **marginal**.
+	1. If they don't publish a lot of stories, then our trust (posterior belief) increases. If they publish *too* many stories, then our trust won't be *as* high.
 1. Let's consider how the marginal and likelihood *together* affect the posterior:
 	1. If the news outlet publishes a lot of the true stories that are out there, but it *doesn't* publish a lot of stories in general, then our posterior belief will be quite high.
 	2. If the news outlet *doesn't* publish a lot of the truthful stories that are out there, and if the outlet *does* publish a lot of stories, then we shouldn't have much confidence that aliens have actually landed.
 
 I originally intended for this post to be brief, but it's become more of a rant than I expected. But if we're trying to make more informed and rational decisions when given new information, perhaps Bayes' Theorem is a useful tool.
-
----
-
-[^1]: This is kind of like inflation - publishing a lot of articles decreases the trustworthiness/value of a new article.

@@ -58,7 +58,8 @@ I got the idea from <a href="https://jzhao.xyz/books">Jacky Zhao</a>.
 - *Like a Virgin* - Richard Branson
 - *Range* - David Epstein
 - [x] *Atomic Habits* - James Clear
-	- Overall good book. Forcing yourself to build/break habits is like swimming upstream. This book focuses on techniques that are more pleasant and effective. I still successfully use some of the principles from this book (tracked cycling progress encouraged me to go out more, keeping a water bottle with me made drinking more water effortless).
+    - <u>Updated opinion:</u> The techniques are useful, but this book could've been a blog post. Like many self-help books, the bulk of the text contains fluffy anecdotes and (occasionally) bad science.
+	- Previous opinion: Overall good book. Forcing yourself to build/break habits is like swimming upstream. This book focuses on techniques that are more pleasant and effective. I still successfully use some of the principles from this book (tracked cycling progress encouraged me to go out more, keeping a water bottle with me made drinking more water effortless).
 - [x] *Spark Joy* - Marie Kondo
 - [x] *The Life-Changing Magic of Tidying Up* - Marie Kondo
 	- This book was more of a guide to tidying—folding clothes, packing bags, etc. Both books were a good reminder to be intentional about the things I do/keep.
@@ -66,7 +67,7 @@ I got the idea from <a href="https://jzhao.xyz/books">Jacky Zhao</a>.
 ### Cookbooks
 - *Flour Water Salt Yeast* - Ken Forkish
 - [x] *The Wok* - J. Kenji Lopez-Alt
-	- Amazing cookbook that answers the *why* of cooking more so than the *how*. I've used his principles to make excellent stir-fried noodles and tofu.
+	- Amazing cookbook that answers the *why* of cooking more so than the *how*. I've used his principles to make excellent stir-fried noodles and tofu, among other things. Significantly boosted my cooking confidence.
 - *The Food Lab* - J. Kenji Lopez-Alt
 - *Salt, Fat, Acid, Heat* - Samin Nosrat
 - *On Food and Cooking* - Harold McGee
