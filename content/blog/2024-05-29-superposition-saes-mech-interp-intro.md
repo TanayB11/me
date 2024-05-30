@@ -167,9 +167,15 @@ There are a few more details (dead neuron resampling, etc.) that improve the uti
 
 Now that we have features, we can interpret them!
 
-For large language models, all we have to do is prompt them carefully and see what features in the SAE activate. If we input a bunch of prompts related to dolphins to an LLM, collect the activations, run them through the SAE, and see that neuron <small>$i$</small> in the SAE hidden state consistently activates, then we can be reasonably confident that the <small>$i$</small>th neuron of the SAE correlates with dolphins. (We can't get causal relationships, but correlations are still very useful!)
+For large language models, one way we can do this is to prompt them carefully and see what features in the SAE activate. If we input a bunch of prompts related to dolphins to an LLM, collect the activations, run them through the SAE, and see that neuron <small>$i$</small> in the SAE hidden state consistently activates, then we can be reasonably confident that the <small>$i$</small>th neuron of the SAE correlates with dolphins. (We can't get causal relationships, but correlations are still very useful!)
 
 Once we find that the <small>$i$</small>th neuron in the SAE that corresponds to a particular feature (ex. dolphins), we can create a "fake" hidden state with only the <small>$i$</small>th neuron active. If we pass that hidden state through the SAE decoder, we can get the direction in the model's activation space that corresponds to that feature! Like a dictionary, we can use the SAE to translate back and forth between interpretable features and directions in activation space!
+
+<center>
+    <img src="/images/2024-05-29-superposition-saes-mech-interp-intro/sae_interp.png" width="90%" style="border-radius: 0.05em;"/>
+</center>
+
+Of course, there are multiple ways to actually use the SAE for interpretability—this is frontier research after all. This is just one possible way.
 
 For further reading, I'll point to [this section](https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html#searching) and [this section](https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html#feature-survey) of the Scaling Monosemanticity paper (which are relatively digestible). If you want to read even further into mechanistic interpretability, look into this [paper](https://arxiv.org/abs/2310.01405) and [post](https://vgel.me/posts/) on steering vectors, which are related!
 
