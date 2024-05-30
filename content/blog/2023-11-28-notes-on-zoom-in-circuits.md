@@ -1,5 +1,5 @@
 +++
-title = "Notes on \"Zoom In - An Introduction to Circuits\""
+title = "Notes: \"Zoom In - An Introduction to Circuits\""
 date = 2023-11-28
 description = "🌳"
 +++
