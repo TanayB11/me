@@ -39,7 +39,7 @@ Note how the features that this toy model has learned don't exactly line up with
 
 <br/>
 
-Now, let's scale things up. Suppose we're instead trying to use represent 3 or 5 features in our activation space <small>$a$</small>. All of a sudden, we [can't](https://openreview.net/pdf?id=F76bwRSLeK) give each feature its own orthogonal basis direction. We have to squeeze 3 or 5 features into $\mathbb{R}^2$</small> somehow—and the best way is to pick directions that have the least overlap/interference (i.e. minimize cosine similarity between any 2 features).
+Now, let's scale things up. Suppose we're instead trying to use represent 3 or 5 features in our activation space <small>$a$</small>. All of a sudden, we [can't](https://openreview.net/pdf?id=F76bwRSLeK) give each feature its own orthogonal basis direction. We have to squeeze 3 or 5 features into <small>$\mathbb{R}^2$</small> somehow—and the best way is to pick directions that have the least overlap/interference (i.e. minimize cosine similarity between any 2 features).
 
 > *NB* 1: There's a beautiful connection to [bond angles](https://transformer-circuits.pub/2022/toy_model/index.html#geometry-structures) in chemistry here!
 > 
