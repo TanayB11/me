@@ -127,17 +127,17 @@ Since our activation space doesn't have enough dimensions to give each feature i
 
 > We don't know exactly how many features <small>$a$</small> is trying to represent, so we just want to map it to a high-*enough* dimensional space.
 > 
-> To get really in the weeds: My intuition is that we want to map <small>$a$</small> to a high dimensional space, where it's more likely that each entry in the high-dimensional vector (i.e. each neuron) corresponds to a feature (...at least in a privileged basis, where the standard basis directions are likely more meaningful). We have to be careful about privileged/non-privileged bases when talking about "neurons corresponding to features."
+> To get really in the weeds: My intuition is that we want to map <small>$a$</small> to a high dimensional space, where it's more likely that each entry in the high-dimensional vector (i.e. each neuron) corresponds to a feature (...at least in a privileged basis, where the standard basis directions are likely more meaningful). We have to be careful about privileged/non-privileged bases when talking about "neurons corresponding to features." In our case, this mapping will be in a privileged basis.
 
-The idea is that <small>$a$</small> is some combination of interpretable features in this "higher-dimensional space," which has then been projected into the lower-dimensional activation space.
+The idea is that <small>$a$</small> is some combination of interpretable features in this "higher-dimensional space," which has then been projected into the lower-dimensional activation space. (This map from activation space to the "higher-dimensional space" is the dictionary part of **sparse dictionary learning**.)
 
 Since <small>$a$</small> is representing features in superposition, <a href='#sparsity_superposition'>that means</a> the features occurred sparsely in the training dataset. (For any data example, only a few features were present.) Thus, <small>$a$</small> is a *sparse* combination of these "higher-dimensional features."
 
 So, we want an algorithm that maps <small>$a$</small> to a sparse vector in this "higher-dimensional space."
 
-Sparse autoencoders (SAEs) do exactly that!
+Sparse autoencoders do exactly that!
 
-## Sparse Autoencoders
+## Sparse Autoencoders (SAEs)
 The structure of a basic autoencoder is pretty simple. It's just an MLP with one hidden layer. It maps the input activation <small>$a$</small> to a high-dimensional hidden state <small>$h$</small>. Then, using <small>$h$</small>, it computes <small>$\hat{a}$</small>, a reconstruction of <small>$a$</small>.
 
 The intuition is that <small>$h$</small> will contain some useful information about <small>$a$</small>, since it's an intermediate layer in the computation.
@@ -163,9 +163,13 @@ Since we're trying to reconstruct the original input (the activation <small>$a$<
 
 There are a few more details (dead neuron resampling, etc.) that improve the utility of the SAEs—but this is the core.
 
-Now that we have features, we can interpret them. For large language models, all we have to do is prompt them carefully and see what features in the SAE activate.
+## Using SAEs to Interpret Model Activations
 
-If we input a bunch of prompts related to dolphins to an LLM, collect the activations, run them through the SAE, and see that neuron <small>$i$</small> consistently activates, then we can be reasonably confident that the <small>$i$</small>th neuron of the SAE corresponds to dolphins.
+Now that we have features, we can interpret them!
+
+For large language models, all we have to do is prompt them carefully and see what features in the SAE activate. If we input a bunch of prompts related to dolphins to an LLM, collect the activations, run them through the SAE, and see that neuron <small>$i$</small> in the SAE hidden state consistently activates, then we can be reasonably confident that the <small>$i$</small>th neuron of the SAE correlates with dolphins. (We can't get causal relationships, but correlations are still very useful!)
+
+Once we find that the <small>$i$</small>th neuron in the SAE that corresponds to a particular feature (ex. dolphins), we can create a "fake" hidden state with only the <small>$i$</small>th neuron active. If we pass that hidden state through the SAE decoder, we can get the direction in the model's activation space that corresponds to that feature! Like a dictionary, we can use the SAE to translate back and forth between interpretable features and directions in activation space!
 
 For further reading, I'll point to [this section](https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html#searching) and [this section](https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html#feature-survey) of the Scaling Monosemanticity paper (which are relatively digestible). If you want to read even further into mechanistic interpretability, look into this [paper](https://arxiv.org/abs/2310.01405) and [post](https://vgel.me/posts/) on steering vectors, which are related!
 
