@@ -17,7 +17,8 @@ I copied the idea from [Jacky Zhao](https://jzhao.xyz/posts/a-failure-resume).
 ### 2024
 - Other researchers beat me to my project ideas, twice
 - Spent an entire quarter on a research project that ended in a negative result
-    - Still learned a lot! Distributed training, ViTs, experiment design, etc. Definitely worth my time.
+    - Still learned a lot! Distributed training, ViTs, experiment design, etc.
+    - Negative results are still [important](https://www.youtube.com/watch?v=KOJnOCdBr4s) in science, so depending on how you look at this, it isn't a failure
 - Rejected from an undergrad TA position in the CS department for Spring 2024 (even after serving for 2 consecutive quarters)
     - Probably not a reflection of my abilities—lots of excellent students I know also didn't get a returning offer
 - Rejected from 3/3 NSF [REUs](https://www.nsf.gov/crssprgm/reu/)
