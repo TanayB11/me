@@ -21,6 +21,7 @@ I copied the idea from [Jacky Zhao](https://jzhao.xyz/posts/a-failure-resume).
     - Negative results are still [important](https://www.youtube.com/watch?v=KOJnOCdBr4s) in science, so depending on how you look at this, it isn't a failure
 - Rejected from an undergrad TA position in the CS department for Spring 2024 (even after serving for 2 consecutive quarters)
     - Probably not a reflection of my abilities—lots of excellent students I know also didn't get a returning offer
+    - Update, Fall 2024: Rejected again
 - Rejected from 3/3 NSF [REUs](https://www.nsf.gov/crssprgm/reu/)
 - Rejected from ~375 internship applications
     - This year's search ended in success, so it technically doesn't
