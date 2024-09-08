@@ -31,7 +31,8 @@ I copied the idea from [Jacky Zhao](https://jzhao.xyz/posts/a-failure-resume).
 ### 2023
 - Rejected (placed low on waitlist) by [ERSP](https://ersp.cs.ucsb.edu/)
 	- Ended up finding a ML research lab and contributing to a [RL project](https://arxiv.org/abs/2405.06063) anyway, so the above wasn't that big of a deal.
-- Paper rejected from NeurIPS 2023
+- [Paper](https://arxiv.org/abs/2405.06063) rejected from NeurIPS 2023
+    - Ended up getting accepted to the RSS 2024 TaskSpec Workshop (almost a year later!)
 - Rejected from an undergrad TA position in the CS department (again)
     - Accepted the 3rd time around for Fall 2023! It's been great
 - Gave up on joining a UCSB quantum computing lab and an NLP lab
