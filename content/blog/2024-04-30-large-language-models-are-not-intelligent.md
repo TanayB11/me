@@ -4,6 +4,14 @@ date = 2024-04-30
 description = "🌳"
 +++
 
+> **Update - 2024/09/16**
+>
+> My take in this post is somewhat pessimistic. As time has
+> gone by, I'm a bit more excited about the ability of LLMs to
+> synthesize novel knowledge. Andrej Karpathy has some positive views in
+> this [podcast](https://www.youtube.com/watch?v=hM_h0UA7upI), and this [blog post](https://nicholas.carlini.com/writing/2024/how-i-use-ai.html) by Nicholas Carlini
+> has a good neutral-ish (also somewhat optimistic) view.
+
 I've found myself using LLMs less and less over time. They're great for generating summaries, rephrasing writing, explaining concepts, and writing some code—things I refer to as "manual labor." But if you ask them to do anything reasoning-heavy, they fail very often.
 
 Today's LLMs are not actually intelligent; they're just really good stochastic parrots.
