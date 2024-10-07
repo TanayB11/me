@@ -10,7 +10,7 @@ description = "🌱"
 >
 > \- Ranchoddas Chanchad, *3 Idiots*
 
-Like my good friend [Edison](https://www.edisonzhang.me), I believe in the "time in, skill out" principle.
+Like my good friend [Edison](https://www.edisonzhang.dev), I believe in the "time in, skill out" principle.
 
 But I believe it's way easier to improve at something when the feedback loops are tight:
 
