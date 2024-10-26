@@ -32,7 +32,7 @@ Note how the features that this toy model has learned don't exactly line up with
 
 <center>
     <img src="/images/2024-05-29-superposition-saes-mech-interp-intro/privileged_basis.png" width="90%"
-    style="border-radius: 0.05em;"/>
+    style="border-radius: 0.5em;"/>
 </center>
 
 > Source: [Anthropic's Toy Models Paper](https://transformer-circuits.pub/2022/toy_model/index.html#motivation-privileged)
@@ -50,10 +50,10 @@ This phenomenon is called **superposition**!
 <table>
   <tr>
     <td>
-        <img src="/images/2024-05-29-superposition-saes-mech-interp-intro/3feats.png" width="100%" style="border-radius: 0.05em;"/>
+        <img src="/images/2024-05-29-superposition-saes-mech-interp-intro/3feats.png" width="100%" style="border-radius: 0.5em;"/>
     </td>
     <td>
-        <img src="/images/2024-05-29-superposition-saes-mech-interp-intro/5feats.png" width="100%" style="border-radius: 0.05em;"/>
+        <img src="/images/2024-05-29-superposition-saes-mech-interp-intro/5feats.png" width="100%" style="border-radius: 0.5em;"/>
     </td>
   </tr>
 </table>
@@ -70,7 +70,7 @@ Actually, I missed one thing: The model won't <em>always</em> spread out the vec
 <br/>
 
 <center>
-    <img src="/images/2024-05-29-superposition-saes-mech-interp-intro/sparsity_superposition.png" width="90%" style="border-radius: 0.05em;"/>
+    <img src="/images/2024-05-29-superposition-saes-mech-interp-intro/sparsity_superposition.png" width="90%" style="border-radius: 0.25em;"/>
 </center>
 
 > Source: [Anthropic's Toy Models Paper](https://transformer-circuits.pub/2022/toy_model/index.html)
@@ -112,7 +112,7 @@ Sparse autoencoders (SAEs) are a popular approach, and Anthropic used them in th
 Say we want to interpret the activations of an intermediate layer of some deep model <small>$f(x)$</small>.
 
 <center>
-    <img src="/images/2024-05-29-superposition-saes-mech-interp-intro/activation.png" width="65%" style="border-radius: 0.05em;"/>
+    <img src="/images/2024-05-29-superposition-saes-mech-interp-intro/activation.png" width="65%" style="border-radius: 0.5em;"/>
 </center>
 
 Our ([substantiated](https://tanaybiradar.com/blog/notes-on-zoom-in-circuits/)) hope is that in each hidden layer, the model is trying to represent a **ton** of features that the model learned during training.
@@ -143,7 +143,7 @@ The structure of a basic autoencoder is pretty simple. It's just an MLP with one
 The intuition is that <small>$h$</small> will contain some useful information about <small>$a$</small>, since it's an intermediate layer in the computation.
 
 <center>
-    <img src="/images/2024-05-29-superposition-saes-mech-interp-intro/sae.png" width="30%" style="border-radius: 0.05em;"/>
+    <img src="/images/2024-05-29-superposition-saes-mech-interp-intro/sae.png" width="30%" style="border-radius: 0.5em;"/>
 </center>
 
 In essence, the SAE computation looks like this:
@@ -172,7 +172,7 @@ For large language models, one way we can do this is to prompt them carefully an
 Once we find that the <small>$i$</small>th neuron in the SAE that corresponds to a particular feature (ex. dolphins), we can create a "fake" hidden state with only the <small>$i$</small>th neuron active. If we pass that hidden state through the SAE decoder, we can get the direction in the model's activation space that corresponds to that feature! Like a dictionary, we can use the SAE to translate back and forth between interpretable features and directions in activation space!
 
 <center>
-    <img src="/images/2024-05-29-superposition-saes-mech-interp-intro/sae_interp.png" width="90%" style="border-radius: 0.05em;"/>
+    <img src="/images/2024-05-29-superposition-saes-mech-interp-intro/sae_interp.png" width="90%" style="border-radius: 0.5em;"/>
 </center>
 
 Of course, there are multiple ways to actually use the SAE for interpretability—this is frontier research after all. This is just one possible way.

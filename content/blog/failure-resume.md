@@ -23,7 +23,7 @@ I copied the idea from [Jacky Zhao](https://jzhao.xyz/posts/a-failure-resume).
     - Probably not a reflection of my abilities—lots of excellent students I know also didn't get a returning offer
     - Update, Fall 2024: Rejected again
 - Rejected from 3/3 NSF [REUs](https://www.nsf.gov/crssprgm/reu/)
-- Rejected from ~375 internship applications
+- Rejected from ~400 internship applications
     - This year's search ended in success, so it technically doesn't
     belong here. I'm leaving it to remind myself how long it can take to see
     results.

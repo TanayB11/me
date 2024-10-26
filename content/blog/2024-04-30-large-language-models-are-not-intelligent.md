@@ -1,5 +1,5 @@
 +++
-title = "large language models are not intelligent."
+title = "LLMs are not intelligent"
 date = 2024-04-30
 description = "🌳"
 +++

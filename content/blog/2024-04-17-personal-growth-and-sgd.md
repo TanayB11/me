@@ -1,7 +1,7 @@
 +++
 title = "Personal Growth and SGD"
 date = 2024-04-17
-description = "🌱"
+description = "🌳"
 +++
 
 I've long believed that you don't always need an end goal; you just need a direction. At any given moment, you need to be clear about what you're doing: weighing different options, gathering data, *figuring out* what you want.
