@@ -1,0 +1,1286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title></title>
+      <link>https://tanaybiradar.com</link>
+      <description></description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://tanaybiradar.com/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sun, 06 Oct 2024 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Feedback loops</title>
+          <pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://tanaybiradar.com/blog/feedback-loops/</link>
+          <guid>https://tanaybiradar.com/blog/feedback-loops/</guid>
+          <description>&lt;p&gt;&lt;em&gt;A shower thought&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Chase excellence, and success will follow.&lt;&#x2F;p&gt;
+&lt;p&gt;- Ranchoddas Chanchad, &lt;em&gt;3 Idiots&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Like my good friend &lt;a href=&quot;https:&#x2F;&#x2F;www.edisonzhang.dev&quot;&gt;Edison&lt;&#x2F;a&gt;, I believe in the &amp;quot;time in, skill out&amp;quot; principle.&lt;&#x2F;p&gt;
+&lt;p&gt;But I believe it&#x27;s way easier to improve at something when the feedback loops are tight:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Software development. Test-driven development makes super-tight feedback loops. Personally, my projects aren&#x27;t test-driven, but working towards an MVP and then gradually adding new capabilities also works pretty well.&lt;&#x2F;li&gt;
+&lt;li&gt;Climbing. Fell off the wall while trying out a boulder? You can usually pinpoint exactly where you could have flagged or swapped your feet.&lt;&#x2F;li&gt;
+&lt;li&gt;Cooking. This one is pretty straightforward—the barrier to trying a new recipe is pretty low, and you can always taste to decide whether or not you need to add more salt.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;All of these skills can take a lifetime to master, but tight feedback loops make progress feel more tangible. In contrast, loose feedback loops are the reason some things feel incredibly difficult:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Applying to jobs, internships, or basically anything else. Rejections pile up with little explanation. You can go through hundreds of applications without knowing precisely what to improve for the next one.&lt;&#x2F;li&gt;
+&lt;li&gt;Weightlifting. After the &amp;quot;newbie gains&amp;quot; phase, your strength can grow slowly. It might take weeks (or longer) to see meaningful progress.&lt;&#x2F;li&gt;
+&lt;li&gt;Learning languages. Without immersing yourself in another place, it’s hard to get immediate feedback. You can study vocabulary and listen to music for years, yet still struggle to produce natural sentences.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;It&#x27;s worthwhile to tighten those feedback loops wherever possible. Measure your progress in some way. Count the number of jobs you applied to, break up your lifting goals into smaller quanta, or use technology to simulate conversations in that language you want to learn.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>The &#x27;Now&#x27; Page</title>
+          <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://tanaybiradar.com/blog/now/</link>
+          <guid>https://tanaybiradar.com/blog/now/</guid>
+          <description>&lt;p&gt;This page is a working list of my short&#x2F;medium-term projects + goals.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Taking courses in matrix analysis, computer architecture, and distributed systems&lt;&#x2F;li&gt;
+&lt;li&gt;Working on adversarial robustness research, pretraining small-scale conversational AI models
+&lt;ul&gt;
+&lt;li&gt;Also trying to find an internship&#x2F;full-time job in ML&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Learning the guitar, weightlifting + running, meeting my protein goals&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+      </item>
+      <item>
+          <title>cherrypicked thoughts from a summer harvest</title>
+          <pubDate>Sat, 07 Sep 2024 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://tanaybiradar.com/blog/cherrypicked-thoughts-from-a-summer-harvest/</link>
+          <guid>https://tanaybiradar.com/blog/cherrypicked-thoughts-from-a-summer-harvest/</guid>
+          <description>&lt;p&gt;here are some selected thoughts, chat excerpts, and tweets from a summer&#x27;s
+worth of introspection. based on what&#x27;s relevant to me; not much nuance.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;1-giving-up&quot;&gt;1. giving up?&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;sometimes i walk up to a boulder in the gym.&lt;br&#x2F;&gt;
+i don&#x27;t know if i&#x27;m capable of sending it.&lt;br&#x2F;&gt;
+i try and fall. over. and over. and over.&lt;br&#x2F;&gt;
+sometimes i triumph.&lt;br&#x2F;&gt;
+other days, the gym takes down the problem to make way for another one.&lt;br&#x2F;&gt;
+other days, i stare and tell myself, &amp;quot;nope, not today.&amp;quot;&lt;&#x2F;br&gt;
+and then i walk away.&lt;br&#x2F;&gt;
+i&#x27;d like to say i gave it my all. but i don&#x27;t always do that.&lt;br&#x2F;&gt;
+is that ok? does that say something bad about me?&lt;&#x2F;br&gt;
+but i guess it&#x27;s just some plastic on a wall.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h3 id=&quot;2-ranchoddas-pt-1&quot;&gt;2. ranchoddas pt. 1&lt;&#x2F;h3&gt;
+&lt;p&gt;context:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;kabil hone ke liye padho. success ke piche mat bhago.
+excellence, excellence ka picha karo. success tumhare jhak maar ke peeche aayegi.&lt;br&#x2F;&gt;&lt;br&#x2F;&gt;
+&amp;quot;study for the sake of becoming more capable. don&#x27;t run after success. excellence, excellence
+is what you should chase. success will easily come after you.&amp;quot; &lt;br&#x2F;&gt;&lt;br&#x2F;&gt;
+- ranchoddas chanchad, 3 idiots (&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=sCG7fcl9Pbo&quot;&gt;clip&lt;&#x2F;a&gt;)&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;i need to remind myself of this scene more; maybe i should make a poster of it.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;x.com&#x2F;prajdabre1&#x2F;status&#x2F;1830580762607001758&quot;&gt;tweet by Raj Dabre&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;i chose to do my phd.&lt;br&#x2F;&gt;&lt;br&#x2F;&gt;
+i was 24 years old and unhappy.&lt;br&#x2F;&gt;&lt;br&#x2F;&gt;
+i did my phd at kyoto university.&lt;br&#x2F;&gt;
+always dreamed of working at big tech.&lt;br&#x2F;&gt;
+couldn&#x27;t get in.&lt;br&#x2F;&gt;
+i was 28 and unhappy.&lt;br&#x2F;&gt;&lt;br&#x2F;&gt;
+settled for my current work place with mediocre salary.&lt;br&#x2F;&gt;
+no one expected anything from me and let me do whatever i wanted.&lt;br&#x2F;&gt;
+experienced explosive growth.&lt;br&#x2F;&gt;
+extremely happy.&lt;br&#x2F;&gt;&lt;br&#x2F;&gt;
+lesson: forget big titles and salaries and contentment will follow.&lt;br&#x2F;&gt;
+funnily enough, i got multiple promotions leading to a decent salary.&lt;br&#x2F;&gt;
+&lt;em&gt;it&#x27;s like ranchordas said: excellence and not success.&lt;&#x2F;em&gt; do what you love.&lt;br&#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h3 id=&quot;3-ranchoddas-pt-2&quot;&gt;3. ranchoddas pt. 2&lt;&#x2F;h3&gt;
+&lt;p&gt;i got into tech because i love it; beyond a certain point, fulfillment&#x2F;happiness
+becomes a higher priority than money. i&#x27;m lucky that the field i love (mostly) pays
+enough for me to live comfortably, so i (should) have the freedom to pick whatever job i want.&lt;&#x2F;p&gt;
+&lt;p&gt;but i sometimes have a (sort of irrational) worry that i won&#x27;t be able to find a
+job.&lt;&#x2F;p&gt;
+&lt;p&gt;i sent this one in a group chat a few days ago:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;today i was talking to a coworker who came from burma in the early 2000s&lt;br&#x2F;&gt;
+and he was just like&lt;br&#x2F;&gt;
+&amp;quot;yeah dont worry about the money, the money will come if u go after ur skills&amp;quot;&lt;br&#x2F;&gt;
+&amp;quot;also worst case scenario u can just live with your parents&amp;quot;&lt;br&#x2F;&gt;
+&amp;quot;i didn&#x27;t have that option.&amp;quot;&lt;br&#x2F;&gt;
+&amp;quot;if i didn&#x27;t get a job i couldn&#x27;t just go back to burma. i&#x27;d be homeless&amp;quot;&lt;br&#x2F;&gt;
+he&#x27;s so right&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h3 id=&quot;4-quit-bad-everything&quot;&gt;4. quit bad everything&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;x.com&#x2F;anuatluru&#x2F;status&#x2F;1831083132331901021&quot;&gt;tweet by Anu Atluru&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;quit bad everything — bad food, bad books, bad jobs, bad people — otherwise they become bad habits and suddenly you’re living a bad life&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h3 id=&quot;5-pendulum&quot;&gt;5. pendulum&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=loWLXv83E9M&quot;&gt;inspiration&#x2F;source - Tim Dessaint&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;work-life balance is not a scale, it&#x27;s a pendulum. we can swing back and forth between periods of heavy emphasis on work, and heavy emphasis on life. don&#x27;t underestimate the power of intensity.
+but it has to be something you enjoy.&lt;&#x2F;p&gt;
+&lt;p&gt;(kind of like a &lt;a href=&quot;https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20220309155302&#x2F;https:&#x2F;&#x2F;dwarkeshpatel.com&#x2F;barbell-strategies&#x2F;&quot;&gt;barbell strategy&lt;&#x2F;a&gt;)&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Superposition &amp; SAEs in Mechanistic Interpretability: An Intro</title>
+          <pubDate>Wed, 29 May 2024 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://tanaybiradar.com/blog/superposition-saes-mech-interp-intro/</link>
+          <guid>https://tanaybiradar.com/blog/superposition-saes-mech-interp-intro/</guid>
+          <description>&lt;p&gt;Anthropic&#x27;s &lt;a href=&quot;https:&#x2F;&#x2F;transformer-circuits.pub&#x2F;2024&#x2F;scaling-monosemanticity&#x2F;index.html&quot;&gt;Scaling Monosemanticity&lt;&#x2F;a&gt; and Golden Gate Claude are some really exciting work in mechanistic interpretability, so I&#x27;ve been trying to better wrap my head around them. I wasn&#x27;t satisfied by existing explanations of their work, so here&#x27;s my attempt at something more digestible than the original papers.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I also have some (work-in-progress) &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;TanayB11&#x2F;sae-interp&#x2F;tree&#x2F;main&#x2F;toys&quot;&gt;code&lt;&#x2F;a&gt; to show for it!&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;features-superposition&quot;&gt;Features &amp;amp; Superposition&lt;&#x2F;h2&gt;
+&lt;p&gt;Anthropic&#x27;s Transformer Circuits Thread has had a &lt;a href=&quot;https:&#x2F;&#x2F;transformer-circuits.pub&#x2F;2022&#x2F;toy_model&#x2F;index.html&quot;&gt;few&lt;&#x2F;a&gt; previous &lt;a href=&quot;https:&#x2F;&#x2F;transformer-circuits.pub&#x2F;2023&#x2F;monosemantic-features&#x2F;index.html&quot;&gt;works&lt;&#x2F;a&gt; that try to interpret the hidden states of deep learning models. Ultimately, the goal is to find meaningful features in models&#x27; activations.&lt;&#x2F;p&gt;
+&lt;p&gt;But what is a &lt;strong&gt;feature&lt;&#x2F;strong&gt;? We can go by multiple definitions, such as:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Aspects of the input data that are meaningful to us humans&lt;&#x2F;li&gt;
+&lt;li&gt;Directions in the activation space of the neural network&#x27;s layers&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Suppose we have an activation vector &lt;small&gt;$a \in \mathbb{R}^2$&lt;&#x2F;small&gt;, and we&#x27;re trying to represent two features (according to Definition 1 above)—say &amp;quot;airplane&amp;quot; and &amp;quot;water bottle.&amp;quot; Here, we have 2 features and 2 dimensions, so we&#x27;re able to assign orthogonal basis vectors to each feature.&lt;&#x2F;p&gt;
+&lt;p&gt;I trained a toy 1-layer model, following this &lt;a href=&quot;https:&#x2F;&#x2F;colab.research.google.com&#x2F;drive&#x2F;15S4ISFVMQtfc0FPi29HRaX03dWxL65zx?usp=sharing&quot;&gt;notebook&lt;&#x2F;a&gt;. More details on that &lt;a href=&#x27;#details-on-the-toy-model&#x27;&gt;later&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;For now, here are the actual results (&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;TanayB11&#x2F;sae-interp&#x2F;blob&#x2F;main&#x2F;toys&#x2F;bottleneck_models.py&quot;&gt;code&lt;&#x2F;a&gt;):&lt;&#x2F;p&gt;
+&lt;br&#x2F;&gt;
+&lt;center&gt;
+    &lt;img src=&quot;&#x2F;images&#x2F;2024-05-29-superposition-saes-mech-interp-intro&#x2F;2feats.png&quot; width=&quot;60%&quot;
+    style=&quot;border-radius: 0.5em;&quot;&#x2F;&gt;
+&lt;&#x2F;center&gt;
+&lt;p&gt;Note how the features that this toy model has learned don&#x27;t exactly line up with the standard basis—there&#x27;s no reason they have to! That&#x27;s because the models I trained have a &lt;a href=&quot;https:&#x2F;&#x2F;transformer-circuits.pub&#x2F;2022&#x2F;toy_model&#x2F;index.html#motivation-privileged&quot;&gt;non-privileged basis&lt;&#x2F;a&gt;. I can rotate all of the features by some arbitrary rotation matrix &lt;small&gt;$R$&lt;&#x2F;small&gt;, and the model will behave in exactly the same way as it does (provided I also rotate the inputs by &lt;small&gt;$R$&lt;&#x2F;small&gt;).&lt;&#x2F;p&gt;
+&lt;center&gt;
+    &lt;img src=&quot;&#x2F;images&#x2F;2024-05-29-superposition-saes-mech-interp-intro&#x2F;privileged_basis.png&quot; width=&quot;90%&quot;
+    style=&quot;border-radius: 0.5em;&quot;&#x2F;&gt;
+&lt;&#x2F;center&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Source: &lt;a href=&quot;https:&#x2F;&#x2F;transformer-circuits.pub&#x2F;2022&#x2F;toy_model&#x2F;index.html#motivation-privileged&quot;&gt;Anthropic&#x27;s Toy Models Paper&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;br&#x2F;&gt;
+&lt;p&gt;Now, let&#x27;s scale things up. Suppose we&#x27;re instead trying to use represent 3 or 5 features in our activation space &lt;small&gt;$a$&lt;&#x2F;small&gt;. All of a sudden, we &lt;a href=&quot;https:&#x2F;&#x2F;openreview.net&#x2F;pdf?id=F76bwRSLeK&quot;&gt;can&#x27;t&lt;&#x2F;a&gt; give each feature its own orthogonal basis direction. We have to squeeze 3 or 5 features into &lt;small&gt;$\mathbb{R}^2$&lt;&#x2F;small&gt; somehow—and the best way is to pick directions that have the least overlap&#x2F;interference (i.e. minimize cosine similarity between any 2 features).&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;NB&lt;&#x2F;em&gt; 1: There&#x27;s a beautiful connection to &lt;a href=&quot;https:&#x2F;&#x2F;transformer-circuits.pub&#x2F;2022&#x2F;toy_model&#x2F;index.html#geometry-structures&quot;&gt;bond angles&lt;&#x2F;a&gt; in chemistry here!&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;NB&lt;&#x2F;em&gt; 2: You&#x27;ll sometimes read that these features form an &lt;strong&gt;overcomplete basis&lt;&#x2F;strong&gt; for the activation space.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;This phenomenon is called &lt;strong&gt;superposition&lt;&#x2F;strong&gt;!&lt;&#x2F;p&gt;
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;td&gt;
+        &lt;img src=&quot;&#x2F;images&#x2F;2024-05-29-superposition-saes-mech-interp-intro&#x2F;3feats.png&quot; width=&quot;100%&quot; style=&quot;border-radius: 0.5em;&quot;&#x2F;&gt;
+    &lt;&#x2F;td&gt;
+    &lt;td&gt;
+        &lt;img src=&quot;&#x2F;images&#x2F;2024-05-29-superposition-saes-mech-interp-intro&#x2F;5feats.png&quot; width=&quot;100%&quot; style=&quot;border-radius: 0.5em;&quot;&#x2F;&gt;
+    &lt;&#x2F;td&gt;
+  &lt;&#x2F;tr&gt;
+&lt;&#x2F;table&gt;
+&lt;br&#x2F;&gt;
+&lt;p id=&#x27;sparsity_superposition&#x27;&gt;
+Actually, I missed one thing: The model won&#x27;t &lt;em&gt;always&lt;&#x2F;em&gt; spread out the vectors like this. It only does this when every feature occurs somewhat infrequently (&lt;b&gt;sparsely&lt;&#x2F;b&gt;) in the training data.
+&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;If the features aren&#x27;t sparse (they occur frequently in the data), the model chooses to just represent only the most important features in the activation space. In this case, we don&#x27;t get much superposition.&lt;&#x2F;li&gt;
+&lt;li&gt;If the features are sparse (they occur infrequently in the data), the model will represent the important features in the activation space. If we have enough important sparse features, the model will use superposition to represent all of them with minimum overlap&#x2F;interference.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;br&#x2F;&gt;
+&lt;center&gt;
+    &lt;img src=&quot;&#x2F;images&#x2F;2024-05-29-superposition-saes-mech-interp-intro&#x2F;sparsity_superposition.png&quot; width=&quot;90%&quot; style=&quot;border-radius: 0.25em;&quot;&#x2F;&gt;
+&lt;&#x2F;center&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Source: &lt;a href=&quot;https:&#x2F;&#x2F;transformer-circuits.pub&#x2F;2022&#x2F;toy_model&#x2F;index.html&quot;&gt;Anthropic&#x27;s Toy Models Paper&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;br&#x2F;&gt;
+&lt;p&gt;Here are some intuitive explanations of sparsity and importance:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;u&gt;Example 1:&lt;&#x2F;u&gt; Say we have a model that predicts annual income. It&#x27;s trained on features &lt;small&gt;${\text{attendedCollege}, \text{occupation}, \text{hasBrownHair}}$&lt;&#x2F;small&gt;, but only 5% of the dataset examples have brown hair. Since hair color is sparse in this dataset, and it&#x27;s (probably) not a good indicator of income, then the model will likely send the feature vector representing &amp;quot;hasBrownHair&amp;quot; to zero. Superposition (probably) won&#x27;t happen.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;u&gt;Example 2:&lt;&#x2F;u&gt; Say we have a model that predicts colorblindness. It&#x27;s trained on features &lt;small&gt;${\text{age}, \text{citizenship}, \text{isMale}}$&lt;&#x2F;small&gt;, but the dataset examples are only 5% male. The &amp;quot;male&amp;quot; feature is very sparse—it occurs 5% of the time—but when predicting colorblindness, it&#x27;s &lt;em&gt;very&lt;&#x2F;em&gt; important. So the model will likely &lt;em&gt;not&lt;&#x2F;em&gt; send that feature vector to 0 in the activation space. If there are enough other sparse, important features like &amp;quot;isMale,&amp;quot; the model will (probably) represent them all in superposition.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;br&#x2F;&gt;
+&lt;p&gt;Of course, in deep neural nets, this all happens in very high-dimensional vector spaces. But the basic principles are the same.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;details-on-the-toy-model&quot;&gt;Details on the Toy Model&lt;&#x2F;h2&gt;
+&lt;p&gt;The 1-layer model was a simple model that first tries to map its input &lt;small&gt;$x \in \mathbb{R}^{1 \times n}$&lt;&#x2F;small&gt; to &lt;&#x2F;small&gt;$\mathbb{R}^2$&lt;&#x2F;small&gt;, then reconstruct it to get &lt;small&gt;$\hat{x}$&lt;&#x2F;small&gt;. Formally, with our weight matrix &lt;small&gt;$W \in \mathbb{R}^{n \times 2}$&lt;&#x2F;small&gt; and bias &lt;small&gt;$b \in \mathbb{R}^n$&lt;&#x2F;small&gt;,&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;small&gt;$$h = xW$$&lt;&#x2F;small&gt;
+&lt;small&gt;$$\hat{x} = \text{ReLU}(h W^T + b)$$&lt;&#x2F;small&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;We train using the MSE loss (to push the predictions closer to the original inputs).&lt;&#x2F;p&gt;
+&lt;p&gt;Now we can extract the features from the toy 1-layer model (relatively) easily. Let&#x27;s look at &lt;small&gt;$W$&lt;&#x2F;small&gt;. Spelled out, we have&lt;&#x2F;p&gt;
+&lt;small&gt;
+$$ x = \begin{bmatrix} x_1 &amp; \dots &amp; x_n \end{bmatrix} \quad W = \begin{bmatrix} a_0(x_1) &amp; a_1(x_1)\\ \vdots&amp;\vdots \\ a_0(x_n) &amp; a_1(x_n) \end{bmatrix} $$
+&lt;&#x2F;small&gt;
+&lt;p&gt;The features are very easy to find in this model: The &lt;small&gt;$i$&lt;&#x2F;small&gt;th row of &lt;small&gt;$W$&lt;&#x2F;small&gt; corresponds to the &lt;small&gt;$i$&lt;&#x2F;small&gt;th feature, &lt;small&gt;$x_i$&lt;&#x2F;small&gt;, embedded in &lt;small&gt;$\mathbb{R}^2$&lt;&#x2F;small&gt;. Thus, the model represents each feature &lt;small&gt;$x_i$&lt;&#x2F;small&gt; as the direction of its activation vector, &lt;small&gt;$a(x_i)$&lt;&#x2F;small&gt;. Our &lt;small&gt;$n$&lt;&#x2F;small&gt; features are then just &lt;small&gt;${a_1, \dots, a_n}$&lt;&#x2F;small&gt;. That&#x27;s it!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;motivating-sparse-autoencoders-sparse-dictionary-learning&quot;&gt;Motivating Sparse Autoencoders: Sparse Dictionary Learning&lt;&#x2F;h2&gt;
+&lt;p&gt;With deeper models, this kind of interpretability isn&#x27;t easy. We can interpret the weight matrix applied to the input, but what if we want to find meaningful features in deep hidden layer? Maybe we&#x27;re trying to interpret the activations within hidden state of a transformer (the residual stream), or we&#x27;re trying to interpret the activations of a deep MLP.&lt;&#x2F;p&gt;
+&lt;p&gt;Sparse autoencoders (SAEs) are a popular approach, and Anthropic used them in the Scaling Monosemanticity paper to find interpretable features in Claude 3 Sonnet. Let&#x27;s motivate them from first principles:&lt;&#x2F;p&gt;
+&lt;p&gt;Say we want to interpret the activations of an intermediate layer of some deep model &lt;small&gt;$f(x)$&lt;&#x2F;small&gt;.&lt;&#x2F;p&gt;
+&lt;center&gt;
+    &lt;img src=&quot;&#x2F;images&#x2F;2024-05-29-superposition-saes-mech-interp-intro&#x2F;activation.png&quot; width=&quot;65%&quot; style=&quot;border-radius: 0.5em;&quot;&#x2F;&gt;
+&lt;&#x2F;center&gt;
+&lt;p&gt;Our (&lt;a href=&quot;https:&#x2F;&#x2F;tanaybiradar.com&#x2F;blog&#x2F;notes-on-zoom-in-circuits&#x2F;&quot;&gt;substantiated&lt;&#x2F;a&gt;) hope is that in each hidden layer, the model is trying to represent a &lt;strong&gt;ton&lt;&#x2F;strong&gt; of features that the model learned during training.&lt;&#x2F;p&gt;
+&lt;p&gt;Thus, we&#x27;re trying to analyze an intermediate activation &lt;small&gt;$a$&lt;&#x2F;small&gt;, which is a &lt;small&gt;$d$&lt;&#x2F;small&gt;-dimensional vector that&#x27;s trying to represent a &lt;strong&gt;lot&lt;&#x2F;strong&gt; more than &lt;small&gt;$d$&lt;&#x2F;small&gt; features (ex. &amp;quot;traffic cone&amp;quot;, &amp;quot;studying in a library&amp;quot;, &amp;quot;smokestack&amp;quot;, &amp;quot;geologist&amp;quot;, etc.). That means we&#x27;re going to have superposition!&lt;&#x2F;p&gt;
+&lt;p&gt;If we&#x27;re trying to find interpretable features from &lt;small&gt;$a$&lt;&#x2F;small&gt;, then we&#x27;re trying to find a set of directions in the activation space. Each direction in this activation space should correspond to something that makes sense to us humans.&lt;&#x2F;p&gt;
+&lt;p&gt;The question is, &lt;u&gt;how do we figure out a good set of vectors?&lt;&#x2F;u&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Since our activation space doesn&#x27;t have enough dimensions to give each feature its own orthogonal basis vector, why not map &lt;small&gt;$a$&lt;&#x2F;small&gt; to a &amp;quot;higher-dimensional space&amp;quot; that does?&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We don&#x27;t know exactly how many features &lt;small&gt;$a$&lt;&#x2F;small&gt; is trying to represent, so we just want to map it to a high-&lt;em&gt;enough&lt;&#x2F;em&gt; dimensional space.&lt;&#x2F;p&gt;
+&lt;p&gt;To get really in the weeds: My intuition is that we want to map &lt;small&gt;$a$&lt;&#x2F;small&gt; to a high dimensional space, where it&#x27;s more likely that each entry in the high-dimensional vector (i.e. each neuron) corresponds to a feature (...at least in a privileged basis, where the standard basis directions are likely more meaningful). We have to be careful about privileged&#x2F;non-privileged bases when talking about &amp;quot;neurons corresponding to features.&amp;quot; In our case, this mapping will be in a privileged basis.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;The idea is that &lt;small&gt;$a$&lt;&#x2F;small&gt; is some combination of interpretable features in this &amp;quot;higher-dimensional space,&amp;quot; which has then been projected into the lower-dimensional activation space. (This map from activation space to the &amp;quot;higher-dimensional space&amp;quot; is the dictionary part of &lt;strong&gt;sparse dictionary learning&lt;&#x2F;strong&gt;.)&lt;&#x2F;p&gt;
+&lt;p&gt;Since &lt;small&gt;$a$&lt;&#x2F;small&gt; is representing features in superposition, &lt;a href=&#x27;#sparsity_superposition&#x27;&gt;that means&lt;&#x2F;a&gt; the features occurred sparsely in the training dataset. (For any data example, only a few features were present.) Thus, &lt;small&gt;$a$&lt;&#x2F;small&gt; is a &lt;em&gt;sparse&lt;&#x2F;em&gt; combination of these &amp;quot;higher-dimensional features.&amp;quot;&lt;&#x2F;p&gt;
+&lt;p&gt;So, we want an algorithm that maps &lt;small&gt;$a$&lt;&#x2F;small&gt; to a sparse vector in this &amp;quot;higher-dimensional space.&amp;quot;&lt;&#x2F;p&gt;
+&lt;p&gt;Sparse autoencoders do exactly that!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;sparse-autoencoders-saes&quot;&gt;Sparse Autoencoders (SAEs)&lt;&#x2F;h2&gt;
+&lt;p&gt;The structure of a basic autoencoder is pretty simple. It&#x27;s just an MLP with one hidden layer. It maps the input activation &lt;small&gt;$a$&lt;&#x2F;small&gt; to a high-dimensional hidden state &lt;small&gt;$h$&lt;&#x2F;small&gt;. Then, using &lt;small&gt;$h$&lt;&#x2F;small&gt;, it computes &lt;small&gt;$\hat{a}$&lt;&#x2F;small&gt;, a reconstruction of &lt;small&gt;$a$&lt;&#x2F;small&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;The intuition is that &lt;small&gt;$h$&lt;&#x2F;small&gt; will contain some useful information about &lt;small&gt;$a$&lt;&#x2F;small&gt;, since it&#x27;s an intermediate layer in the computation.&lt;&#x2F;p&gt;
+&lt;center&gt;
+    &lt;img src=&quot;&#x2F;images&#x2F;2024-05-29-superposition-saes-mech-interp-intro&#x2F;sae.png&quot; width=&quot;30%&quot; style=&quot;border-radius: 0.5em;&quot;&#x2F;&gt;
+&lt;&#x2F;center&gt;
+&lt;p&gt;In essence, the SAE computation looks like this:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;small&gt;$$h = a^TW_\text{enc}$$&lt;&#x2F;small&gt;
+&lt;small&gt;$$\hat{a} = \text{ReLU}(hW_\text{dec})$$&lt;&#x2F;small&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;small&gt;$$a \in \mathbb{R}^d \quad W_\text{enc} \in \mathbb{R}^{d \times m} \quad W_\text{dec} \in \mathbb{R}^{m \times d}$$&lt;&#x2F;small&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;In reality, Anthropic made a few &lt;a href=&quot;https:&#x2F;&#x2F;transformer-circuits.pub&#x2F;2023&#x2F;monosemantic-features&#x2F;index.html#appendix-autoencoder-dataset&quot;&gt;modifications&lt;&#x2F;a&gt;, but the idea is the same.&lt;&#x2F;p&gt;
+&lt;p&gt;Since we&#x27;re trying to reconstruct the original input (the activation &lt;small&gt;$a$&lt;&#x2F;small&gt;), we use an MSE loss. But since &lt;small&gt;$a$&lt;&#x2F;small&gt; is a sparse combination of features in &lt;small&gt;$h$&lt;&#x2F;small&gt;, we also want to ensure that &lt;small&gt;$h$&lt;&#x2F;small&gt; is a sparse vector—so we add an L1 penalty&#x2F;regularization term (with hyperparameter &lt;small&gt;$\lambda$&lt;&#x2F;small&gt;). For a single training example, our SAE loss is&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;small&gt; $$\mathcal{L}(a, \hat{a}) = ||a - \hat{a}||_2^2 + \lambda ||h||_1$$ &lt;&#x2F;small&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;To be super clear, the original model &lt;small&gt;$f(x)$&lt;&#x2F;small&gt; was trained on the &lt;u&gt;input&lt;&#x2F;u&gt; dataset. The SAE is trained on &lt;small&gt;$a$&lt;&#x2F;small&gt;, the &lt;u&gt;activations&lt;&#x2F;u&gt; that were gathered from running the original model on a bunch of data.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;There are a few more details (dead neuron resampling, etc.) that improve the utility of the SAEs—but this is the core.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;using-saes-to-interpret-model-activations&quot;&gt;Using SAEs to Interpret Model Activations&lt;&#x2F;h2&gt;
+&lt;p&gt;Now that we have features, we can interpret them!&lt;&#x2F;p&gt;
+&lt;p&gt;For large language models, one way we can do this is to prompt them carefully and see what features in the SAE activate. If we input a bunch of prompts related to dolphins to an LLM, collect the activations, run them through the SAE, and see that neuron &lt;small&gt;$i$&lt;&#x2F;small&gt; in the SAE hidden state consistently activates, then we can be reasonably confident that the &lt;small&gt;$i$&lt;&#x2F;small&gt;th neuron of the SAE correlates with dolphins. (We can&#x27;t get causal relationships, but correlations are still very useful!)&lt;&#x2F;p&gt;
+&lt;p&gt;Once we find that the &lt;small&gt;$i$&lt;&#x2F;small&gt;th neuron in the SAE that corresponds to a particular feature (ex. dolphins), we can create a &amp;quot;fake&amp;quot; hidden state with only the &lt;small&gt;$i$&lt;&#x2F;small&gt;th neuron active. If we pass that hidden state through the SAE decoder, we can get the direction in the model&#x27;s activation space that corresponds to that feature! Like a dictionary, we can use the SAE to translate back and forth between interpretable features and directions in activation space!&lt;&#x2F;p&gt;
+&lt;center&gt;
+    &lt;img src=&quot;&#x2F;images&#x2F;2024-05-29-superposition-saes-mech-interp-intro&#x2F;sae_interp.png&quot; width=&quot;90%&quot; style=&quot;border-radius: 0.5em;&quot;&#x2F;&gt;
+&lt;&#x2F;center&gt;
+&lt;p&gt;Of course, there are multiple ways to actually use the SAE for interpretability—this is frontier research after all. This is just one possible way.&lt;&#x2F;p&gt;
+&lt;p&gt;For further reading, I&#x27;ll point to &lt;a href=&quot;https:&#x2F;&#x2F;transformer-circuits.pub&#x2F;2024&#x2F;scaling-monosemanticity&#x2F;index.html#searching&quot;&gt;this section&lt;&#x2F;a&gt; and &lt;a href=&quot;https:&#x2F;&#x2F;transformer-circuits.pub&#x2F;2024&#x2F;scaling-monosemanticity&#x2F;index.html#feature-survey&quot;&gt;this section&lt;&#x2F;a&gt; of the Scaling Monosemanticity paper (which are relatively digestible). If you want to read even further into mechanistic interpretability, look into this &lt;a href=&quot;https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2310.01405&quot;&gt;paper&lt;&#x2F;a&gt; and &lt;a href=&quot;https:&#x2F;&#x2F;vgel.me&#x2F;posts&#x2F;&quot;&gt;post&lt;&#x2F;a&gt; on steering vectors, which are related!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;references&quot;&gt;References&lt;&#x2F;h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;transformer-circuits.pub&#x2F;2022&#x2F;toy_model&#x2F;index.html&quot;&gt;Toy Models of Superposition&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;transformer-circuits.pub&#x2F;2023&#x2F;monosemantic-features&#x2F;index.html&quot;&gt;Towards Monosemanticity: Decomposing Language Models With Dictionary Learning&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;transformer-circuits.pub&#x2F;2024&#x2F;scaling-monosemanticity&#x2F;index.html&quot;&gt;Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;openreview.net&#x2F;pdf?id=F76bwRSLeK&quot;&gt;Sparse Autoencoders Find Highly Interpretable Features in Language Models&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;colab.research.google.com&#x2F;drive&#x2F;15S4ISFVMQtfc0FPi29HRaX03dWxL65zx?usp=sharing&quot;&gt;MATS Colab Exercises&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+</description>
+      </item>
+      <item>
+          <title>LLMs are not intelligent</title>
+          <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://tanaybiradar.com/blog/large-language-models-are-not-intelligent/</link>
+          <guid>https://tanaybiradar.com/blog/large-language-models-are-not-intelligent/</guid>
+          <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Update - 2024&#x2F;09&#x2F;16&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;My take in this post is somewhat pessimistic. As time has
+gone by, I&#x27;m a bit more excited about the ability of LLMs to
+synthesize novel knowledge. Andrej Karpathy has some positive views in
+this &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=hM_h0UA7upI&quot;&gt;podcast&lt;&#x2F;a&gt;, and this &lt;a href=&quot;https:&#x2F;&#x2F;nicholas.carlini.com&#x2F;writing&#x2F;2024&#x2F;how-i-use-ai.html&quot;&gt;blog post&lt;&#x2F;a&gt; by Nicholas Carlini
+has a good neutral-ish (also somewhat optimistic) view.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;I&#x27;ve found myself using LLMs less and less over time. They&#x27;re great for generating summaries, rephrasing writing, explaining concepts, and writing some code—things I refer to as &amp;quot;manual labor.&amp;quot; But if you ask them to do anything reasoning-heavy, they fail very often.&lt;&#x2F;p&gt;
+&lt;p&gt;Today&#x27;s LLMs are not actually intelligent; they&#x27;re just really good stochastic parrots.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;memorization-is-a-big-deal&quot;&gt;Memorization is a big deal&lt;&#x2F;h3&gt;
+&lt;p&gt;About 4 months ago, I read a paper titled &lt;a href=&quot;https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2311.17035&quot;&gt;Scalable Extraction of Training Data from (Production) Language Models&lt;&#x2F;a&gt;. That was when I realized memorization is a &lt;em&gt;powerful&lt;&#x2F;em&gt; tool for LLM performance.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Aside (for context): DeepMind previously found &lt;a href=&quot;https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2203.15556&quot;&gt;laws&lt;&#x2F;a&gt; governing the optimal model size&#x2F;number of training tokens under a fixed FLOPS budget. Popular models, such as LLaMA-7B and Mistral-7B may be trained with few parameters—but they&#x27;re overtrained compared to these Chinchilla-optimal token counts. LLaMA3, for instance, was pretrained on over &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;meta-llama&#x2F;llama3&#x2F;blob&#x2F;main&#x2F;MODEL_CARD.md&quot;&gt;15 trillion tokens&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;When attacking both closed LLMs (like GPT-3.5-instruct) and semi-closed models (such as LLaMA), the authors found a significant relationship between overtraining and memorization. Nearly 0.30% of LLaMA-7B&#x27;s generated tokens were memorized. And nearly 0.80% of LLaMA-65B&#x27;s generated tokens were memorized! Meanwhile, around 0.50% of Mistral-7B&#x27;s generated tokens were memorized.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;And these are lower bounds!&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;On the other hand, undertrained models such as OPT-1.3B and OPT-6.7B had much lower memorization rates (around 0.03% and 0.09%, respectively).&lt;&#x2F;p&gt;
+&lt;p&gt;The percentages may seem small, but the results indicate that language models regularly spit out memorized training data. And memorization rates of 0.30%-0.80% in the overtrained models are nontrivial.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;what-do-benchmarks-even-measure&quot;&gt;What do benchmarks even measure?&lt;&#x2F;h3&gt;
+&lt;p&gt;It&#x27;s probably not a coincidence that these overtrained, memorizing models are exactly the ones that perform well on popular benchmarks. For instance, LLaMA-65B and Mistral-7B score significantly &lt;a href=&quot;https:&#x2F;&#x2F;paperswithcode.com&#x2F;sota&#x2F;multi-task-language-understanding-on-mmlu&quot;&gt;higher&lt;&#x2F;a&gt; on the MMLU benchmark compared to the undertrained OPT-66B.&lt;&#x2F;p&gt;
+&lt;p&gt;The &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;jzhang38&#x2F;TinyLlama&quot;&gt;TinyLlama&lt;&#x2F;a&gt; project provides some more evidence for this hypothesis. They overtrained a 1.1-billion parameter model with 3 trillion tokens. All else held constant, the Commonsense benchmark scores increase approximately linearly with the number of training tokens.&lt;&#x2F;p&gt;
+&lt;p&gt;This relationship between overtraining and benchmarks leads me to wonder: What do benchmarks even measure? We use benchmark scores as a proxy for knowledge, reasoning, and intelligence. But are they really measuring those abilities? Or are they measuring memorization? Memorization isn&#x27;t intelligence—and if the pretraining dataset may be &lt;a href=&quot;https:&#x2F;&#x2F;arxiv.org&#x2F;pdf&#x2F;2311.04850&quot;&gt;contaminated&lt;&#x2F;a&gt; by benchmark data, these benchmark scores tell us even less about the intelligence of our LLMs.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;it-s-all-about-the-data&quot;&gt;It&#x27;s all about the data&lt;&#x2F;h3&gt;
+&lt;p&gt;About a week ago, I read a little post titled &lt;a href=&quot;https:&#x2F;&#x2F;nonint.com&#x2F;2023&#x2F;06&#x2F;10&#x2F;the-it-in-ai-models-is-the-dataset&#x2F;&quot;&gt;The “it” in AI models is the dataset&lt;&#x2F;a&gt;. And that got me thinking...there&#x27;s a reason Meta, Mistral, and other companies that release &amp;quot;open&amp;quot; models don&#x27;t release their training data.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2309.14402&quot;&gt;This paper&lt;&#x2F;a&gt; from Meta uses controlled studies to really show how much training data matters.  Successfully fine-tuning a LLM on question-answering tasks depends &lt;em&gt;highly&lt;&#x2F;em&gt; on data augmentation: One of the paper&#x27;s experiments shows a 9.7% knowledge extraction accuracy without augmentation, but a 96.6% accuracy with data augmentation.&lt;&#x2F;p&gt;
+&lt;p&gt;Why? If the model hasn&#x27;t seen a question phrased in a particular way during training, it&#x27;ll &lt;a href=&quot;https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2306.11270&quot;&gt;probably perform worse&lt;&#x2F;a&gt; on that question during generation. Augmentation gives the LLM a higher diversity of data, so that no matter how a user phrases a question, the model is more likely to have seen that phrasing before. (In other words, in-distribution performance is much better than out-of-distribution performance.)&lt;&#x2F;p&gt;
+&lt;p&gt;Again—this research suggests memorization, not intelligence.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;limitations-on-reasoning&quot;&gt;Limitations on Reasoning&lt;&#x2F;h3&gt;
+&lt;p&gt;I&#x27;ve repeatedly mentioned that memorization and intelligence are not the same. But is that really the case? The answer is yes: Even if an LLM &amp;quot;memorizes&amp;quot; a fact, it cannot reliably answer basic &lt;em&gt;reasoning&lt;&#x2F;em&gt; questions about that fact.&lt;&#x2F;p&gt;
+&lt;p&gt;If a model sees the sentence, &amp;quot;BTS&#x27;s debut song is titled &#x27;No More Dream,&#x27;&amp;quot; it likely won&#x27;t be able to answer the question, &amp;quot;What artist debuted with the song &#x27;No More Dream&#x27;?&amp;quot; LLMs struggle with this kind of task, called &lt;em&gt;inverse search&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;And LLMs cannot reliably answer comparison questions, either. From the Meta &lt;a href=&quot;https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2309.14402&quot;&gt;paper&lt;&#x2F;a&gt;:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Determining whether a month is even or odd requires 10,000 training samples to achieve a 75% accuracy, despite theoretically needing a sample complexity on the order of O(12).&lt;&#x2F;p&gt;
+&lt;p&gt;Ranking months [such as indicating that April comes before July] requires 50,000 training samples to reach an 85% test accuracy, even with a theoretical sample complexity of O(122), provided no hint is given.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Surprisingly, &lt;u&gt;this holds regardless of finetuning, prompting, or pretraining.&lt;&#x2F;u&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;All this is bad news if we expect today&#x27;s LLMs to genuinely become intelligent.&lt;&#x2F;p&gt;
+&lt;p&gt;But if you&#x27;re just trying to quickly write some code to generate Matplotlib figures, things have never been better.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Personal Growth and SGD</title>
+          <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://tanaybiradar.com/blog/personal-growth-and-sgd/</link>
+          <guid>https://tanaybiradar.com/blog/personal-growth-and-sgd/</guid>
+          <description>&lt;p&gt;I&#x27;ve long believed that you don&#x27;t always need an end goal; you just need a direction. At any given moment, you need to be clear about what you&#x27;re doing: weighing different options, gathering data, &lt;em&gt;figuring out&lt;&#x2F;em&gt; what you want.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;college&quot;&gt;College&lt;&#x2F;h2&gt;
+&lt;p&gt;I&#x27;m in college right now, and I don&#x27;t know &lt;em&gt;exactly&lt;&#x2F;em&gt; what career path I want to pursue. But I&#x27;m very consciously trying to narrow it down. I always have a direction that comes from searching for answers to different questions:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Last year I asked myself, &amp;quot;Do I want to pursue machine learning or quantum computing?&amp;quot; So I did everything I could to answer that question. I talked to research labs in both fields; after reading papers on quantum error correction and transformer fine-tuning, I decided that quantum computing wasn&#x27;t for me.&lt;&#x2F;li&gt;
+&lt;li&gt;This year, I had a new question: &amp;quot;Do I want to pursue a PhD in ML?&amp;quot; To answer this new question, I&#x27;ve been taking as many ML courses as I can. Joining a research lab and applying to the BS+MS program at my university are other ways I&#x27;ve been collecting even more data.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;By iteratively asking and answering questions like these, I&#x27;ll eventually reach my destination. I don&#x27;t know exactly where it&#x27;s going to be, but I know I&#x27;m going to love it.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;stochastic-gradient-descent&quot;&gt;Stochastic Gradient Descent&lt;&#x2F;h2&gt;
+&lt;p&gt;Intentionally answering your questions like this is similar to following a gradient descent algorithm. The SGD algorithm doesn&#x27;t find the optimum directly; it takes plenty of bad steps. On average, however, the good steps cancel out the poor ones—and SGD finds an optimal set of parameters.&lt;&#x2F;p&gt;
+&lt;p&gt;Similarly, we can&#x27;t directly figure out what will make us the happiest and most fulfilled; we make a lot of mistakes. But as we learn and continue to take deliberate steps to answer our questions, we will hopefully converge on an optimal set of ways to live our lives. That&#x27;s why I keep asking myself questions, hoping I&#x27;ll soon converge on a lifestyle that&#x27;s optimal for me.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>A Failure Resume</title>
+          <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://tanaybiradar.com/blog/failure-resume/</link>
+          <guid>https://tanaybiradar.com/blog/failure-resume/</guid>
+          <description>&lt;p&gt;Success isn&#x27;t linear. Most progress is one step back, two steps forward. I&#x27;ve
+had a lot of &lt;a href=&quot;https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;tanayb11&#x2F;&quot;&gt;achievements&lt;&#x2F;a&gt; over the
+past few years, but this isn&#x27;t the place for that.&lt;&#x2F;p&gt;
+&lt;p&gt;It makes my successes better, but more importantly, it paints a realistic picture
+of the things I&#x27;ve done. It reminds me that I&#x27;ve worked hard for the things
+I care about, and motivates me to keep doing so.&lt;&#x2F;p&gt;
+&lt;p&gt;I copied the idea from &lt;a href=&quot;https:&#x2F;&#x2F;jzhao.xyz&#x2F;posts&#x2F;a-failure-resume&quot;&gt;Jacky Zhao&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;2024&quot;&gt;2024&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Other researchers beat me to my project ideas, twice&lt;&#x2F;li&gt;
+&lt;li&gt;Spent an entire quarter on a research project that ended in a negative result
+&lt;ul&gt;
+&lt;li&gt;Still learned a lot! Distributed training, ViTs, experiment design, etc.&lt;&#x2F;li&gt;
+&lt;li&gt;Negative results are still &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=KOJnOCdBr4s&quot;&gt;important&lt;&#x2F;a&gt; in science, so depending on how you look at this, it isn&#x27;t a failure&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Rejected from an undergrad TA position in the CS department for Spring 2024 (even after serving for 2 consecutive quarters)
+&lt;ul&gt;
+&lt;li&gt;Probably not a reflection of my abilities—lots of excellent students I know also didn&#x27;t get a returning offer&lt;&#x2F;li&gt;
+&lt;li&gt;Update, Fall 2024: Rejected again&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Rejected from 3&#x2F;3 NSF &lt;a href=&quot;https:&#x2F;&#x2F;www.nsf.gov&#x2F;crssprgm&#x2F;reu&#x2F;&quot;&gt;REUs&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Rejected from ~400 internship applications
+&lt;ul&gt;
+&lt;li&gt;This year&#x27;s search ended in success, so it technically doesn&#x27;t
+belong here. I&#x27;m leaving it to remind myself how long it can take to see
+results.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;2023&quot;&gt;2023&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Rejected (placed low on waitlist) by &lt;a href=&quot;https:&#x2F;&#x2F;ersp.cs.ucsb.edu&#x2F;&quot;&gt;ERSP&lt;&#x2F;a&gt;
+&lt;ul&gt;
+&lt;li&gt;Ended up finding a ML research lab and contributing to a &lt;a href=&quot;https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2405.06063&quot;&gt;RL project&lt;&#x2F;a&gt; anyway, so the above wasn&#x27;t that big of a deal.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2405.06063&quot;&gt;Paper&lt;&#x2F;a&gt; rejected from NeurIPS 2023
+&lt;ul&gt;
+&lt;li&gt;Ended up getting accepted to the RSS 2024 TaskSpec Workshop (almost a year later!)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Rejected from an undergrad TA position in the CS department (again)
+&lt;ul&gt;
+&lt;li&gt;Accepted the 3rd time around for Fall 2023! It&#x27;s been great&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Gave up on joining a UCSB quantum computing lab and an NLP lab
+&lt;ul&gt;
+&lt;li&gt;Strategically giving up is not easy. I lost interest in theoretical quantum computing (a la error-correction algorithms) and didn&#x27;t see a good fit in that NLP lab. In this case, the strategy worked well.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;2022&quot;&gt;2022&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Rejected by 96&#x2F;96 internship applications&lt;&#x2F;li&gt;
+&lt;li&gt;Rejected from MIT (and all my other top-choice universities)
+&lt;ul&gt;
+&lt;li&gt;This was particularly disappointing because &lt;a href=&quot;https:&#x2F;&#x2F;summerscience.org&#x2F;&quot;&gt;SSP&lt;&#x2F;a&gt; (an astrophysics program I attended) has abnormally high rates (~20-30%) of alumni who attend there. Learned that hard work doesn&#x27;t guarantee you&#x27;ll achieve a specific goal; many things are simply outside your control.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Rejected from the &lt;a href=&quot;https:&#x2F;&#x2F;www.atlasfellowship.org&#x2F;&quot;&gt;Atlas Fellowship&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Rejected from an undergrad TA position in the CS department&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+      </item>
+      <item>
+          <title>Actually Reading AI Research Papers</title>
+          <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://tanaybiradar.com/blog/actually-reading-ai-research-papers/</link>
+          <guid>https://tanaybiradar.com/blog/actually-reading-ai-research-papers/</guid>
+          <description>&lt;p&gt;A while ago, I wrote &lt;a href=&quot;&#x2F;blog&#x2F;reading-ai-research-papers-harvard-cs197&#x2F;&quot;&gt;this post&lt;&#x2F;a&gt; about reading AI research papers. Those were just some notes I made public; I had hardly read any papers then.&lt;&#x2F;p&gt;
+&lt;p&gt;Since last September, however, things have changed. I&#x27;m taking two paper-based classes (Adversarial Robustness in Machine Learning, LLMs + Conversational AI). I&#x27;m also leading &lt;a href=&quot;https:&#x2F;&#x2F;gaia.datascienceucsb.org&#x2F;&quot;&gt;GAIA&lt;&#x2F;a&gt;, where we read yet more papers. With these experiences under my belt, I can finally say a little more.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;reading-wide-vs-reading-deep&quot;&gt;Reading Wide vs. Reading Deep&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.cs197.seas.harvard.edu&#x2F;&quot;&gt;Harvard&#x27;s CS197&lt;&#x2F;a&gt; suggests to split reading into two parts: Reading wide vs. reading deep. I talk more about this in my &lt;a href=&quot;&#x2F;blog&#x2F;reading-ai-research-papers-harvard-cs197&#x2F;&quot;&gt;previous post&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Reading wide:&lt;&#x2F;strong&gt; Use this to &amp;quot;learn what you don&#x27;t know&amp;quot; and build a mental model of the topic.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Read deep&lt;&#x2F;strong&gt; to get a better idea of what techniques researchers use, what benchmarks are popular, and to get context in the field.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h3 id=&quot;know-thy-field&quot;&gt;Know Thy Field&lt;&#x2F;h3&gt;
+&lt;p&gt;Research papers are written by experts for experts; they&#x27;re dense and full of jargon. That&#x27;s why we have to &amp;quot;read wide&amp;quot; to understand the key terms—find the papers that are foundational to the field.&lt;&#x2F;p&gt;
+&lt;p&gt;But reading wide is a lot more effective when you know &lt;em&gt;what&lt;&#x2F;em&gt; to read in the first place.&lt;&#x2F;p&gt;
+&lt;p&gt;If you&#x27;re trying to get into a field, it&#x27;s useful to find someone who has experience in the field and can direct your reading. In my Adversarial Robustness in ML course, I have the good fortune to have a professor who sends a sequence of papers to read each week.&lt;&#x2F;p&gt;
+&lt;p&gt;If you don&#x27;t have that luxury, however, it may be useful to email someone who studies that area and ask for good papers. Alternatively, when reading wide, make a mental note of the authors that often receive citations and look up those papers. There will often be a paper trail to some works that provide excellent background! Tools like Connected Papers and Google Scholar can also be really useful to find related works.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;read-deep&quot;&gt;Read Deep&lt;&#x2F;h3&gt;
+&lt;p&gt;When selecting papers to read deeply, try to understand as much as possible: The equations, the figures, the surrounding work. That said, don&#x27;t unnecessarily bang your head against a wall.&lt;&#x2F;p&gt;
+&lt;p&gt;The first few papers take a very long time to read—but as you get more familiar with the structure of research papers and the jargon of your field, the reading time drops. After reading both widely and deeply, you start to realize a few things:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;After reading wide, the introduction and background sections often contain information you&#x27;re already familiar with. After some time, you can just skim these.&lt;&#x2F;li&gt;
+&lt;li&gt;The parts with the highest ROI on time are the motivation, the architecture, and (maybe) the experiments.&lt;&#x2F;li&gt;
+&lt;li&gt;The papers you read start to feel like a conversation. Each paper examines the state of the field, finds a flaw or limitation of existing work, and proposes something better. The authors then defend their work with experiments and highlight some places for future researchers to improve upon.&lt;&#x2F;li&gt;
+&lt;li&gt;You can start formulating your own questions and criticisms. Maybe you even find ideas for future work!&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;For a while, I couldn&#x27;t read papers very well. I just read whatever seemed interesting at the time. Even after taking the advice of the CS197 lecture notes (which has definitely been useful!), I still wasn&#x27;t comfortable with reading papers.&lt;&#x2F;p&gt;
+&lt;p&gt;But with a reading strategy, following research suddenly became a lot more enjoyable. By knowing the field and reading deep, I&#x27;ve been able to skim papers for the main ideas, come up with my own ideas for research, and follow talks by researchers.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>A bit about Bayes&#x27; Theorem</title>
+          <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://tanaybiradar.com/blog/a-bit-about-bayes-theorem/</link>
+          <guid>https://tanaybiradar.com/blog/a-bit-about-bayes-theorem/</guid>
+          <description>&lt;p&gt;I struggled for a little while with Bayes&#x27; Theorem. I could use the formulas, but I didn&#x27;t &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Grok#In_computer_programmer_culture&quot;&gt;grok&lt;&#x2F;a&gt; the concept.&lt;&#x2F;p&gt;
+&lt;p&gt;There are two popular camps in probability: the &lt;strong&gt;Frequentist&lt;&#x2F;strong&gt; camp and the &lt;strong&gt;Bayesian&lt;&#x2F;strong&gt; camp. Let&#x27;s say we&#x27;re interested in the probability that it rains tomorrow in San Francisco (let&#x27;s say $p = 0.35$).&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;The &lt;strong&gt;Frequentists&lt;&#x2F;strong&gt; see that probability and &lt;a href=&quot;https:&#x2F;&#x2F;www.lesswrong.com&#x2F;tag&#x2F;bayesianism&quot;&gt;think&lt;&#x2F;a&gt;, &amp;quot;If we simulated tomorrow a lot of times (approaching an infinite number of times), then 35% of those simulations will have rain.&amp;quot;&lt;&#x2F;li&gt;
+&lt;li&gt;The &lt;strong&gt;Bayesians&lt;&#x2F;strong&gt;, on the other hand think, &amp;quot;We&#x27;re 35% &lt;em&gt;confident&lt;&#x2F;em&gt; that it&#x27;ll rain tomorrow.&amp;quot; They see probabilities as confidence scores on a scale from 0 to 1.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;The Bayesian view is often convenient: if you&#x27;re a frequentist, it doesn&#x27;t really make immediate sense to say, &amp;quot;There&#x27;s a 3% chance that nuclear war breaks out in the next 10 years.&amp;quot; We aren&#x27;t looking into 1000 alternative 10-year timelines and saying &amp;quot;Nuclear war breaks out in 30 of them.&amp;quot; No. We&#x27;re saying that we&#x27;re 3% &lt;em&gt;confident&lt;&#x2F;em&gt; that nuclear war will happen in our 10-year timeline.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;bayes-theorem&quot;&gt;Bayes&#x27; Theorem&lt;&#x2F;h2&gt;
+&lt;p&gt;A Bayesian view of probability also allows us to &lt;em&gt;update&lt;&#x2F;em&gt; our beliefs (confidence scores) when given new information. The classic example is the medical diagnosis: Say we know that COVID-19 occurs in 8% of the general population, the test identifies 99% of people who actually have COVID, and any random person tests positive with 10% probability.&lt;&#x2F;p&gt;
+&lt;p&gt;If we take any random person, we&#x27;re 8% confident that they have COVID. But if we&#x27;re given that they test positive, we can use &lt;strong&gt;Bayes&#x27; Theorem&lt;&#x2F;strong&gt; to update our beliefs.&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;The number 8% is our &lt;strong&gt;prior&lt;&#x2F;strong&gt; probability (belief) that the person has COVID&lt;&#x2F;li&gt;
+&lt;li&gt;We can use Bayes&#x27; Theorem to calculate the &lt;strong&gt;posterior&lt;&#x2F;strong&gt; probability that the person has COVID. This is the probability after we&#x27;ve factored in the given information (that they tested positive).&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;We want to find the probability &lt;small&gt;$P(C|+)$&lt;&#x2F;small&gt;, the probability the person has COVID (&lt;small&gt;$C$&lt;&#x2F;small&gt;) &lt;em&gt;given&lt;&#x2F;em&gt; that they&#x27;ve tested positive (&lt;small&gt;$+$&lt;&#x2F;small&gt;). Using the definition of conditional probability,&lt;&#x2F;p&gt;
+&lt;small&gt;
+$$
+P(C|+) = \frac{P(C \text{ and } +)}{P(+)} \tag{1}
+$$
+&lt;p&gt;$$
+P(+|C) = \frac{P(C \text{ and } +)}{P(C)} \implies
+P(C \text{ and } +) = P(+|C)P(C)
+\tag{2}
+$$
+&lt;&#x2F;small&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Then, when we substitute the final result from &lt;small&gt;$(2)$&lt;&#x2F;small&gt; into &lt;small&gt;$(1)$&lt;&#x2F;small&gt;, we see that&lt;&#x2F;p&gt;
+&lt;small&gt;
+$$
+P(C|+) = \frac{P(+|C)P(C)}{P(+)} \tag{3}
+$$
+&lt;&#x2F;small&gt;
+&lt;p&gt;This is Bayes&#x27; Theorem! If we plug in our numbers, then we get that:&lt;&#x2F;p&gt;
+&lt;small&gt;
+$$
+P(C|+) = \frac{0.99 \cdot 0.08}{0.10} = 0.792
+$$
+&lt;&#x2F;small&gt;
+&lt;p&gt;The end result is counterintuitive—if someone told you the test has a 99% true positive rate (meaning that it correctly identifies 99% of people with COVID), then you might be pretty worried. There&#x27;s a high chance the person has COVID, given they tested positive, but it&#x27;s not as straightforward as it might seem because COVID isn&#x27;t that common in the general population.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;interpreting-bayes-theorem-qualitatively&quot;&gt;Interpreting Bayes&#x27; Theorem, Qualitatively&lt;&#x2F;h2&gt;
+&lt;p&gt;It&#x27;s possible to apply the idea of Bayes&#x27; Theorem to everyday life as well! Even without actual numbers, we can see how the formula behaves when certain values are small&#x2F;large:&lt;&#x2F;p&gt;
+&lt;p&gt;If a reliable news source (you are very confident they will publish any truthful story) releases an article about an extremely unlikely event (aliens landing on the surface of Earth), then it makes sense to be skeptical.&lt;&#x2F;p&gt;
+&lt;small&gt;
+$$
+P(\text{truthful} | \text{published}) = \frac{P(\text{published} | \text{truthful})P(\text{truthful})}{P(\text{published})}
+$$
+&lt;&#x2F;small&gt;
+&lt;p&gt;Let&#x27;s break this down again:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;small&gt;$P(\text{truthful} | \text{published})$&lt;&#x2F;small&gt; is what we&#x27;re interested in: it&#x27;s our posterior. We can use this to represent our trust (higher posterior probability means higher trust).&lt;&#x2F;li&gt;
+&lt;li&gt;Maybe you&#x27;re confident they will publish &lt;em&gt;any truthful&lt;&#x2F;em&gt; story they come across, so &lt;small&gt;$P(\text{published} | \text{truthful})$&lt;&#x2F;small&gt; is high. This is called the &lt;strong&gt;likelihood&lt;&#x2F;strong&gt;. More on this in a second.&lt;&#x2F;li&gt;
+&lt;li&gt;Aliens landing on Earth is very improbable (given our current beliefs), so &lt;small&gt;$P(\text{truthful})$&lt;&#x2F;small&gt; is low. This is the prior.
+&lt;ol&gt;
+&lt;li&gt;Since aliens are unlikely to land on Earth (the prior is low), then our posterior will also be lower because of this.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;small&gt;$P(\text{published})$&lt;&#x2F;small&gt; is the probability &lt;em&gt;any&lt;&#x2F;em&gt; story is published by the source. This is called the &lt;strong&gt;marginal&lt;&#x2F;strong&gt;.
+&lt;ol&gt;
+&lt;li&gt;If they don&#x27;t publish a lot of stories, then our trust (posterior belief) increases. If they publish &lt;em&gt;too&lt;&#x2F;em&gt; many stories, then our trust won&#x27;t be &lt;em&gt;as&lt;&#x2F;em&gt; high.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Let&#x27;s consider how the marginal and likelihood &lt;em&gt;together&lt;&#x2F;em&gt; affect the posterior:
+&lt;ol&gt;
+&lt;li&gt;If the news outlet publishes a lot of the true stories that are out there, but it &lt;em&gt;doesn&#x27;t&lt;&#x2F;em&gt; publish a lot of stories in general, then our posterior belief will be quite high.&lt;&#x2F;li&gt;
+&lt;li&gt;If the news outlet &lt;em&gt;doesn&#x27;t&lt;&#x2F;em&gt; publish a lot of the truthful stories that are out there, and if the outlet &lt;em&gt;does&lt;&#x2F;em&gt; publish a lot of stories, then we shouldn&#x27;t have much confidence that aliens have actually landed.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;I originally intended for this post to be brief, but it&#x27;s become more of a rant than I expected. But if we&#x27;re trying to make more informed and rational decisions when given new information, perhaps Bayes&#x27; Theorem is a useful tool.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Finding mini-adventures</title>
+          <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://tanaybiradar.com/blog/finding-mini-adventures/</link>
+          <guid>https://tanaybiradar.com/blog/finding-mini-adventures/</guid>
+          <description>&lt;p&gt;For a change, I take out my earbuds before riding the empty bike paths at 9am. Somehow, the racing line feels a little faster as I hear the wind rush by. I feel brave (or maybe stupid?) enough to lean harder into the roundabouts.&lt;&#x2F;p&gt;
+&lt;p&gt;Lately, I&#x27;ve been trying to have a little more &lt;a href=&quot;&#x2F;blog&#x2F;retracing-my-steps&#x2F;&quot;&gt;fun&lt;&#x2F;a&gt;. So, I aspire to regularly ask myself two questions:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;&amp;quot;What new or interesting thing can I do today?&amp;quot;&lt;&#x2F;li&gt;
+&lt;li&gt;&amp;quot;Will I regret it?&amp;quot;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;The first forces me to find something that injects novelty into my routine. The second helps me overcome the activation energy necessary to do that thing.&lt;&#x2F;p&gt;
+&lt;p&gt;These questions aren&#x27;t meant for the travel-the-world, ride-a-rollercoaster kind of fun; they&#x27;re about uncovering little adventures—like ditching the library for a secret spot in a new building, discovering a new coffee shop and ordering whatever the employees recommend, taking a detour to ride around the lagoon at midnight, or actually waking up to watch a sunrise by the ocean.&lt;&#x2F;p&gt;
+&lt;center&gt;
+    &lt;img src=&quot;&#x2F;images&#x2F;finding-mini-adventures.jpeg&quot; width=&quot;75%&quot;
+    style=&quot;border-radius: 0.5em;&quot;&#x2F;&gt;
+&lt;&#x2F;center&gt;
+&lt;p&gt;The more I grow, the more I notice the acceleration of time. First grade felt like it lasted forever—but seemingly, the years have grown shorter and shorter. Each moment becomes a smaller fraction of my already-lived life. And if we&#x27;re to believe that novelty makes time pass by more slowly, that means we should seek out novelty—even in its tiniest forms.&lt;&#x2F;p&gt;
+&lt;p&gt;Most of our days aren&#x27;t going to be extraordinary. That&#x27;s okay. But we can make the ordinary a little more fun by treating each day as a mini-adventure.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Tools I like to use</title>
+          <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://tanaybiradar.com/blog/a-smallish-set-of-productivity-tools/</link>
+          <guid>https://tanaybiradar.com/blog/a-smallish-set-of-productivity-tools/</guid>
+          <description>&lt;p&gt;The best camera is the one you use. The best sunscreen is the one you use. The best productivity tools are the ones you &lt;em&gt;actually&lt;&#x2F;em&gt; use.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Over-optimizing your workflow is largely a waste of time.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;What &lt;em&gt;has&lt;&#x2F;em&gt; had real impact? Sticking to (mostly) simple, battle-tested tools over long periods of time.&lt;&#x2F;p&gt;
+&lt;p&gt;That said, here&#x27;s yet another list of productivity apps on the internet:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Obsidian&lt;&#x2F;strong&gt; is my default writing app. I love that it&#x27;s powerful but not complicated; the designers believe that &lt;a href=&quot;https:&#x2F;&#x2F;stephango.com&#x2F;file-over-app&quot;&gt;&amp;quot;software is ephemeral&amp;quot;&lt;&#x2F;a&gt;, but files are long-lasting. I use its Daily Notes plugin to jot down random thoughts and ideas; each daily note also has a to-do list, which rolls over unfinished tasks from the previous day.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Standard Notes&lt;&#x2F;strong&gt; is a neat but (very) simple tool. I&#x27;m not always at my computer to use Obsidian, so if I have an sudden idea or need to write something quickly, I use the mobile app. I also use it for things like grocery shopping.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;GoodNotes&lt;&#x2F;strong&gt; is what I use for note-taking on my iPad. I typically use it as a scratchpad, but I also project GoodNotes when teaching Data Science Club workshops. I also use it to annotate machine learning papers. To sync annotated papers with my laptop, I use a file server on my &lt;a href=&quot;&#x2F;blog&#x2F;in-praise-of-the-homelab&quot;&gt;homelab&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Apple Calendar&lt;&#x2F;strong&gt; is quite vanilla, but I have it sync to a &lt;a href=&quot;https:&#x2F;&#x2F;radicale.org&#x2F;master.html&quot;&gt;Radicale&lt;&#x2F;a&gt; server to give me full control over my data. I have separate calendars for classes, extracurricular activities, and other activities (such as climbing). If I need to do something at a specific time, I put it on my calendar by default.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;iTerm2, Vim, and VSCodium&lt;&#x2F;strong&gt; are the developer tools I use most often. I spend most of my development time in the terminal, but I open VSCodium when I need to work with Jupyter notebooks. I only use VSCode occasionally to utilize GitHub Copilot.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Homebrew, Hammerspoon, SKHD, and Yabai&lt;&#x2F;strong&gt; are MacOS automation tools. Homebrew is my package manager, which installs and updates all applications on my computer. With Hammerspoon, I can write scripts in Lua that directly open any app with a hotkey. SKHD and Yabai, meanwhile, help me split and resize windows with just a few keypresses. Together, these tools help me avoid constantly reaching for the trackpad—which seems unnecessary but has helped me context-switch between applications effortlessly.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+</description>
+      </item>
+      <item>
+          <title>retracing my steps</title>
+          <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://tanaybiradar.com/blog/retracing-my-steps/</link>
+          <guid>https://tanaybiradar.com/blog/retracing-my-steps/</guid>
+          <description>&lt;p&gt;i took a detour...&lt;&#x2F;p&gt;
+&lt;p&gt;nearly 9 years ago, in april 2015, i walked into my first speed-cubing competition. a few years later, i started uploading youtube videos about rubik&#x27;s cubes.&lt;&#x2F;p&gt;
+&lt;p&gt;i was 12 then, and in some ways i was more brave than i am now. i had filmed a travel vlog. i had auditioned for the main character in the class play—with a comical impression of a british accent. i had rickrolled an entire class.&lt;&#x2F;p&gt;
+&lt;p&gt;college-sophomore me couldn&#x27;t be more proud.&lt;&#x2F;p&gt;
+&lt;p&gt;perhaps i paint pieces of my past with extra color—but where did that shameless, cringeworthy part of myself go?&lt;&#x2F;p&gt;
+&lt;p&gt;it wasn&#x27;t middle-school, where we ran laps in a collared shirt and tie. it was my high school—where we ran laps in shorts and a t-shirt.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;for context, one of my biggest goals in high school was to get into mit. at my bay area high school, therefore, college admissions crept into nearly every decision i made.&lt;&#x2F;p&gt;
+&lt;p&gt;it was in some ways a blessing: it gave me the extra push to work on fulfilling projects like &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;jadeocr&#x2F;jadeocr-next&quot;&gt;jadeocr&lt;&#x2F;a&gt; and discover a love of teaching in the computer science club. but it was also a curse.&lt;&#x2F;p&gt;
+&lt;p&gt;why didn&#x27;t i learn to play the guitar or go bouldering? i was afraid that it was too late to start something new. if there were six-year-old guitar and climbing prodigies, how would i ever compete?&lt;&#x2F;p&gt;
+&lt;p&gt;clearly, i missed the point. i forgot how to have fun.&lt;&#x2F;p&gt;
+&lt;p&gt;instead, i busied myself with things that didn&#x27;t really matter—like &lt;a href=&quot;http:&#x2F;&#x2F;www.usaco.org&#x2F;&quot;&gt;contests i hated&lt;&#x2F;a&gt;—for my applications. i eventually spent so much time studying and working on projects that my social skills also declined.&lt;&#x2F;p&gt;
+&lt;p&gt;my time became so centered on &amp;quot;work&amp;quot; that i neglected everything else i could spend time on.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;in college, i finally realized how absurd it was that:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;i&#x27;ve been afraid to make eye contact with people.&lt;&#x2F;li&gt;
+&lt;li&gt;i&#x27;ve thought too much about asking friends to eat lunch&#x2F;dinner together.&lt;&#x2F;li&gt;
+&lt;li&gt;i&#x27;ve hesitated to ask strangers to watch over my bag at a coffee shop.&lt;&#x2F;li&gt;
+&lt;li&gt;i forgot how to start new hobbies.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;but over the past two years, i&#x27;ve been re-learning how to:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;embrace discomfort. even in small things.
+&lt;ul&gt;
+&lt;li&gt;i&#x27;ve attended bhangra practices with no dance experience and joined 45-mile bike rides with near-strangers.&lt;&#x2F;li&gt;
+&lt;li&gt;i&#x27;ve attended friends&#x27; casual gatherings, even with few familiar faces around.&lt;&#x2F;li&gt;
+&lt;li&gt;write and publish blog posts like this one.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;ask for what i want
+&lt;ul&gt;
+&lt;li&gt;ask people to watch over my items at coffee shops.&lt;&#x2F;li&gt;
+&lt;li&gt;this skill has also helped my academic life. i&#x27;ve asked professors to make me the first learning assistant for an ml course and allow me into classes that i don&#x27;t meet prerequisites for.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;have fun
+&lt;ul&gt;
+&lt;li&gt;i&#x27;m finally learning to play the guitar, cook, and climb!&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;i don&#x27;t want to be a copy of my 12-year-old self, but i have some lessons to learn from him. that&#x27;s why i&#x27;m retracing my steps.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Notes: &quot;Zoom In - An Introduction to Circuits&quot;</title>
+          <pubDate>Tue, 28 Nov 2023 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://tanaybiradar.com/blog/notes-on-zoom-in-circuits/</link>
+          <guid>https://tanaybiradar.com/blog/notes-on-zoom-in-circuits/</guid>
+          <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;&#x2F;h2&gt;
+&lt;p&gt;There&#x27;s an uncanny overlap between the Effective Altruism and machine learning communities. Even more so in mechanistic interpretability, the subfield of ML that focuses on reverse-engineering and understanding the weights inside neural networks.&lt;&#x2F;p&gt;
+&lt;p&gt;I don&#x27;t consider myself to have gone that deep in to the EA realm, but I&#x27;ve read a few posts on &lt;a href=&quot;https:&#x2F;&#x2F;80000hours.org&#x2F;&quot;&gt;80,000 Hours&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;www.lesswrong.com&#x2F;&quot;&gt;LessWrong&lt;&#x2F;a&gt;. Some people invested in EA have started programs such as &lt;a href=&quot;https:&#x2F;&#x2F;www.mitalignment.org&#x2F;&quot;&gt;MAIA&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;docs.google.com&#x2F;document&#x2F;d&#x2F;1NX0DlZRzD3NP7tBeLjMh76w7-w2s8SxV3wj0P7EYpKY&#x2F;edit#heading=h.v42p15ouzzd6&quot;&gt;STS 10SI&lt;&#x2F;a&gt;, and &lt;a href=&quot;https:&#x2F;&#x2F;www.arena.education&#x2F;&quot;&gt;ARENA&lt;&#x2F;a&gt;. I read some of these pages and &lt;a href=&quot;https:&#x2F;&#x2F;www.neelnanda.io&#x2F;mechanistic-interpretability&#x2F;quickstart&quot;&gt;Neel Nanda&#x27;s blog&lt;&#x2F;a&gt;, which led me to reimplement GPT-2 and explore more of the field.&lt;&#x2F;p&gt;
+&lt;p&gt;One of the &amp;quot;foundational&amp;quot; papers is &lt;a href=&quot;https:&#x2F;&#x2F;distill.pub&#x2F;2020&#x2F;circuits&#x2F;zoom-in&#x2F;&quot;&gt;&amp;quot;Zoom In: An Introduction to Circuits&amp;quot;&lt;&#x2F;a&gt; by Olah et. al. on &lt;a href=&quot;http:&#x2F;&#x2F;distill.pub&#x2F;&quot;&gt;Distill.pub&lt;&#x2F;a&gt;. Below are some of my comments and notes on the paper. A lot of the content borrows directly from the source, so all figures and direct quotes are attributed to the paper and OpenAI Microscope.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;claims-1-2-neurons-circuits-are-understandable&quot;&gt;Claims 1-2: Neurons + circuits are understandable&lt;&#x2F;h2&gt;
+&lt;p&gt;Key ideas:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;The possible activations of a given layer form a vector space. &lt;strong&gt;Features&lt;&#x2F;strong&gt; are directions in that vector space.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Circuits&lt;&#x2F;strong&gt; are subgraphs of the overall neural network&#x27;s computational graph. We want to think of them like cells in an organism.&lt;&#x2F;li&gt;
+&lt;li&gt;Both can be rigorously studied (quantitatively and qualitatively), and qualitative study is still important—even though most ML research focuses on maximizing quantitative benchmarks.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h3 id=&quot;curve-detectors&quot;&gt;Curve Detectors&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We believe that neural networks consist of meaningful, understandable features. Early layers contain features like edge or curve detectors, while later layers have features like floppy ear detectors or wheel detectors. The community is divided on whether this is true.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;center&gt;
+    &lt;img
+        src=&quot;https:&#x2F;&#x2F;openaipublic.blob.core.windows.net&#x2F;microscopeprod&#x2F;2020-07-25&#x2F;2020-07-25&#x2F;inceptionv1&#x2F;lucid.feature_vis&#x2F;_feature_vis&#x2F;alpha%3DFalse%26negative%3DFalse%26objective%3Dneuron%26op%3Dmixed3b%253A0%26repeat%3D0%26start%3D352%26steps%3D4096%26stop%3D384&#x2F;channel-379.png&quot;
+        style=&quot;border-radius: 1em;&quot;
+    &gt;&lt;&#x2F;img&gt;
+    &lt;img
+        src=&quot;https:&#x2F;&#x2F;openaipublic.blob.core.windows.net&#x2F;microscopeprod&#x2F;2020-07-25&#x2F;2020-07-25&#x2F;inceptionv1&#x2F;lucid.feature_vis&#x2F;_feature_vis&#x2F;alpha%3DFalse%26negative%3DFalse%26objective%3Dneuron%26op%3Dmixed3b%253A0%26repeat%3D0%26start%3D384%26steps%3D4096%26stop%3D416&#x2F;channel-388.png&quot;
+        style=&quot;border-radius: 1em;&quot;
+    &gt;&lt;&#x2F;img&gt;
+&lt;&#x2F;center&gt;
+&lt;p&gt;The authors uncovered curve detection neurons and presented several arguments as to why they detected curves—and not anything else. Note that these curve detectors have an &lt;em&gt;orientation&lt;&#x2F;em&gt; as well: For instance, left-facing curves did &lt;em&gt;not&lt;&#x2F;em&gt; highly activate the right-facing curve detector&#x27;s neurons.&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;If we try to maximize activations of these neurons, we produce curves&lt;&#x2F;li&gt;
+&lt;li&gt;The training examples that maximized the activations contained curves&lt;&#x2F;li&gt;
+&lt;li&gt;Artificially drawn curves resulted in high activations for these neurons&lt;&#x2F;li&gt;
+&lt;li&gt;Rotating the curves reduced the activation for one orientation&#x27;s neuron, but another orientation&#x27;s curve-detecting neuron started to fire&lt;&#x2F;li&gt;
+&lt;li&gt;&amp;quot;We can read a curve detection algorithm off the weights&amp;quot;&lt;&#x2F;li&gt;
+&lt;li&gt;&amp;quot;The downstream clients of curve detectors are features that naturally involve curves&amp;quot;&lt;&#x2F;li&gt;
+&lt;li&gt;We can manually set weights to implement a curve detector&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;You can play with the activations for InceptionV1 and other models using &lt;a href=&quot;https:&#x2F;&#x2F;microscope.openai.com&#x2F;models&#x2F;inceptionv1?models.technique=deep_dream&quot;&gt;OpenAI&#x27;s Microscope&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;high-low-frequency-detectors&quot;&gt;High-Low Frequency Detectors&lt;&#x2F;h3&gt;
+&lt;p&gt;However, not all features the network learns are obvious: &lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[Some neurons] look for low- frequency patterns on one side of their receptive field, and high-frequency patterns on the other side. Like curve detectors, high-low frequency detectors are found in families of features that look for the same thing in different orientations.&lt;&#x2F;p&gt;
+&lt;p&gt;They seem to be one of several heuristics for detecting the boundaries of objects, especially when the background is out of focus.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;center&gt;
+    &lt;img
+        src=&quot;https:&#x2F;&#x2F;openaipublic.blob.core.windows.net&#x2F;microscopeprod&#x2F;2020-07-25&#x2F;2020-07-25&#x2F;inceptionv1&#x2F;lucid.feature_vis&#x2F;_feature_vis&#x2F;alpha%3DFalse%26negative%3DFalse%26objective%3Dneuron%26op%3Dmixed3a%253A0%26repeat%3D1%26start%3D96%26steps%3D4096%26stop%3D128&#x2F;channel-110.png&quot;
+        style=&quot;border-radius: 1em;&quot;
+    &gt;&lt;&#x2F;img&gt;
+    &lt;img
+        src=&quot;https:&#x2F;&#x2F;openaipublic.blob.core.windows.net&#x2F;microscopeprod&#x2F;2020-07-25&#x2F;2020-07-25&#x2F;inceptionv1&#x2F;lucid.feature_vis&#x2F;_feature_vis&#x2F;alpha%3DFalse%26negative%3DFalse%26objective%3Dneuron%26op%3Dmixed3a%253A0%26repeat%3D1%26start%3D96%26steps%3D4096%26stop%3D128&#x2F;channel-112.png&quot;
+        style=&quot;border-radius: 1em;&quot;
+    &gt;&lt;&#x2F;img&gt;
+&lt;&#x2F;center&gt;
+&lt;h3 id=&quot;dog-detectors&quot;&gt;Dog Detectors&lt;&#x2F;h3&gt;
+&lt;p&gt;The authors also found circuits for detecting for a left-facing dog and a right-facing dog. Those features are then combined to form orientation-invariant dog detectors. (Remember, circuits are just computational subgraphs in the neural network.)&lt;&#x2F;p&gt;
+&lt;p&gt;Note: In the below figure, blue arrows represent negative weights, while red arrows represent positive weights.  The below figure is copied directly from the Distill &lt;a href=&quot;https:&#x2F;&#x2F;distill.pub&#x2F;2020&#x2F;circuits&#x2F;zoom-in&#x2F;&quot;&gt;article&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;img src=&quot;&#x2F;images&#x2F;2023-11-28-notes-on-zoom-in-circuits&#x2F;dog_detector.png&quot; style=&quot;border-radius: 1em;&quot;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[The network] could easily create invariant neurons by not caring very much about where the eyes, fur and snout went, and just looking for a jumble of them together. But instead, the network has learned to carve apart the left and right cases and handle them separately.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;The negative weights are inhibitors. Concretely: A neuron that implements a left-facing head detector looks at the fur orientation from the previous layer. If the fur is oriented left, then the activation for this left-facing head detector increases. If the fur is oriented right, then that activation is lower!&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;polysemanticity&quot;&gt;Polysemanticity&lt;&#x2F;h3&gt;
+&lt;p&gt;It gets even weirder: Some circuits form a weird combination of &amp;quot;human-understandable features.&amp;quot; The authors label this phenomenon the &amp;quot;polysemanticity of neurons.&amp;quot; There&#x27;s no reason a neural network has to &amp;quot;learn&amp;quot; in a human-like way; it&#x27;s remarkable that curve detectors—and even dog detectors (as the paper goes on to discuss)—operate like this at all!&lt;&#x2F;p&gt;
+&lt;p&gt;Even more oddly, neural networks can and sometimes &lt;em&gt;deliberately&lt;&#x2F;em&gt; introduce polysemanticity. If a neuron reads a fur detector, paw detector, and a car detector as input, it may represent a feature that is some weird combination of fur, paw, and car—because &lt;em&gt;of course&lt;&#x2F;em&gt; it doesn&#x27;t have to behave like a human! It&#x27;s a pile of linear algebra&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#2&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;!&lt;&#x2F;p&gt;
+&lt;p&gt;The authors hypothesize that this is done to effectively compress the network&#x27;s representation of features. It has a finite &amp;quot;representation space&amp;quot; that is governed by its depth and the number of weights. Anthropic has an &lt;a href=&quot;https:&#x2F;&#x2F;transformer-circuits.pub&#x2F;2022&#x2F;toy_model&#x2F;index.html&quot;&gt;article&lt;&#x2F;a&gt; on this phenomenon, called superposition.&lt;&#x2F;p&gt;
+&lt;p&gt;I came across a Twitter—I mean X—&lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;ChombaBupe&#x2F;status&#x2F;1727713732359229676&quot;&gt;thread&lt;&#x2F;a&gt; the other day that suggests neural networks are just compression. This &lt;a href=&quot;https:&#x2F;&#x2F;arxiv.org&#x2F;pdf&#x2F;2309.10668.pdf&quot;&gt;paper&lt;&#x2F;a&gt; (that I haven&#x27;t yet read) also appears to suggest the same.&lt;&#x2F;p&gt;
+&lt;p&gt;This is really annoying for interpretability. Is it possible to train models without inherent polysemanticity? Perhaps we can design some loss function that looks at each neuron and discourages polysemantic neurons from forming. But to do this, we need to quantify what makes a neuron polysemantic—something that hasn&#x27;t been done yet (at least according to my knowledge).&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;claim-3-similar-circuits-form-across-models&quot;&gt;Claim 3: Similar circuits form across models&lt;&#x2F;h2&gt;
+&lt;p&gt;Do neural networks in general learn in the same ways and develop similar circuits? Evidence suggests yes, but we don&#x27;t have a good way of really supporting this hypothesis.&lt;&#x2F;p&gt;
+&lt;p&gt;In this way, finding similar circuits across various models is analogous to finding similar traits across species to classify them. That brings us to interpretability as a natural science...&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-state-of-interpretability&quot;&gt;The State of Interpretability&lt;&#x2F;h2&gt;
+&lt;p&gt;Maybe neural networks are too complicated, and it&#x27;s unfeasible to mathematically understand &lt;em&gt;everything&lt;&#x2F;em&gt; that&#x27;s going on at the top level. But the hope is that we can break things down into circuits—just as biologists broke down life into cells, and physicists broke up the world into atoms (and now subatomic particles).&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Circuits sidestep these challenges by focusing on tiny subgraphs of a neural network for which rigorous empirical investigation is tractable. They’re very much falsifiable: for example, if you understand a circuit, you should be able to predict what will change if you edit the weights.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Perhaps &amp;quot;I found this cool circuit&amp;quot; doesn&#x27;t get published into NeurIPS or ICML, but it&#x27;s still important research. If we can find &lt;em&gt;motifs&lt;&#x2F;em&gt;, what the authors call circuit&#x2F;feature patterns across models and tasks, we will still be able to form general hypotheses and theories about how machines learn.&lt;&#x2F;p&gt;
+&lt;p&gt;Because interpretability is a young niche within machine learning, there&#x27;s so much low-hanging fruit. And that excites me, because it&#x27;s accessible! If we want a world with human-centered, safe AI, we need interpretability. And we need to ensure that research and development are &lt;em&gt;not&lt;&#x2F;em&gt; centered in the hands of a powerful, elite few. That&#x27;s why interpretability excites me—and if I haven&#x27;t convinced you, I hope you read the entire paper to convince yourself, too.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;2&lt;&#x2F;sup&gt;
+&lt;p&gt;https:&#x2F;&#x2F;xkcd.com&#x2F;1838&#x2F;&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</description>
+      </item>
+      <item>
+          <title>Notes: Embeddings in NLP</title>
+          <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://tanaybiradar.com/blog/intro-to-nlp-embeddings/</link>
+          <guid>https://tanaybiradar.com/blog/intro-to-nlp-embeddings/</guid>
+          <description>&lt;p&gt;These are the notes I wrote for the &lt;a href=&quot;https:&#x2F;&#x2F;datascienceucsb.org&#x2F;&quot;&gt;UCSB Data Science Club&lt;&#x2F;a&gt; Intro to NLP workshop.
+They are heavily adapted from Vicki Boykis&#x27;s &lt;a href=&quot;https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;veekaybee&#x2F;what_are_embeddings&#x2F;main&#x2F;embeddings.pdf&quot;&gt;Embeddings&lt;&#x2F;a&gt; book and other sources linked throughout this page.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;embeddings&quot;&gt;Embeddings&lt;&#x2F;h2&gt;
+&lt;p&gt;Say we have a set of all words (or parts of words) our model knows, called a vocabulary:&lt;&#x2F;p&gt;
+&lt;small&gt;
+$$
+V = \{ \text{I}, \text{am}, \text{a}, \text{set}, \text{and}, \text{have}, \text{only}, \text{twelve}, \text{words}, \text{in}, \text{my}, \text{vocabulary} \}
+$$
+&lt;&#x2F;small&gt;
+&lt;p&gt;&lt;strong&gt;Motivation:&lt;&#x2F;strong&gt; How do we represent words&#x2F;phrases&#x2F;sentences&#x2F;etc. in computer-friendly format (i.e. numbers)? Convert it into a vector space!&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;one-hot-encoding&quot;&gt;One Hot Encoding&lt;&#x2F;h3&gt;
+&lt;p&gt;If the size of our vocabulary is &lt;small&gt;$|V|$&lt;&#x2F;small&gt;, then we can represent each word as a &lt;small&gt;$|V|$&lt;&#x2F;small&gt;-dimensional vector with a 1 in one location and a 0 everywhere else. This is the one-&amp;quot;hot&amp;quot; approach.&lt;&#x2F;p&gt;
+&lt;small&gt;
+$$
+\vec{v_\text{twelve}} = \begin{bmatrix}
+0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; 0
+\end{bmatrix}^T
+$$
+&lt;&#x2F;small&gt;
+&lt;p&gt;Although it converts words&#x2F;sentences into a computer friendly format, there are at least two big issues. Can you guess what they are?&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Large vocabularies will result in unnecessarily &lt;em&gt;massive&lt;&#x2F;em&gt; and sparse vectors&lt;&#x2F;li&gt;
+&lt;li&gt;Because the vectors are so sparse, we don&#x27;t get any inherent notion of semantics or relationships between words (all words are orthogonal to each other in the vector space)&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;So the one-hot approach is &lt;em&gt;bad&lt;&#x2F;em&gt;. Let&#x27;s try something else!&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;tf-idf&quot;&gt;TF-IDF&lt;&#x2F;h3&gt;
+&lt;p&gt;Stands for &amp;quot;Term Frequency, Inverse Document Frequency.&amp;quot; This approach gives us an idea of how important a word is in any document, using a numerical weight.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Term frequency&lt;&#x2F;strong&gt; is calculated by finding the proportion of times the term (word&#x2F;token) shows up in the document. If &lt;small&gt;$t$&lt;&#x2F;small&gt; is the term, &lt;small&gt;$d$&lt;&#x2F;small&gt; is the document, and &lt;small&gt;$f$&lt;&#x2F;small&gt; is the frequency, then we calculate it with:&lt;&#x2F;p&gt;
+&lt;small&gt;
+$$
+\text{tf}(t, d) = \frac{f_{t, d}}{\sum_{t^\prime \in d} f_{t^\prime, d}}
+$$
+&lt;&#x2F;small&gt;
+&lt;p&gt;&lt;strong&gt;Inverse document frequency&lt;&#x2F;strong&gt; is calculated by dividing the total number of documents by the number of documents that contain the term $t$. We throw a logarithm in there, too. Here, $N$ is the number of documents and $D$ is the set of all documents. We add a &lt;small&gt;$1$&lt;&#x2F;small&gt; on the numerator and denominator to avoid dividing by zero.&lt;&#x2F;p&gt;
+&lt;small&gt;
+$$ \text{idf}(t, d) = \log \frac{N + 1}{|\\{ d \in D \vert t \in d \\}| + 1}$$
+&lt;&#x2F;small&gt;
+&lt;p&gt;We can then multiply the two values together to get a single TF-IDF score:&lt;&#x2F;p&gt;
+&lt;small&gt;
+$$
+\text{tf-idf}(t, d, D) = \text{tf}(t, d) \cdot \text{idf}(t, d)
+$$
+&lt;&#x2F;small&gt;
+&lt;p&gt;We can find how &amp;quot;important&amp;quot; certain words are in any given document by seeing how high their TF-IDF scores are. Intuitively, a high TF-IDF score means that a word shows up in few documents, but in a particular document &lt;small&gt;$d$&lt;&#x2F;small&gt; it shows up frequently. Thus, it is likely to carry important information.&lt;&#x2F;p&gt;
+&lt;p&gt;Words like &lt;code&gt;a&lt;&#x2F;code&gt;, &lt;code&gt;an&lt;&#x2F;code&gt;, &lt;code&gt;the&lt;&#x2F;code&gt; are &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Tf-idf&quot;&gt;likely&lt;&#x2F;a&gt; to be filtered out because they are likely to show up within many documents (even though they may show up often inside these documents).&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Creating Vectors:&lt;&#x2F;strong&gt; How do we create a vector from this information? For each term, we can just create a &lt;small&gt;$|D|$&lt;&#x2F;small&gt;-dimensional vector, where the &lt;small&gt;$d$&lt;&#x2F;small&gt;th index is the TF-IDF score &lt;small&gt;$\text{tf-idf}(t, d, D)$&lt;&#x2F;small&gt; for the word &lt;small&gt;$t$&lt;&#x2F;small&gt; in document &lt;small&gt;$d$&lt;&#x2F;small&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;TF-IDF only does an OK job at capturing the semantic meanings and relationships between words. With a lot of documents, even the TF-IDF vectors can be sparse. However, this approach does better than one hot encoding, and it also captures how important each word is! Luckily, we can do better.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;word2vec-cbow-skip-gram&quot;&gt;Word2Vec (CBOW &amp;amp; Skip-Gram)&lt;&#x2F;h3&gt;
+&lt;p&gt;Of course, people have thought of using neural networks to solve the embeddings problem. Word2Vec is a family of models that use does exactly this.&lt;&#x2F;p&gt;
+&lt;p&gt;Word2Vec is an unsupervised classification algorithm. We want to find the probabilities of other surrounding words in the vocabulary. (Therefore, we use a softmax activation in the final layer and cross-entropy loss while training.)&lt;&#x2F;p&gt;
+&lt;p&gt;Our goal is to perform &lt;strong&gt;Maximum Likelihood Estimation&lt;&#x2F;strong&gt;. We&#x27;re training our Word2Vec model on a &lt;em&gt;corpus&lt;&#x2F;em&gt; of data. We want to choose our neural network&#x27;s parameters such that the model maximizes the probability of related words showing up together.&lt;&#x2F;p&gt;
+&lt;p&gt;Let&#x27;s clarify what that means. There are two approaches, CBOW and Skip-Gram.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;(The below is also taken from Boykis&#x27;s Embeddings book)&lt;&#x2F;li&gt;
+&lt;li&gt;(&lt;a href=&quot;https:&#x2F;&#x2F;semantle.com&#x2F;&quot;&gt;Semantle&lt;&#x2F;a&gt; is a fun Wordle spin-off based on Word2Vec)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;continuous-bag-of-words-cbow&quot;&gt;Continuous Bag of Words (CBOW)&lt;&#x2F;h4&gt;
+&lt;p&gt;We have a context window of fixed size, and we want to find the probabilities of the word in the blank.&lt;&#x2F;p&gt;
+&lt;p&gt;We can use a simple MLP-style architecture (a fully connected layer with a linear classifier on top), and we can just grab the vectors from the hidden layer. We &amp;quot;create one-hot encodings of each word to a numerical position, and each position back to a word, so that we can easily reference both our words and vectors. The goal is to be able to map back and forth when we do lookups and retrieval.&amp;quot; (Boykis)&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;skip-gram&quot;&gt;Skip-Gram&lt;&#x2F;h4&gt;
+&lt;p&gt;In &lt;a href=&quot;http:&#x2F;&#x2F;www.realworldnlpbook.com&#x2F;blog&#x2F;gentle-introduction-to-skipgram-word2vec-model-allennlp-ver.html&quot;&gt;skip-gram&lt;&#x2F;a&gt;, we predict all the words surrounding our input within the context window.&lt;&#x2F;p&gt;
+&lt;p&gt;We assume that words that show up together have similar meanings (&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Distributional_semantics&quot;&gt;distributional hypothesis&lt;&#x2F;a&gt;). Our goal is to push these similar words (vectors) closer together in the vector space.&lt;&#x2F;p&gt;
+&lt;p&gt;In our skip-gram implementation, we use a one-hot encoding as the input to our neural network (&lt;a href=&quot;https:&#x2F;&#x2F;mccormickml.com&#x2F;2016&#x2F;04&#x2F;19&#x2F;word2vec-tutorial-the-skip-gram-model&#x2F;&quot;&gt;source&lt;&#x2F;a&gt;).&lt;&#x2F;p&gt;
+&lt;p&gt;If you&#x27;re interested in learning more, read about &lt;a href=&quot;http:&#x2F;&#x2F;www.realworldnlpbook.com&#x2F;blog&#x2F;gentle-introduction-to-skipgram-word2vec-model-allennlp-ver.html&quot;&gt;negative sampling&lt;&#x2F;a&gt;, which helps train more efficiently on larger vocabularies.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;linear-algebra-a-detour&quot;&gt;Linear Algebra, A Detour&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;curse-of-dimensionality-reduction-via-pca&quot;&gt;Curse of Dimensionality, Reduction via PCA&lt;&#x2F;h3&gt;
+&lt;p&gt;When we have high-dimensional vectors in machine learning, we often want to reduce their dimensionality while still preserving as much important information as we can.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Once we start generating a large number of features (columns), we start
+running into the &lt;em&gt;curse of dimensionality&lt;&#x2F;em&gt;....&lt;&#x2F;p&gt;
+&lt;p&gt;The more features we accumulate, the more data we need in order to accurately statistically confidently say anything about them, which results in models that may not accurately represent our data&lt;&#x2F;p&gt;
+&lt;p&gt;(Boykis)&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h4 id=&quot;principal-component-analysis&quot;&gt;Principal Component Analysis&lt;&#x2F;h4&gt;
+&lt;p&gt;You might want to review &lt;a href=&quot;https:&#x2F;&#x2F;textbooks.math.gatech.edu&#x2F;ila&#x2F;chap-eigenvalues.html&quot;&gt;What is an eigenvalue&#x2F;eigenvector?&lt;&#x2F;a&gt; (&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=PFDu9oVAE-g&quot;&gt;3Blue1Brown&lt;&#x2F;a&gt;)&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Sort eigenvectors of covariance matrix by eigenvalue (large $\rightarrow$ small)&lt;&#x2F;li&gt;
+&lt;li&gt;Pick top &lt;small&gt;$k$&lt;&#x2F;small&gt; eigenvectors as principal components&lt;&#x2F;li&gt;
+&lt;li&gt;Project vectors onto principal components&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;The idea here is that we&#x27;re translating our data into a new basis determined by the eigenvectors of the covariance matrix. By doing so, we pick the directions that best capture the variance in the data.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;In-depth notes for the curious:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The covariance matrix &lt;small&gt;$\Sigma$&lt;&#x2F;small&gt; is a special type of matrix called a Hermitian matrix—meaning it&#x27;s equal to its own (conjugate) transpose. In other words, &lt;small&gt;$\text{cov}(X, Y) = \text{cov}(Y, X)$&lt;&#x2F;small&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;A property of such matrices is that the eigenvectors form a basis for their domain&#x2F;range. Thus we can write any vector in the domain of the covariance matrix as a linear combination of the eigenvectors. The eigenvectors will also be &lt;a href=&quot;https:&#x2F;&#x2F;math.stackexchange.com&#x2F;questions&#x2F;142645&#x2F;are-all-eigenvectors-of-any-matrix-always-orthogonal&quot;&gt;orthogonal&lt;&#x2F;a&gt; because the covariance matrix is Hermitian.&lt;&#x2F;p&gt;
+&lt;p&gt;When we perform PCA, we are changing the basis of our data into a new basis defined by the eigenvectors of $\Sigma$.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;What’s special about this basis is it redefines your components to have zero linear dependence (in the variance of your data). That is, each eigenvector controls one and only one dimension of linear randomness. And the amount of randomness is given by your eigenvalue, which is the variance along that axis.&lt;&#x2F;p&gt;
+&lt;p&gt;- Daniel Naylor&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h3 id=&quot;embedding-similarity-metrics&quot;&gt;Embedding Similarity Metrics&lt;&#x2F;h3&gt;
+&lt;p&gt;Since we&#x27;ve embed our natural language into a vector space, we can now perform all sorts of vector math on them!&lt;&#x2F;p&gt;
+&lt;p&gt;One of the most useful things to do is compute distances between various embeddings (which represent words&#x2F;sentences&#x2F;etc.).&lt;&#x2F;p&gt;
+&lt;p&gt;There are all sorts of metrics between a pair of two-vectors &lt;small&gt;$\vec{x}, \vec{y}$&lt;&#x2F;small&gt;:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Manhattan Distance (L1): &lt;small&gt;$\text{dist}(\vec{x}, \vec{y}) = |x_1 - y_1| + |x_2 - y_2|$&lt;&#x2F;small&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Euclidean Distance (L2): &lt;small&gt;$\text{dist}(\vec{x}, \vec{y}) = ((x_1 - y_1)^2 + (x_2 - y_2)^2)^\frac{1}{2}$&lt;&#x2F;small&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Cosine Similarity: &lt;small&gt;$\cos(\theta) = \frac{\vec{x} \cdot \vec{y}}{||\vec{x}||||\vec{y}||}$&lt;&#x2F;small&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;We like to use cosine similarity in NLP to compare embeddings, because our vectors might be high-dimensional and have high Euclidean distances from each other. It&#x27;s useful to call two vectors similar when they are close to parallel with each other.&lt;&#x2F;p&gt;
+&lt;p&gt;NOTE: Cosine similarity is not a true distance metric (violates the triangle inequality), but it&#x27;s still a useful metric.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;vector-databases-the-power-of-embeddings&quot;&gt;Vector Databases: The Power of Embeddings&lt;&#x2F;h3&gt;
+&lt;p&gt;Semantic search allows you to search for content based on its meaning, rather than just matching keywords or doing a regular-expression search.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Example &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;TanayB11&#x2F;cosine&quot;&gt;Project&lt;&#x2F;a&gt; (shameless self-promotion)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;language-models-conditional-probability&quot;&gt;Language Models &amp;amp; Conditional Probability&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This section adapted from &lt;a href=&quot;https:&#x2F;&#x2F;www.cs197.seas.harvard.edu&#x2F;&quot;&gt;Harvard CS197 Lecture Notes&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Language models are just models that estimate a probability distribution of words, conditioned on a sequence of previous words (technically, tokens, which can be words but also other things like contractions or punctuation).&lt;&#x2F;p&gt;
+&lt;p&gt;In this very simple example, our model outputs these probabilities:
+&lt;small&gt;
+$$P(\text{sleep} | \text{I&#x27;m really tired, I&#x27;m going to}) = 0.8$$
+$$P(\text{study} | \text{I&#x27;m really tired, I&#x27;m going to}) = 0.2$$
+&lt;&#x2F;small&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;We have a similar process for sequence-to-sequence generation. If we pick the most likely word from above:
+&lt;small&gt;
+$$P(\text{soon} | \text{I&#x27;m really tired, I&#x27;m going to sleep}) = 0.75$$
+$$P(\text{today} | \text{I&#x27;m really tired, I&#x27;m going to sleep}) = 0.1$$
+$$P(\text{tonight} | \text{I&#x27;m really tired, I&#x27;m going to sleep}) = 0.15$$
+&lt;&#x2F;small&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;So then by simple probability rules,&lt;&#x2F;p&gt;
+&lt;small&gt;
+$$
+P(\text{I&#x27;m really tired, I&#x27;m going to sleep soon} | \text{I&#x27;m really tired, I&#x27;m going to}) = 0.8 \times 0.75 = 0.6
+$$
+&lt;&#x2F;small&gt;
+</description>
+      </item>
+      <item>
+          <title>The Antilibrary</title>
+          <pubDate>Sat, 16 Sep 2023 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://tanaybiradar.com/blog/antilibrary/</link>
+          <guid>https://tanaybiradar.com/blog/antilibrary/</guid>
+          <description>&lt;p&gt;Welcome to my digital collection of books: read, being-read, and to-be-read!&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;What is an &lt;a href=&quot;https:&#x2F;&#x2F;nesslabs.com&#x2F;antilibrary&quot;&gt;antilibrary&lt;&#x2F;a&gt;?
+Instead of a celebration of everything you know, an antilibrary is an ode
+to everything you want to explore.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;I got the idea from &lt;a href=&quot;https:&#x2F;&#x2F;jzhao.xyz&#x2F;books&quot;&gt;Jacky Zhao&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;biographical-memoir&quot;&gt;Biographical&#x2F;Memoir&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Elon Musk&lt;&#x2F;em&gt; - Walter Isaacson&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Bad Blood&lt;&#x2F;em&gt; - John Carreyrou&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;The Diary of a Young Girl&lt;&#x2F;em&gt; - Anne Frank&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+&lt;em&gt;Man&#x27;s Search for Meaning&lt;&#x2F;em&gt; - Viktor E. Frankl
+&lt;ul&gt;
+&lt;li&gt;The first ~50% was focused on his experiences in concentration camps. The rest was spent on explaining logotherapy—a psychological school of thought focused on finding meaning. I was expecting the two subjects to be blended into a normal memoir, so this wasn&#x27;t what I expected. Worthwhile read!&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+&lt;em&gt;Born a Crime&lt;&#x2F;em&gt; - Trevor Noah&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+&lt;em&gt;I Am Malala&lt;&#x2F;em&gt; - Malala Yousafzai&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+&lt;em&gt;Steve Jobs&lt;&#x2F;em&gt; - Walter Isaacson&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+&lt;em&gt;When Breath Becomes Air&lt;&#x2F;em&gt; - Paul Kalanithi
+&lt;ul&gt;
+&lt;li&gt;A short but very meaningful read. &amp;quot;As a resident, my highest ideal was not saving lives—everyone dies eventually—but guiding a patient or family to an understanding of death or illness.&amp;quot;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;science-math-and-philosophy&quot;&gt;Science, Math, and Philosophy&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Meditations&lt;&#x2F;em&gt; - Marcus Aurelius&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Gödel, Escher, Bach: An Eternal Golden Braid&lt;&#x2F;em&gt; - Douglas R. Hofstadter&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Sapiens&lt;&#x2F;em&gt; - Yuval Noah Harari&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;The Stranger&lt;&#x2F;em&gt; - Albert Camus&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;A Short History of Nearly Everything&lt;&#x2F;em&gt; - Bill Bryson&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;A Brief History of Time&lt;&#x2F;em&gt; – Stephen Hawking&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;How to Change Your Mind&lt;&#x2F;em&gt; - Michael Pollan&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;General Relativity&lt;&#x2F;em&gt; - Leonard Susskind&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;How to Avoid a Climate Disaster&lt;&#x2F;em&gt; - Bill Gates&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Why We Sleep: Unlocking the Power of Sleep and Dreams&lt;&#x2F;em&gt; - Matthew Walker&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Walden&lt;&#x2F;em&gt; - Henry David Thoreau&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;The Heart of the Buddha&#x27;s Teaching&lt;&#x2F;em&gt; - Thich Nhat Hanh&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;How to Love&lt;&#x2F;em&gt; - Thich Nhat Hanh&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+&lt;em&gt;21 Lessons for the 21st Century&lt;&#x2F;em&gt; - Yuval Noah Harari&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+&lt;em&gt;Permanent Record&lt;&#x2F;em&gt; - Edward Snowden
+&lt;ul&gt;
+&lt;li&gt;I recommend this to basically everybody. Highlights the massive danger companies and governments create by disrespecting people&#x27;s privacy. Reminded me to pursue a responsible career in tech.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;self-help&quot;&gt;Self-Help&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;finance-career&quot;&gt;Finance&#x2F;Career&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;The Millionaire Next Door&lt;&#x2F;em&gt; - Thomas J. Stanley, William D. Danko&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;The Intelligent Investor&lt;&#x2F;em&gt; - Benjamin Graham&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;The 4-Hour Workweek&lt;&#x2F;em&gt; - Timothy Ferriss&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;80,000 Hours: Find a fulfilling career that does good&lt;&#x2F;em&gt; - Benjamin Todd&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+&lt;em&gt;The Richest Man in Babylon&lt;&#x2F;em&gt; - George Clason
+&lt;ul&gt;
+&lt;li&gt;Often described as timeless advice, this book gives financial principles to live by (guard your hard-earned money, put money to work for you). Most of the advice seems applicable today, but some feels a bit archaic.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+&lt;em&gt;I Will Teach You to Be Rich&lt;&#x2F;em&gt; - Ramit Sethi
+&lt;ul&gt;
+&lt;li&gt;Much more modern and timely advice: Get the big things right and don&#x27;t stress so much about the small ones. I enjoy his focus on the idea of a &amp;quot;rich life&amp;quot;—one where you can &amp;quot;spend lavishly on things you really enjoy, but cut back mercilessly on other things.&amp;quot;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;other&quot;&gt;Other&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;The Power of Habit&lt;&#x2F;em&gt; - Charles Duhigg&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Like a Virgin&lt;&#x2F;em&gt; - Richard Branson&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Range&lt;&#x2F;em&gt; - David Epstein&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+&lt;em&gt;Atomic Habits&lt;&#x2F;em&gt; - James Clear
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;Updated opinion:&lt;&#x2F;u&gt; The techniques are useful, but this book could&#x27;ve been a blog post. Like many self-help books, the bulk of the text contains fluffy anecdotes and (occasionally) bad science.&lt;&#x2F;li&gt;
+&lt;li&gt;Previous opinion: Overall good book. Forcing yourself to build&#x2F;break habits is like swimming upstream. This book focuses on techniques that are more pleasant and effective. I still successfully use some of the principles from this book (tracked cycling progress encouraged me to go out more, keeping a water bottle with me made drinking more water effortless).&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+&lt;em&gt;Spark Joy&lt;&#x2F;em&gt; - Marie Kondo&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+&lt;em&gt;The Life-Changing Magic of Tidying Up&lt;&#x2F;em&gt; - Marie Kondo
+&lt;ul&gt;
+&lt;li&gt;This book was more of a guide to tidying—folding clothes, packing bags, etc. Both books were a good reminder to be intentional about the things I do&#x2F;keep.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;cookbooks&quot;&gt;Cookbooks&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Flour Water Salt Yeast&lt;&#x2F;em&gt; - Ken Forkish&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+&lt;em&gt;The Wok&lt;&#x2F;em&gt; - J. Kenji Lopez-Alt
+&lt;ul&gt;
+&lt;li&gt;Amazing cookbook that answers the &lt;em&gt;why&lt;&#x2F;em&gt; of cooking more so than the &lt;em&gt;how&lt;&#x2F;em&gt;. I&#x27;ve used his principles to make excellent stir-fried noodles and tofu, among other things. Significantly boosted my cooking confidence.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;The Food Lab&lt;&#x2F;em&gt; - J. Kenji Lopez-Alt&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Salt, Fat, Acid, Heat&lt;&#x2F;em&gt; - Samin Nosrat&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;On Food and Cooking&lt;&#x2F;em&gt; - Harold McGee&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;fiction&quot;&gt;Fiction&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;The Lord of the Rings&lt;&#x2F;em&gt; - J.R.R. Tolkein&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Foundation&lt;&#x2F;em&gt; - Isaac Asimov&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;I, Robot&lt;&#x2F;em&gt; - Isaac Asimov&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Stranger in a Strange Land&lt;&#x2F;em&gt; - Robert Heinlein&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Slaughterhouse Five&lt;&#x2F;em&gt; - Kurt Vonnegut&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Cat&#x27;s Cradle&lt;&#x2F;em&gt; - Kurt Vonnegut&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;The Posthumous Memoirs of Bras Cubas&lt;&#x2F;em&gt; - Joaquim Maria Machado de Assis&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;1984&lt;&#x2F;em&gt; - George Orwell&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;The Hitchhiker&#x27;s Guide to the Galaxy&lt;&#x2F;em&gt; - Douglas Adams (DNF)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;The Count of Monte Cristo&lt;&#x2F;em&gt; - Alexandre Dumas
+&lt;ul&gt;
+&lt;li&gt;Finished it a long time ago, DNFed while re-reading recently.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;The Kite Runner&lt;&#x2F;em&gt; - Khaled Hosseini&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;The Three Body Problem&lt;&#x2F;em&gt; - Cixin Liu&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Exhalation&lt;&#x2F;em&gt; – Ted Chiang&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Don Quixote&lt;&#x2F;em&gt; - Miguel De Cervantes Saavedra&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+&lt;em&gt;Stories of Your Life and Others&lt;&#x2F;em&gt; - Ted Chiang&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+&lt;em&gt;A Thousand Splendid Suns&lt;&#x2F;em&gt; - Khaled Hosseini
+&lt;ul&gt;
+&lt;li&gt;Beautifully written story with complex characters. Also one of my favorite books of all time.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+&lt;em&gt;The Martian&lt;&#x2F;em&gt; - Andy Weir&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+&lt;em&gt;Project Hail Mary&lt;&#x2F;em&gt; - Andy Weir
+&lt;ul&gt;
+&lt;li&gt;One of the best books I&#x27;ve read - just as good as—if not better than—&lt;em&gt;The Martian&lt;&#x2F;em&gt;. Amazing characters and scientific detail, just like his first novel.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+&lt;em&gt;Norwegian Wood&lt;&#x2F;em&gt; - Haruki Murakami
+&lt;ul&gt;
+&lt;li&gt;I enjoyed how artfully Murakami sets mundane scenes, but some poorly developed characters really broke the book for me.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+&lt;em&gt;Siddhartha&lt;&#x2F;em&gt; - Hermann Hesse&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+      </item>
+      <item>
+          <title>Reading AI research papers</title>
+          <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://tanaybiradar.com/blog/reading-ai-research-papers-harvard-cs197/</link>
+          <guid>https://tanaybiradar.com/blog/reading-ai-research-papers-harvard-cs197/</guid>
+          <description>&lt;p&gt;This is a part of my collection of &amp;quot;Learn in Public&amp;quot; notes. This comes from
+&lt;a href=&quot;https:&#x2F;&#x2F;www.cs197.seas.harvard.edu&#x2F;&quot;&gt;Harvard&#x27;s CS197&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;docs.google.com&#x2F;document&#x2F;d&#x2F;1uvAbEhbgS_M-uDMTzmOWRlYxqCkogKRXdbKYYT98ooc&#x2F;edit#heading=h.2z3yllpny6or&quot;&gt;Online Textbook&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.cs197.seas.harvard.edu&#x2F;&quot;&gt;Course Page&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;When learning new topics, follow this order of steps:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Read wide&lt;&#x2F;strong&gt;, read parts of papers&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Read deep&lt;&#x2F;strong&gt; into papers of interest&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;See &lt;a href=&quot;https:&#x2F;&#x2F;docs.google.com&#x2F;document&#x2F;d&#x2F;1bPhwNdCCKkm1_adD0rx1YV6r2JG98qYmTxutT5gdAdQ&#x2F;edit&quot;&gt;the lecture notes&lt;&#x2F;a&gt; for full examples&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;reading-wide&quot;&gt;Reading Wide&lt;&#x2F;h3&gt;
+&lt;p&gt;Use this to &amp;quot;learn what you don&#x27;t know&amp;quot; and build a mental model of the topic&lt;&#x2F;p&gt;
+&lt;p&gt;Example - We want to learn about image captioning. What we may do:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Look it up, maybe find the Papers With Code page on image captioning, take notes&lt;&#x2F;li&gt;
+&lt;li&gt;Learn about popular benchmarks (e.g. COCO, nocaps in-domain, etc.), read some papers of models that do well on these benchmarks (e.g. mPLUG)
+&lt;ol&gt;
+&lt;li&gt;Read the abstracts. Write down some key information in our notes (what is the problem, what is the model, how does it solve the problem, important results, etc.)&lt;&#x2F;li&gt;
+&lt;li&gt;We don&#x27;t have to understand everything, just try to extract the key ideas!&lt;&#x2F;li&gt;
+&lt;li&gt;Write thoughts&#x2F;comments down, too!&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Look at some datasets, take similar notes&lt;&#x2F;li&gt;
+&lt;li&gt;Look at Google Scholar for survey papers, take notes
+&lt;ol&gt;
+&lt;li&gt;Older survey papers are great for background&#x2F;foundations, but they may not include state-of-the-art (SOTA) methods&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;At this point we&#x27;ve read wide, and we have notes of things we should know and terms that commonly show up (e.g. &amp;quot;encoder-decoder architecture&amp;quot;). Write a summary paragraph of all these findings.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;reading-deep&quot;&gt;Reading Deep&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Most papers are written for an audience that shares a common foundation: that&#x27;s what allows for the papers to be relatively concise. Building that foundation takes time, in the span of months, if not years.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Take multiple passes over the paper. You don&#x27;t have to understand 100%, usually 70-80% is good enough!&lt;&#x2F;p&gt;
+&lt;p&gt;Papers with a good introduction will often give some good background. They tend to introduce a problem-solution-problem-solution-problem chain, to which they will then offer a subsequent solution.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reading this will give us a good idea of what concepts we need to learn - and what relevant papers we should read&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Often we won&#x27;t understand the specific methods right away - we&#x27;ll need to read more papers to understand the relevant context. That&#x27;s okay! Do your best and keep reading through it.&lt;&#x2F;p&gt;
+&lt;p&gt;Put relevant methods&#x2F;benchmarks&#x2F;concepts on a &amp;quot;To Understand&#x2F;Learn&amp;quot; list&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;&#x2F;h3&gt;
+&lt;p&gt;The first step to learning is knowing what you don&#x27;t know. Read wide to first get a framework of knowledge, so you can fill in the gaps later.&lt;&#x2F;p&gt;
+&lt;p&gt;Read deep to get a better idea of what techniques researchers use, what benchmarks are popular, and to get context in the field. (It&#x27;s hard to understand how SOTA speech-to-text—like &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;openai&#x2F;whisper&quot;&gt;Whisper&lt;&#x2F;a&gt;—works without knowing a bit about transformers!)&lt;&#x2F;p&gt;
+&lt;p&gt;Don&#x27;t worry about understanding everything right away! Start by focusing on the main ideas and gradually work your way into the details.&lt;&#x2F;p&gt;
+&lt;p&gt;The dense terminology is intimidating because these papers are written by domain experts for other experts. You need to break in by learning their language (their jargon, etc.), which happens best by immersion.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Blog like it&#x27;s 1999</title>
+          <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://tanaybiradar.com/blog/blog-like-its-1999/</link>
+          <guid>https://tanaybiradar.com/blog/blog-like-its-1999/</guid>
+          <description>&lt;p&gt;This website was proudly built with HTML + CSS (and two small scripts).&lt;&#x2F;p&gt;
+&lt;p&gt;I had spent months thinking about renovating my blog. Which framework? What theme?&lt;&#x2F;p&gt;
+&lt;p&gt;I looked to other portfolios for inspiration—and often left annoyed by constant animations and stock graphics. Just let me read the content! All it needs is a &lt;em&gt;little&lt;&#x2F;em&gt; bit of style.&lt;&#x2F;p&gt;
+&lt;p&gt;You don&#x27;t &lt;em&gt;need&lt;&#x2F;em&gt; frameworks. Featherweight blogs aren&#x27;t nails you want to hit with those heavy hammers. If you&#x27;re a dev, you don&#x27;t need to flex them on your website; &lt;a href=&quot;https:&#x2F;&#x2F;clairefro.dev&#x2F;blog&#x2F;p&#x2F;look-ma-no-react-why-i-recoded-my-portfolio-site-with-vanilla-everything#modern-frameworks-are-a-false-flex&quot;&gt;the actual flex is using the right tool for the job&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;The internet is bloated, and that&#x27;s a shame. &lt;a href=&quot;https:&#x2F;&#x2F;motherfuckingwebsite.com&#x2F;&quot;&gt;These&lt;&#x2F;a&gt; &lt;a href=&quot;http:&#x2F;&#x2F;bettermotherfuckingwebsite.com&#x2F;&quot;&gt;pages&lt;&#x2F;a&gt; showed me &lt;a href=&quot;https:&#x2F;&#x2F;brutalist-web.design&#x2F;&quot;&gt;the&lt;&#x2F;a&gt; &lt;a href=&quot;https:&#x2F;&#x2F;bearblog.dev&#x2F;&quot;&gt;light&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;So I wrote this website to be simple, fast, and responsive by default. There are no animations, no fancy menus, and no backends. I&#x27;m proud to be using No-SQL for this one.&lt;&#x2F;p&gt;
+&lt;p&gt;It&#x27;s Web 1.0 bliss, and it&#x27;s oddly refreshing.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>In praise of the homelab</title>
+          <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://tanaybiradar.com/blog/in-praise-of-the-homelab/</link>
+          <guid>https://tanaybiradar.com/blog/in-praise-of-the-homelab/</guid>
+          <description>&lt;blockquote&gt;
+&lt;p&gt;Few of us understood it at the time, but none of the things that we’d go on to share would belong to us anymore.... Our attention, our activities, our locations, our desires—everything about us that we revealed, knowingly or not, was being surveilled and sold in secret.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;– Edward Snowden, &lt;em&gt;Permanent Record&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;If you haven&#x27;t lately, read through a few &lt;a href=&quot;https:&#x2F;&#x2F;tosdr.org&#x2F;&quot;&gt;terms of service&lt;&#x2F;a&gt; and privacy policies online. If you&#x27;re like me, you&#x27;ll probably come back horrified.&lt;&#x2F;p&gt;
+&lt;p&gt;I realized we don&#x27;t get to &lt;em&gt;really&lt;&#x2F;em&gt; choose what to share and whom to share it with. So I wiped (most of) my iCloud Keychain and Google Drive &lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Yes, my friends looked at me funny when I told them.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;m not a hermit, but I&#x27;ve decided to take back control of my data — passwords, calendars, and notes, for instance.&lt;&#x2F;p&gt;
+&lt;p&gt;My solution? The homelab.&lt;&#x2F;p&gt;
+&lt;p&gt;A homelab can be as simple as an old laptop or a Raspberry Pi. Mine started on a Raspberry Pi 3 and has since snowballed into an AMD Ryzen 5 build.&lt;&#x2F;p&gt;
+&lt;p&gt;Now, I self-host passwords, a VPN, an RSS reader, a git server, and even &lt;a href=&quot;https:&#x2F;&#x2F;next.jadeocr.com&#x2F;&quot;&gt;jadeocr&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;You should host your own services, too!&lt;&#x2F;strong&gt; Catalog where your most important digital data lives. Then &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;awesome-selfhosted&#x2F;awesome-selfhosted&quot;&gt;find&lt;&#x2F;a&gt; a self-hosted alternative you like and migrate.&lt;&#x2F;p&gt;
+&lt;p&gt;Now, here comes the involved bit:&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;a-very-brief-guide-to-self-hosting&quot;&gt;A very brief guide to self-hosting&lt;&#x2F;h3&gt;
+&lt;p&gt;If you&#x27;re less sysadmin-inclined, &lt;a href=&quot;https:&#x2F;&#x2F;yunohost.org&#x2F;#&#x2F;&quot;&gt;Yunohost&lt;&#x2F;a&gt; seems to be a good bet to manage everything (although I haven&#x27;t used it myself).&lt;&#x2F;p&gt;
+&lt;p&gt;I use Ubuntu Server, Docker, and the NGINX reverse proxy &lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#2&quot;&gt;2&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;My services have NGINX config files that look roughly like this. I write them in &lt;code&gt;&#x2F;etc&#x2F;nginx&#x2F;sites-available&lt;&#x2F;code&gt; and symlink them to &lt;code&gt;&#x2F;etc&#x2F;nginx&#x2F;sites-enabled&lt;&#x2F;code&gt; (then restart NGINX).&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;# &#x2F;etc&#x2F;nginx&#x2F;sites-available&#x2F;reader.conf
+&lt;&#x2F;span&gt;&lt;span&gt;server {
+&lt;&#x2F;span&gt;&lt;span&gt;	listen 443 ssl;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;	# uncomment after creating certs
+&lt;&#x2F;span&gt;&lt;span&gt;	# ssl_certificate &#x2F;path&#x2F;to&#x2F;fullchain.pem;
+&lt;&#x2F;span&gt;&lt;span&gt;	# ssl_certificate_key &#x2F;path&#x2F;to&#x2F;privkey.pem;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;	server_name reader.tanaybiradar.com;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;	location &#x2F; {
+&lt;&#x2F;span&gt;&lt;span&gt;		proxy_pass http:&#x2F;&#x2F;localhost:1300&#x2F;;
+&lt;&#x2F;span&gt;&lt;span&gt;	}
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;I use &lt;a href=&quot;https:&#x2F;&#x2F;certbot.eff.org&#x2F;&quot;&gt;Certbot&lt;&#x2F;a&gt; to manage HTTPS certificates (you &lt;strong&gt;really&lt;&#x2F;strong&gt; want HTTPS on all your services) &lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#3&quot;&gt;3&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;. Then I forwarded port 443 (SSL) from my router to my server.&lt;&#x2F;p&gt;
+&lt;p&gt;The last step was using Cloudflare to set up proxied DNS records for my domains &lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#4&quot;&gt;4&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;. If you&#x27;re using Cloudflare, make sure set the SSL&#x2F;TLS encryption mode to &amp;quot;full&amp;quot;.&lt;&#x2F;p&gt;
+&lt;p&gt;That&#x27;s it! The upfront effort is quite high, but adding additional services takes just a few minutes once you&#x27;re used to the process.&lt;&#x2F;p&gt;
+&lt;p&gt;That&#x27;s how you claim a slice of the internet and make it yours. Use services on your own terms and choose what the world gets to see.&lt;&#x2F;p&gt;
+&lt;p&gt;And you&#x27;ll feel awesome every time you visit your own domain.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;Here are the photos from the trip! https:&#x2F;&#x2F;photos.yourname.com&#x2F;2023-07-san-francisco&amp;quot;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;– You, probably&lt;&#x2F;p&gt;
+&lt;p&gt;Start a homelab! You&#x27;ll be better for it.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;I&#x27;m not totally sans-Google. I have some files that live on Google Drive, but I encrypt whatever I can with &lt;a href=&quot;https:&#x2F;&#x2F;rclone.org&#x2F;&quot;&gt;rclone&lt;&#x2F;a&gt; and only write non-sensitive data in Google Docs.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;2&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;2&lt;&#x2F;sup&gt;
+&lt;p&gt;A &lt;a href=&quot;https:&#x2F;&#x2F;www.cloudflare.com&#x2F;learning&#x2F;cdn&#x2F;glossary&#x2F;reverse-proxy&#x2F;&quot;&gt;reverse proxy&lt;&#x2F;a&gt; just directs incoming requests on the same server to their appropriate destinations.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;3&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;3&lt;&#x2F;sup&gt;
+&lt;p&gt;Make sure to have your domain&#x27;s DNS records and NGINX &lt;code&gt;server_name&lt;&#x2F;code&gt; set correctly first. Uncomment lines in the config file and restart NGINX.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;4&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;4&lt;&#x2F;sup&gt;
+&lt;p&gt;to hide your home&#x27;s IP address from &lt;code&gt;nslookup&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</description>
+      </item>
+      <item>
+          <title>Deploying a full-stack web application</title>
+          <pubDate>Sat, 03 Apr 2021 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://tanaybiradar.com/blog/deploying-a-full-stack-application/</link>
+          <guid>https://tanaybiradar.com/blog/deploying-a-full-stack-application/</guid>
+          <description>&lt;p&gt;Between lines of code and a website lies the world of
+&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;DevOps&quot;&gt;DevOps&lt;&#x2F;a&gt;: &amp;quot;Development Operations.&amp;quot;
+Arguably, DevOps is the most overlooked—and challenging—parts of the software
+development lifecycle. Nevertheless, it is still an equally crucial process, and
+it involves everything from version control to build to deployment and scaling.&lt;&#x2F;p&gt;
+&lt;p&gt;The DevOps cycle is not separate from the code: It is a &lt;em&gt;part&lt;&#x2F;em&gt; of the code.
+For jadeocr, we used Git for our &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Version_control&quot;&gt;version control&lt;&#x2F;a&gt;
+system and &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;jadeocr&quot;&gt;GitHub&lt;&#x2F;a&gt; as our remote repository and
+project management hub. The platform is where we keep track of issues and manage
+collaborating on code. We also use GitHub as part of our
+&lt;a href=&quot;https:&#x2F;&#x2F;www.redhat.com&#x2F;en&#x2F;topics&#x2F;devops&#x2F;what-is-ci-cd&quot;&gt;CI&#x2F;CD pipeline&lt;&#x2F;a&gt;
+to automatically build the website and server and make the changes live on the
+website.&lt;&#x2F;p&gt;
+&lt;p&gt;Pushing code to the master branch of our GitHub repository triggers numerous
+GitHub workflows that comprise our CI&#x2F;CD process. GitHub first sends a ping
+across the web—an &lt;a href=&quot;https:&#x2F;&#x2F;www.codecademy.com&#x2F;articles&#x2F;http-requests&quot;&gt;HTTP POST&lt;&#x2F;a&gt;
+request—to our server. After receiving the request from GitHub, a continuous deployment
+server written in Node.js—previously in Golang—quickly goes to work, pulling
+the latest code from the GitHub master branch and uses
+&lt;a href=&quot;https:&#x2F;&#x2F;docs.docker.com&#x2F;compose&#x2F;&quot;&gt;Docker Compose&lt;&#x2F;a&gt; to build and start the
+application &lt;a href=&quot;https:&#x2F;&#x2F;www.docker.com&#x2F;resources&#x2F;what-container&quot;&gt;containers&lt;&#x2F;a&gt;,
+which are isolated environments called in which application code can run. The
+server simply executes a series of shell commands after it receives a request
+at a particular &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;API&quot;&gt;API&lt;&#x2F;a&gt; endpoint; from a
+technical perspective, therefore, this system is quite simple.&lt;&#x2F;p&gt;
+&lt;p&gt;Afterward, a GitHub action builds the jadeocr-next client and the server into
+their respective Docker images and publishes them to the
+&lt;a href=&quot;https:&#x2F;&#x2F;docs.github.com&#x2F;en&#x2F;packages&#x2F;guides&#x2F;about-github-container-registry&quot;&gt;GitHub Container Registry&lt;&#x2F;a&gt;.
+These containers solve the common issue of &amp;quot;it works on my machine&amp;quot; and make
+building, deploying, and scaling applications with
+&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Kubernetes&quot;&gt;Kubernetes&lt;&#x2F;a&gt; relatively straightforward
+&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;. Although I faced several (frustrating) hurdles while writing the
+initial configuration files for these Docker containers, managing them after
+the initial setup process has been a breeze.&lt;&#x2F;p&gt;
+&lt;p&gt;Perhaps the most complex individual cog in this software
+development machine is &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Nginx&quot;&gt;Nginx&lt;&#x2F;a&gt; (Engine-X)
+server and reverse proxy. Nginx is simply a web server, but it can also function
+as a &lt;a href=&quot;https:&#x2F;&#x2F;www.cloudflare.com&#x2F;learning&#x2F;cdn&#x2F;glossary&#x2F;reverse-proxy&#x2F;&quot;&gt;reverse proxy&lt;&#x2F;a&gt;
+to direct web traffic to its intended destination. We use Nginx in two places:
+in front of the website&#x27;s static files and in front of the entire website.&lt;&#x2F;p&gt;
+&lt;p&gt;When we build the website files into the HTML, CSS, and JavaScript that the
+browser renders after loading &lt;a href=&quot;https:&#x2F;&#x2F;next.jadeocr.com&quot;&gt;jadeocr-next&lt;&#x2F;a&gt;, our web
+framework&#x27;s build tool, &lt;a href=&quot;https:&#x2F;&#x2F;cli.vuejs.org&#x2F;&quot;&gt;Vue CLI&lt;&#x2F;a&gt;, creates a directory
+of static files that must be served by a web server. Therefore, we use Nginx in
+front of the client to serve these static files. We then use &lt;em&gt;another&lt;&#x2F;em&gt; Nginx
+server in our cloud virtual machine to direct API requests to our web server
+and website requests to the aforementioned client Nginx server. &lt;&#x2F;p&gt;
+&lt;p&gt;Although each system is fairly simple on its own, the confluence of all these
+tools in a single pipeline creates many moving parts which are challenging—but
+fun—to manage. Perhaps such a DevOps system is overkill for such a small
+application, but it provides jadeocr-next with the ability to easily scale and
+avoid future errors. Most importantly, however, going through this DevOps
+journey has been a valuable and fulfilling experience for me—even if I do
+sometimes spend multiple days staring at a terminal window in confusion.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;:wq&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;For now, we are running jadeocr-next on a virtual private server (VPS),
+but we do plan to deploy a Kubernetes cluster in the future.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</description>
+      </item>
+      <item>
+          <title>Capitalizing on ideas</title>
+          <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://tanaybiradar.com/blog/capitalizing-on-ideas/</link>
+          <guid>https://tanaybiradar.com/blog/capitalizing-on-ideas/</guid>
+          <description>&lt;p&gt;&amp;quot;Hmm, I should probably start a new project. Now, what on earth should I do?&amp;quot;&lt;&#x2F;p&gt;
+&lt;p&gt;The description of this article was somewhat a lie: In reality, both execution
+and ideation are &lt;em&gt;extremely&lt;&#x2F;em&gt; hard (or are they?). So many of us—including me—have
+decided to start a project out of the blue, spending hours considering possible
+problems to solve and whether or not an adequate solution already exists. The
+project, naturally, ends in frustration and with nothing to show in the end.&lt;&#x2F;p&gt;
+&lt;p&gt;When starting on a project, the most important element is an &lt;em&gt;organic&lt;&#x2F;em&gt; idea.
+Regardless of how genius or foolish the idea is, I have found that the most
+enjoyable, interesting, and impressive projects stem from organic ideas.&lt;&#x2F;p&gt;
+&lt;p&gt;&amp;quot;Great, so what exactly is an organic idea?&amp;quot;&lt;&#x2F;p&gt;
+&lt;p&gt;The best ideas are ones that come &amp;quot;out of the blue,&amp;quot; that is, ideas that are not
+forced by a brainstorming session or hours of sitting in front of an empty
+document and whiteboard. According to Barbara Oakley, an engineering professor at
+Oakland University and a meta-learning educator, when the brain is not focused
+intently on a particular task, it &amp;quot;enters into a natural default mode of diffuse
+thinking&amp;quot; &lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;. In this state, the brain is free to generate new ideas by
+connecting previously acquired knowledge and observations.&lt;&#x2F;p&gt;
+&lt;p&gt;Most of us are already familiar with this state: we know that studying a unit&#x27;s
+material the night before an exam is not conducive to scoring well, and we also
+know that being repeatedly exposed to information—say, words in a foreign
+language—is an excellent way to learn. In fact, &lt;a href=&quot;https:&#x2F;&#x2F;jadeocr.com&quot;&gt;jadeocr&lt;&#x2F;a&gt;
+leverages a similar effect.&lt;&#x2F;p&gt;
+&lt;p&gt;Jadeocr illustrates the importance of organic thinking in two ways: The app
+encourages the mind to naturally develop a vocabulary base through the
+aforementioned &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Spaced_repetition&quot;&gt;spaced-repetition&lt;&#x2F;a&gt;,
+technique, allowing users to slowly acquire foreign language vocabulary
+while giving enough time between review sessions to allow the brain to engage
+its diffuse mode. Additionally, jadeocr itself was a product of organic thinking.&lt;&#x2F;p&gt;
+&lt;p&gt;The idea for jadeocr came to me during my fourth-period Mandarin class in my
+sophomore year—notably, it was &lt;em&gt;not&lt;&#x2F;em&gt; the result of any brainstorming session.
+I was simply sitting at my desk, practicing writing a handful of simplified
+characters to prepare for a coming vocabulary quiz. I wasn&#x27;t worried about scoring
+well on that particular quiz, but I wanted to earn a perfect score on
+the upcoming midterm exam, and the only thing holding me back was a few writing
+mistakes.&lt;&#x2F;p&gt;
+&lt;p&gt;As an aside, writing Chinese characters requires some attention to
+detail; some notorious examples are 末&#x2F;未, 复&#x2F;夏, 换&#x2F;挽, 口&#x2F;囗. The last one,
+to be fair, has a &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Radical_(Chinese_characters)&quot;&gt;radical&lt;&#x2F;a&gt;,
+but my point still stands.&lt;&#x2F;p&gt;
+&lt;p&gt;As I started to search for apps that could help me prepare for the next midterm
+exam, I realized that each of them had some shortcomings that I was not willing
+to deal with. Eventually, I came to terms with the fact that no existing app
+satisfied my needs, so I set out on building my own with some help from a friend.&lt;&#x2F;p&gt;
+&lt;p&gt;The idea was organic, and as a result I was genuinely passionate about the project:
+I didn&#x27;t mind working on it for eight or more hours per day during my summer
+break, and the result of my work was a product that I was proud of. Moreover,
+I was willing to build it &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;jadeocr&#x2F;jadeocr-next&quot;&gt;again&lt;&#x2F;a&gt;—nearly
+from scratch—to improve my code quality, add more features, and share it with
+more people.&lt;&#x2F;p&gt;
+&lt;p&gt;We all generate ideas this way: We all have those points where we think, &amp;quot;if
+this existed, my life would be so much easier.&amp;quot; The two most difficult parts of
+bringing these ideas to fruition are capturing the idea and getting started. &lt;&#x2F;p&gt;
+&lt;p&gt;Capturing ideas—taking note of them when they occur—consists of two primary
+steps: Recognizing the idea and capturing it. Recognizing ideas takes practice;
+the next time an idea comes to mind—the next time you wish &amp;quot;I wish this existed&amp;quot;
+or the next time you think &amp;quot;it would be cool if this was a thing&amp;quot;—make a mental
+note of that idea. Thoughts are ephemeral, however, so an even better idea is
+to make either a physical or digital note.&lt;&#x2F;p&gt;
+&lt;p&gt;With ideas in hand, the hardest step is now getting started. Everything else
+will fall into place after a project has started: Specifications, technologies,
+and design can all more or less figure themselves out without too much effort.
+This doesn&#x27;t mean building a project doesn&#x27;t require significant amounts of
+time and effort—it does. However, with an organic idea, the passion required
+to drive a project forward is often self-sustaining.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.google.com&#x2F;books&#x2F;edition&#x2F;A_Mind_for_Numbers&#x2F;Jv3YCwAAQBAJ?hl=en&amp;amp;gbpv=1&amp;amp;bsq=diffuse&quot;&gt;A Mind for Numbers&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</description>
+      </item>
+    </channel>
+</rss>
