@@ -8,8 +8,8 @@ compile_sass = false
 build_search_index = true
 
 # Create RSS feed from all pages with a date
-generate_feed = true
-feed_filename = "rss.xml"
+generate_feeds = true
+feed_filenames = ["rss.xml"]
 
 [markdown]
 # Whether to do syntax highlighting
