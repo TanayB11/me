@@ -100,4 +100,4 @@ As an engineer, I like to solve problems by looking at the simplest solutions fi
 
 [^1]: David A. Patterson and David R. Ditzel. 1980. The case for the reduced instruction set computer. SIGARCH Comput. Archit. News 8, 6 (October 1980), 25–33. https://doi.org/10.1145/641914.641917
 
-[^2]: https://cs.stanford.edu/people/eroberts/courses/soco/projects/risc/risccisc/
+[^2]: RISC Architecture. Presented by Crystal Chen, Greg Novick, and Kirk Shimano. https://cs.stanford.edu/people/eroberts/courses/soco/projects/risc/risccisc/
