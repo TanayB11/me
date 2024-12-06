@@ -1,7 +1,7 @@
 +++
 title = "don't waste your life"
 date = 2024-11-20
-description = "🌳"
+description = "🌱"
 +++
 
 A friend recently asked me, "Do you have a guiding principle for your life?"

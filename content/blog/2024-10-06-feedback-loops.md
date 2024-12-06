@@ -1,7 +1,7 @@
 +++
 title = "Feedback loops"
 date = 2024-10-06
-description = "🌳"
+description = "🌱"
 +++
 
 *A shower thought*
