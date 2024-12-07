@@ -6,9 +6,11 @@ description = "🌳"
 
 recently, i wrote about a framework for living: [don't waste your life](/blog/dont-waste-your-life).
 
-i actually think most lives are not wasted. but in a great conversation with my friend [Edison](https://www.edisonzhang.dev/), we came up with some failure modes.
+i actually think it's really hard (practically impossible?) to completely waste your life. but in a great conversation with my friend [Edison](https://www.edisonzhang.dev/), we came up with some failure modes.
 
-here's how to waste your life:
+of course, this list is just a tool for thought and doesn't apply to everyone. at any given moment, you're probably going to be in one of these failure modes, and that's fine. but we can try to avoid these traps wherever possible.
+
+that said, here is how you could waste your life:
 
 ## 1. care about people that don't care about you
 
