@@ -85,7 +85,8 @@ I got the idea from <a href="https://jzhao.xyz/books">Jacky Zhao</a>.
 - *The Count of Monte Cristo* - Alexandre Dumas
 	- Finished it a long time ago, DNFed while re-reading recently.
 - *The Kite Runner* - Khaled Hosseini
-- *The Three Body Problem* - Cixin Liu
+- [x] *The Three Body Problem* - Cixin Liu
+    - I rate this one ~3/5. The plot is quite interesting (especially towards the end), and it forces you to think about some interesting philosophical questions. I love heavy doses of science in my sci-fi, but the science sometimes felt absurd here. The pacing of the story also felt a little strange.
 - *Exhalation* – Ted Chiang
 - *Don Quixote* - Miguel De Cervantes Saavedra
 - [x] *Stories of Your Life and Others* - Ted Chiang
