@@ -1,6 +1,6 @@
 +++
 title = "The Antilibrary"
-date = 2023-09-16
+date = 2024-12-08
 description = ""
 +++
 
@@ -44,19 +44,15 @@ I got the idea from <a href="https://jzhao.xyz/books">Jacky Zhao</a>.
 
 ### Self-Help
 #### Finance/Career
-- *The Millionaire Next Door* - Thomas J. Stanley, William D. Danko
 - *The Intelligent Investor* - Benjamin Graham
-- *The 4-Hour Workweek* - Timothy Ferriss
-- *80,000 Hours: Find a fulfilling career that does good* - Benjamin Todd
 - [x] *The Richest Man in Babylon* - George Clason
 	- Often described as timeless advice, this book gives financial principles to live by (guard your hard-earned money, put money to work for you). Most of the advice seems applicable today, but some feels a bit archaic.
 - [x] *I Will Teach You to Be Rich* - Ramit Sethi
-	- Much more modern and timely advice: Get the big things right and don't stress so much about the small ones. I enjoy his focus on the idea of a "rich life"—one where you can "spend lavishly on things you really enjoy, but cut back mercilessly on other things."
+	- Much more modern and timely advice: Get the big things right and don't stress so much about the small ones. I enjoy his focus on the idea of a "rich life"—one where you can "spend lavishly on things you really enjoy, but cut back mercilessly on other things." If I had to recommend one book on personal finance, it'd be this one.
 
 #### Other
 - *The Power of Habit* - Charles Duhigg
 - *Like a Virgin* - Richard Branson
-- *Range* - David Epstein
 - [x] *Atomic Habits* - James Clear
     - <u>Updated opinion:</u> The techniques are useful, but this book could've been a blog post. Like many self-help books, the bulk of the text contains fluffy anecdotes and (occasionally) bad science.
 	- Previous opinion: Overall good book. Forcing yourself to build/break habits is like swimming upstream. This book focuses on techniques that are more pleasant and effective. I still successfully use some of the principles from this book (tracked cycling progress encouraged me to go out more, keeping a water bottle with me made drinking more water effortless).
@@ -86,7 +82,7 @@ I got the idea from <a href="https://jzhao.xyz/books">Jacky Zhao</a>.
 	- Finished it a long time ago, DNFed while re-reading recently.
 - *The Kite Runner* - Khaled Hosseini
 - [x] *The Three Body Problem* - Cixin Liu
-    - I rate this one ~3/5. The plot is quite interesting (especially towards the end), and it forces you to think about some interesting philosophical questions. I love heavy doses of science in my sci-fi, but the science sometimes felt absurd here. The pacing of the story also felt a little strange.
+    - Ok. The plot is quite interesting (especially towards the end), and I love heavy doses of science in my sci-fi. But the science sometimes felt absurd here, and the pacing/development of the story also didn't feel right.
 - *Exhalation* – Ted Chiang
 - *Don Quixote* - Miguel De Cervantes Saavedra
 - [x] *Stories of Your Life and Others* - Ted Chiang
