@@ -12,7 +12,7 @@ of course, this list is just a tool for thought and doesn't apply to everyone. a
 
 that said, here is how you could waste your life:
 
-## 1. care about people that don't care about you
+### 1. care about people that don't care about you
 
 this one encompasses a lot. it includes putting too much effort into a friendship/relationship with someone that doesn't try to reciprocate your effort, thoughtfulness, or feelings.
 
@@ -22,7 +22,7 @@ seeking material possessions or achievements purely for the sake of awards (or o
 
 pursuing a high-status career or buying a nice watch because you genuinely enjoy those things is reasonable. seeking achievement to feel the satisfaction of surmounting challenge also makes sense. don't do these things for validation from people who don't really care.
 
-## 2. don't care about anyone else
+### 2. don't care about anyone else
 
 an important part of being human is knowing how to love and care for others. a life without loving others is a life wasted.
 
@@ -30,19 +30,19 @@ an important part of being human is knowing how to love and care for others. a l
 > 
 > – Viktor Frankl, *Man's Search for Meaning*
 
-## 3. have nobody care about you (including yourself)
+### 3. have nobody care about you (including yourself)
 
 similarly, you haven't fully experienced what it means to be human if you haven't had somebody love you. ideally, that should be someone else.
 
 but at the very least, you should love yourself—even if nobody else does.
 
-## 4. don't attempt to connect with people more
+### 4. don't attempt to connect with people more
 
 the quality of our relationships strongly determines the quality of our life. it'd be a shame if we didn't keep trying to improve them.
 
 try to connect with people more. *really* try.
 
-## 5. act without purpose
+### 5. act without purpose
 
 being aimless or doing things without knowing why is a waste.
 
@@ -54,7 +54,7 @@ this also extends to bigger things, like your career. don't pursue a career path
 
 act with purpose, live intentionally.
 
-## 6. ignore too much of what the world has to offer
+### 6. ignore too much of what the world has to offer
 
 > a human being should be able to change a diaper, plan an invasion, butcher a hog, conn a ship, design a building, write a sonnet, balance accounts, build a wall, set a bone, comfort the dying, take orders, give orders, cooperate, act alone, solve equations, analyze a new problem, pitch manure, program a computer, cook a tasty meal, fight efficiently, die gallantly. specialization is for insects.
 > 
@@ -66,7 +66,7 @@ to me, an olympian singularly focused on a gold medal has wasted her life—even
 
 as my good friend [Riley](https://www.kongriley.com/) told me in a conversation, "we weren't given a main quest at birth." life isn't an optimization problem. but i can't help but feel that something's missing if you didn't [explore](/blog/finding-mini-adventures/) the possibilities.
 
-## 7. don't attempt to improve at anything
+### 7. don't attempt to improve at anything
 
 i also think a key part of the human experience is learning to do something *well*.
 
@@ -77,7 +77,7 @@ you can even try to improve at skills that are not hobbies, like developing qual
 you should constantly be trying to improve yourself by some metric. and to me, this is closely related to living your life with intention.
 
 
-## 8. don't face difficulty
+### 8. don't face difficulty
 
 > but not only creativeness and enjoyment are meaningful. if there is a meaning in life at all, then there must be a meaning in suffering. suffering is an ineradicable part of life, even as fate and death.
 > 
