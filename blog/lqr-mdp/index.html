@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<head></head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+  <title> Tanay Biradar </title>
+
+  <script src="/themetoggle.js"></script>
+  <script async src="/footnote.js"></script>
+  <script data-goatcounter="https://tbanalytics.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+  <link rel="preload" href="/fonts/IBMPlexSans-Regular.ttf" as="font" type="font/ttf">
+  <link rel="preload" href="/fonts/IBMPlexSans-Light.ttf" as="font" type="font/ttf">
+  <link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg"/>
+  <link rel="stylesheet" href="/style.css"/>
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+            // customised options
+            // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+          });
+      });
+  </script>
+
+
+</head>
+
+<body>
+  <header>
+    <a href="/" class="title">
+      <h1 id="header-name">Tanay Biradar</h1>
+    </a>
+    <div class="header-links">
+      <a href="/blog" style="margin-left: 20px;">Writing</a>
+      
+      <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+    </div>
+    
+  </header>
+
+  <main>
+    
+  <h2 class="title">🌳 Understanding the Optimal Value Function in LQR MDPs </h2>
+  <blockquote>
+<p>I'm currently taking an introduction to robot learning class, and I got a little confused by this derivation. These are some notes I made while attempting to understand it better. Note that this won't be like some of my <a href="/blog/a-bit-about-bayes-theorem/">explainer</a> blog posts.</p>
+<p>Reference material is thanks to the Winter 2025 CS291I lecture notes from <a href="https://www.cs.ucsb.edu/people/faculty/james-preiss">Prof. James Preiss</a> at UC Santa Barbara. None of these insights or formulas are my own. I am just rehashing them into a way that I understand well.</p>
+</blockquote>
+<h2 id="background">Background</h2>
+<p>We will first refresh ourselves with the standard formulation of Markov Decision Processes: Given an MDP $\mathcal{M} = (\mathcal{S}, \mathcal{A}, c, P, \mu_0)$, we want to find the optimal policy $\pi^\star$ that minimizes cost—or identically, maximizes reward.</p>
+<p><strong>We will focus on minimizing cost in this example.</strong></p>
+<ul>
+<li>$\mathcal{S}$: The state space</li>
+<li>$\mathcal{A}$: The action space</li>
+<li>$P$: The transition probability function (the dynamics)</li>
+<li>$c$: The cost function tells us the immediate reward (identically, reward) received when taking an action in a state</li>
+<li>$\mu_0$: The initial state distribution</li>
+</ul>
+<p>First, remember that the value function $V^\pi$ maps states to actions ($V^\pi: \mathcal{S}\mapsto\mathcal{A}$). The value function <a href="https://spinningup.openai.com/en/latest/spinningup/rl_intro.html">gives</a> the expected cost (throughout the trajectory/episode) if you always act according to your policy $\pi$ after starting at a state $s$.</p>
+<p>The exact formula for the value function depends on the setting. As an example, in the infinite-horizon discounted setting:</p>
+<p>$$V^\pi(s) = \mathbb{E}_{a \sim \pi(\cdot | s)} \left[ c(s,a) + \gamma \mathbb{E} \left[V^\pi(s')\right] \right] \tag{1}$$</p>
+<blockquote>
+<p>For some reason the markdown renderer isn't working properly. In that equation, the inner expectation is intended to be $\mathbb{E}_{s' \sim P(\cdot | s, a)}$.</p>
+</blockquote>
+<p>If we break the above equation down, we:</p>
+<ol>
+<li>Sample an action according to our policy ($a \sim \pi(\cdot | s)$)</li>
+<li>Transition to the next state $s'$ according to the transition probability ($s' \sim P(\cdot | s, a)$)</li>
+<li>Then we recursively get the expected value from the next state ($V^\pi(s')$)</li>
+</ol>
+<p>Next, we have the optimal value function $V^\star$. In any state, $V^\star(s)$ gives the best possible value (lowest expected cost) that any policy could have had in state $s$. Formally, </p>
+<p>$$V^\star(s) = \min_\pi V^{\pi} \tag{2}$$</p>
+<p>We can find the optimal policy $\pi^\star$ (the one that minimizes expected future cost) by first computing $V^\star$ and then &quot;acting greedily&quot; according to $V^\star$.</p>
+<p>$$\pi^\star = \arg\min_a c(s,a) + \gamma\mathbb{E}_{s' \sim P(\cdot | s, a)} \left[V^\star(s')\right] \tag{3}$$</p>
+<h2 id="problem-statement">Problem Statement</h2>
+<p>If it's easy to find $\pi^\star$ policy once we have $V^\star$, then the question is: <strong>how do we find the optimal value function $V^\star$ for the MDP?</strong></p>
+<p>For MDPs with discrete state spaces, we can use algorithms like <a href="https://www.youtube.com/watch?v=dZ0SQrr4g8g">value iteration</a> to find $V^\star$.</p>
+<p>But what if we have a continuous state space (like in a robotics application)? In that case, we can't hope to tabulate $V^\star(s)$ when there are an uncountably infinite possibilities for $s \in \mathcal{S}$.</p>
+<p>In one case, however, the <a href="https://en.wikipedia.org/wiki/Linear%E2%80%93quadratic_regulator#Finite-horizon,_discrete-time">Linear Quadratic Regulator</a> (LQR) MDP, we have a nice way to compute the optimal value function. We'll understand the method for computing $V^\star(s)$ in the <strong>finite-horizon, discrete-time</strong> case.</p>
+<h2 id="setup-v-star-in-the-lqr-mdp">Setup: $V^\star$ in the LQR MDP</h2>
+<p>First, let's define the deterministic state transition <a href="https://en.wikipedia.org/wiki/Linear%E2%80%93quadratic_regulator#Finite-horizon,_discrete-time">dynamics</a> and the cost function:</p>
+<p>$$
+s_{t+1} = As_t + Ba_t
+\quad
+c(s, a) = s^TQs + a^TRa
+\tag{4}
+$$</p>
+<p>We also are given that $Q$ and $R$ are positive-semi-definite (<a href="https://en.wikipedia.org/wiki/Definite_matrix">PSD</a>).</p>
+<h3 id="note-time-dependent-value-functions">Note: Time-Dependent Value Functions</h3>
+<p>Unlike the infinite-horizon setting, the optimal value function in the finite-horizon setting depends on time. So we can't use the same infinite-horizon value function in equation $(1)$.</p>
+<p>Why? Here's an example: In the infinite-horizon setting, we'd just keep transitioning to $s_1$ in order to minimize cost. But in the finite-horizon case, we'd transition to $s_2$ at the very last time step.</p>
+<center>
+    <img src="/images/2025-01-16-lqr-mdp/value_finite_infinite_difference.png" width="60%"
+    style="border-radius: 0.5em;"/>
+</center>
+<h3 id="lqr-value-function">LQR Value Function</h3>
+<p>We can formulate our value function for this LQR by modifying $(1)$. Here the policy is deterministic, and so are the state transitions. Then, with $a = \pi(s)$ and $s' = P(s, a)$,</p>
+<p>$$V_{t+1}^\pi(s) = c(s,a) + V_t^\pi(s')\tag{5}$$
+$$V_{t+1}^\star(s) = \min_a \left[ c(s,a) + V_t^\star(s') \right] \tag{6}$$</p>
+<p>Since we're in a finite-horizon setting, we also got rid of the discount factor $\gamma$. Remember that $V^\star$ also depends on time, so we'll denote $V_t^\pi$ for time $t$.</p>
+<h2 id="dynamic-programming-method-for-computing-v-star-in-the-lqr-mdp">Dynamic Programming: Method for Computing $V^\star$ in the LQR MDP</h2>
+<p>We can now compute $V^\star$ in an inductive, dynamic-programming manner.</p>
+<p>This is our plan:</p>
+<ol>
+<li>Base Case: Compute $V_H^\star$ (optimal value funciton at the final timestep $H$)</li>
+<li>Inductive Step: Given $V_{t+1}^\star$, we want to get $V_h^\star$. In other words, work backwards to derive $V^\star$ in previous timesteps. </li>
+</ol>
+<center>
+    <img src="/images/2025-01-16-lqr-mdp/dp_compute_optimal_value_func.png" width="90%"
+    style="border-radius: 0.5em;"/>
+</center>
+<h3 id="base-case">Base Case</h3>
+<p>In the final timestep $t=H$, we know that $c(s, a) = s^TQs + a^TRa$. But since we're in the final timestep, there is no action to be taken, so $a=0$. Thus,</p>
+<p>$$
+V_H^\star(s) = s^TQs
+$$</p>
+<p>(Since $Q$ is PSD, this value function is non-negative—which passes the sanity check.)</p>
+<h3 id="inductive-step">Inductive Step</h3>
+<p>Now, we want to derive the $V_t^\star$ (for the &quot;previous&quot; step) given $V^\star_{t+1}$. Since we're working backwards in time, the time subscripts are the opposite of $(6)$.</p>
+<p>$$V_{t}^\star(s) = \min_a \left[ c(s,a) + V_{t+1}^\star(s_{t+1}) \right] \tag{7}$$</p>
+<p>Let's make the inductive hypothesis that $V^\star_{t+1} = s_{t+1}^T P_{t+1} s_{t+1}$ for some PSD matrix $P$.</p>
+<blockquote>
+<p>What's the motivation for choosing this inductive hypothesis? We assume by induction that $V^\star$ for &quot;later timesteps&quot; has already been computed. This means that $V$ for these timesteps has already minimized over all possible actions. Then, $V^\star$ can be encoded as some function of the state only. We choose it to be a quadratic function parameterized by some PSD matrix $P$ (this makes it easier to optimize).</p>
+</blockquote>
+<p>Plugging in $c$ and $V^\star_{t+1}$, then, we get</p>
+<p>$$V_{t}^\star(s) = \min_a \left[ s^TQs + a^TRa + s_{t+1}^T P_{t+1} s_{t+1}) \right] \tag{8}$$</p>
+<p>Since $Q$, $R$, and $P$ are all positive semi-definite, the inside of the $\min$ is a convex quadratic function. Thus, taking the gradient of the inside with respect to $a$ and setting it to $0$ will yield the optimal $a$.</p>
+<p>This is a nice example of a closed solution to a special type of MDP with an (uncountably) infinite state space!</p>
+
+  <h4 class="subtitle handwritten">2025-01-16</h4>
+
+  </main>
+
+  <footer>
+      <a href="/colophon" id="colophon-button">
+        <svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#4385BE"><path d="M3 15C5.48276 15 7.34483 12 7.34483 12C7.34483 12 9.2069 15 11.6897 15C14.1724 15 16.6552 12 16.6552 12C16.6552 12 19.1379 15 21 15" stroke="#4385BE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 20C5.48276 20 7.34483 17 7.34483 17C7.34483 17 9.2069 20 11.6897 20C14.1724 20 16.6552 17 16.6552 17C16.6552 17 19.1379 20 21 20" stroke="#4385BE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 10C19 6.13401 15.866 3 12 3C8.13401 3 5 6.13401 5 10" stroke="#4385BE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </a>
+  </footer>
+</body>
