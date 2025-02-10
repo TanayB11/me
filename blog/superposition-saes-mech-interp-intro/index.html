@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<head></head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+  <title> Tanay Biradar </title>
+
+  <script src="/themetoggle.js"></script>
+  <script async src="/footnote.js"></script>
+  <script data-goatcounter="https://tbanalytics.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+  <link rel="preload" href="/fonts/IBMPlexSans-Regular.ttf" as="font" type="font/ttf">
+  <link rel="preload" href="/fonts/IBMPlexSans-Light.ttf" as="font" type="font/ttf">
+  <link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg"/>
+  <link rel="stylesheet" href="/style.css"/>
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+            // customised options
+            // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+          });
+      });
+  </script>
+
+
+</head>
+
+<body>
+  <header>
+    <a href="/" class="title">
+      <h1 id="header-name">Tanay Biradar</h1>
+    </a>
+    <div class="header-links">
+      <a href="/blog" style="margin-left: 20px;">Writing</a>
+      
+      <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+    </div>
+    
+  </header>
+
+  <main>
+    
+  <h2 class="title">🌳 Superposition &amp; SAEs in Mechanistic Interpretability: An Intro </h2>
+  <p>Anthropic's <a href="https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html">Scaling Monosemanticity</a> and Golden Gate Claude are some really exciting work in mechanistic interpretability, so I've been trying to better wrap my head around them. I wasn't satisfied by existing explanations of their work, so here's my attempt at something more digestible than the original papers.</p>
+<blockquote>
+<p>I also have some (work-in-progress) <a href="https://github.com/TanayB11/sae-interp/tree/main/toys">code</a> to show for it!</p>
+</blockquote>
+<h2 id="features-superposition">Features &amp; Superposition</h2>
+<p>Anthropic's Transformer Circuits Thread has had a <a href="https://transformer-circuits.pub/2022/toy_model/index.html">few</a> previous <a href="https://transformer-circuits.pub/2023/monosemantic-features/index.html">works</a> that try to interpret the hidden states of deep learning models. Ultimately, the goal is to find meaningful features in models' activations.</p>
+<p>But what is a <strong>feature</strong>? We can go by multiple definitions, such as:</p>
+<ol>
+<li>Aspects of the input data that are meaningful to us humans</li>
+<li>Directions in the activation space of the neural network's layers</li>
+</ol>
+<p>Suppose we have an activation vector <small>$a \in \mathbb{R}^2$</small>, and we're trying to represent two features (according to Definition 1 above)—say &quot;airplane&quot; and &quot;water bottle.&quot; Here, we have 2 features and 2 dimensions, so we're able to assign orthogonal basis vectors to each feature.</p>
+<p>I trained a toy 1-layer model, following this <a href="https://colab.research.google.com/drive/15S4ISFVMQtfc0FPi29HRaX03dWxL65zx?usp=sharing">notebook</a>. More details on that <a href='#details-on-the-toy-model'>later</a>.</p>
+<p>For now, here are the actual results (<a href="https://github.com/TanayB11/sae-interp/blob/main/toys/bottleneck_models.py">code</a>):</p>
+<br/>
+<center>
+    <img src="/images/2024-05-29-superposition-saes-mech-interp-intro/2feats.png" width="60%"
+    style="border-radius: 0.5em;"/>
+</center>
+<p>Note how the features that this toy model has learned don't exactly line up with the standard basis—there's no reason they have to! That's because the models I trained have a <a href="https://transformer-circuits.pub/2022/toy_model/index.html#motivation-privileged">non-privileged basis</a>. I can rotate all of the features by some arbitrary rotation matrix <small>$R$</small>, and the model will behave in exactly the same way as it does (provided I also rotate the inputs by <small>$R$</small>).</p>
+<center>
+    <img src="/images/2024-05-29-superposition-saes-mech-interp-intro/privileged_basis.png" width="90%"
+    style="border-radius: 0.5em;"/>
+</center>
+<blockquote>
+<p>Source: <a href="https://transformer-circuits.pub/2022/toy_model/index.html#motivation-privileged">Anthropic's Toy Models Paper</a></p>
+</blockquote>
+<br/>
+<p>Now, let's scale things up. Suppose we're instead trying to use represent 3 or 5 features in our activation space <small>$a$</small>. All of a sudden, we <a href="https://openreview.net/pdf?id=F76bwRSLeK">can't</a> give each feature its own orthogonal basis direction. We have to squeeze 3 or 5 features into <small>$\mathbb{R}^2$</small> somehow—and the best way is to pick directions that have the least overlap/interference (i.e. minimize cosine similarity between any 2 features).</p>
+<blockquote>
+<p><em>NB</em> 1: There's a beautiful connection to <a href="https://transformer-circuits.pub/2022/toy_model/index.html#geometry-structures">bond angles</a> in chemistry here!</p>
+<p><em>NB</em> 2: You'll sometimes read that these features form an <strong>overcomplete basis</strong> for the activation space.</p>
+</blockquote>
+<p>This phenomenon is called <strong>superposition</strong>!</p>
+<table>
+  <tr>
+    <td>
+        <img src="/images/2024-05-29-superposition-saes-mech-interp-intro/3feats.png" width="100%" style="border-radius: 0.5em;"/>
+    </td>
+    <td>
+        <img src="/images/2024-05-29-superposition-saes-mech-interp-intro/5feats.png" width="100%" style="border-radius: 0.5em;"/>
+    </td>
+  </tr>
+</table>
+<br/>
+<p id='sparsity_superposition'>
+Actually, I missed one thing: The model won't <em>always</em> spread out the vectors like this. It only does this when every feature occurs somewhat infrequently (<b>sparsely</b>) in the training data.
+</p>
+<ol>
+<li>If the features aren't sparse (they occur frequently in the data), the model chooses to just represent only the most important features in the activation space. In this case, we don't get much superposition.</li>
+<li>If the features are sparse (they occur infrequently in the data), the model will represent the important features in the activation space. If we have enough important sparse features, the model will use superposition to represent all of them with minimum overlap/interference.</li>
+</ol>
+<br/>
+<center>
+    <img src="/images/2024-05-29-superposition-saes-mech-interp-intro/sparsity_superposition.png" width="90%" style="border-radius: 0.25em;"/>
+</center>
+<blockquote>
+<p>Source: <a href="https://transformer-circuits.pub/2022/toy_model/index.html">Anthropic's Toy Models Paper</a></p>
+</blockquote>
+<br/>
+<p>Here are some intuitive explanations of sparsity and importance:</p>
+<blockquote>
+<p><u>Example 1:</u> Say we have a model that predicts annual income. It's trained on features <small>${\text{attendedCollege}, \text{occupation}, \text{hasBrownHair}}$</small>, but only 5% of the dataset examples have brown hair. Since hair color is sparse in this dataset, and it's (probably) not a good indicator of income, then the model will likely send the feature vector representing &quot;hasBrownHair&quot; to zero. Superposition (probably) won't happen.</p>
+<p><u>Example 2:</u> Say we have a model that predicts colorblindness. It's trained on features <small>${\text{age}, \text{citizenship}, \text{isMale}}$</small>, but the dataset examples are only 5% male. The &quot;male&quot; feature is very sparse—it occurs 5% of the time—but when predicting colorblindness, it's <em>very</em> important. So the model will likely <em>not</em> send that feature vector to 0 in the activation space. If there are enough other sparse, important features like &quot;isMale,&quot; the model will (probably) represent them all in superposition.</p>
+</blockquote>
+<br/>
+<p>Of course, in deep neural nets, this all happens in very high-dimensional vector spaces. But the basic principles are the same.</p>
+<h2 id="details-on-the-toy-model">Details on the Toy Model</h2>
+<p>The 1-layer model was a simple model that first tries to map its input <small>$x \in \mathbb{R}^{1 \times n}$</small> to </small>$\mathbb{R}^2$</small>, then reconstruct it to get <small>$\hat{x}$</small>. Formally, with our weight matrix <small>$W \in \mathbb{R}^{n \times 2}$</small> and bias <small>$b \in \mathbb{R}^n$</small>,</p>
+<p><small>$$h = xW$$</small>
+<small>$$\hat{x} = \text{ReLU}(h W^T + b)$$</small></p>
+<p>We train using the MSE loss (to push the predictions closer to the original inputs).</p>
+<p>Now we can extract the features from the toy 1-layer model (relatively) easily. Let's look at <small>$W$</small>. Spelled out, we have</p>
+<small>
+$$ x = \begin{bmatrix} x_1 & \dots & x_n \end{bmatrix} \quad W = \begin{bmatrix} a_0(x_1) & a_1(x_1)\\ \vdots&\vdots \\ a_0(x_n) & a_1(x_n) \end{bmatrix} $$
+</small>
+<p>The features are very easy to find in this model: The <small>$i$</small>th row of <small>$W$</small> corresponds to the <small>$i$</small>th feature, <small>$x_i$</small>, embedded in <small>$\mathbb{R}^2$</small>. Thus, the model represents each feature <small>$x_i$</small> as the direction of its activation vector, <small>$a(x_i)$</small>. Our <small>$n$</small> features are then just <small>${a_1, \dots, a_n}$</small>. That's it!</p>
+<h2 id="motivating-sparse-autoencoders-sparse-dictionary-learning">Motivating Sparse Autoencoders: Sparse Dictionary Learning</h2>
+<p>With deeper models, this kind of interpretability isn't easy. We can interpret the weight matrix applied to the input, but what if we want to find meaningful features in deep hidden layer? Maybe we're trying to interpret the activations within hidden state of a transformer (the residual stream), or we're trying to interpret the activations of a deep MLP.</p>
+<p>Sparse autoencoders (SAEs) are a popular approach, and Anthropic used them in the Scaling Monosemanticity paper to find interpretable features in Claude 3 Sonnet. Let's motivate them from first principles:</p>
+<p>Say we want to interpret the activations of an intermediate layer of some deep model <small>$f(x)$</small>.</p>
+<center>
+    <img src="/images/2024-05-29-superposition-saes-mech-interp-intro/activation.png" width="65%" style="border-radius: 0.5em;"/>
+</center>
+<p>Our (<a href="https://tanaybiradar.com/blog/notes-on-zoom-in-circuits/">substantiated</a>) hope is that in each hidden layer, the model is trying to represent a <strong>ton</strong> of features that the model learned during training.</p>
+<p>Thus, we're trying to analyze an intermediate activation <small>$a$</small>, which is a <small>$d$</small>-dimensional vector that's trying to represent a <strong>lot</strong> more than <small>$d$</small> features (ex. &quot;traffic cone&quot;, &quot;studying in a library&quot;, &quot;smokestack&quot;, &quot;geologist&quot;, etc.). That means we're going to have superposition!</p>
+<p>If we're trying to find interpretable features from <small>$a$</small>, then we're trying to find a set of directions in the activation space. Each direction in this activation space should correspond to something that makes sense to us humans.</p>
+<p>The question is, <u>how do we figure out a good set of vectors?</u></p>
+<p>Since our activation space doesn't have enough dimensions to give each feature its own orthogonal basis vector, why not map <small>$a$</small> to a &quot;higher-dimensional space&quot; that does?</p>
+<blockquote>
+<p>We don't know exactly how many features <small>$a$</small> is trying to represent, so we just want to map it to a high-<em>enough</em> dimensional space.</p>
+<p>To get really in the weeds: My intuition is that we want to map <small>$a$</small> to a high dimensional space, where it's more likely that each entry in the high-dimensional vector (i.e. each neuron) corresponds to a feature (...at least in a privileged basis, where the standard basis directions are likely more meaningful). We have to be careful about privileged/non-privileged bases when talking about &quot;neurons corresponding to features.&quot; In our case, this mapping will be in a privileged basis.</p>
+</blockquote>
+<p>The idea is that <small>$a$</small> is some combination of interpretable features in this &quot;higher-dimensional space,&quot; which has then been projected into the lower-dimensional activation space. (This map from activation space to the &quot;higher-dimensional space&quot; is the dictionary part of <strong>sparse dictionary learning</strong>.)</p>
+<p>Since <small>$a$</small> is representing features in superposition, <a href='#sparsity_superposition'>that means</a> the features occurred sparsely in the training dataset. (For any data example, only a few features were present.) Thus, <small>$a$</small> is a <em>sparse</em> combination of these &quot;higher-dimensional features.&quot;</p>
+<p>So, we want an algorithm that maps <small>$a$</small> to a sparse vector in this &quot;higher-dimensional space.&quot;</p>
+<p>Sparse autoencoders do exactly that!</p>
+<h2 id="sparse-autoencoders-saes">Sparse Autoencoders (SAEs)</h2>
+<p>The structure of a basic autoencoder is pretty simple. It's just an MLP with one hidden layer. It maps the input activation <small>$a$</small> to a high-dimensional hidden state <small>$h$</small>. Then, using <small>$h$</small>, it computes <small>$\hat{a}$</small>, a reconstruction of <small>$a$</small>.</p>
+<p>The intuition is that <small>$h$</small> will contain some useful information about <small>$a$</small>, since it's an intermediate layer in the computation.</p>
+<center>
+    <img src="/images/2024-05-29-superposition-saes-mech-interp-intro/sae.png" width="30%" style="border-radius: 0.5em;"/>
+</center>
+<p>In essence, the SAE computation looks like this:</p>
+<p><small>$$h = a^TW_\text{enc}$$</small>
+<small>$$\hat{a} = \text{ReLU}(hW_\text{dec})$$</small></p>
+<p><small>$$a \in \mathbb{R}^d \quad W_\text{enc} \in \mathbb{R}^{d \times m} \quad W_\text{dec} \in \mathbb{R}^{m \times d}$$</small></p>
+<p>In reality, Anthropic made a few <a href="https://transformer-circuits.pub/2023/monosemantic-features/index.html#appendix-autoencoder-dataset">modifications</a>, but the idea is the same.</p>
+<p>Since we're trying to reconstruct the original input (the activation <small>$a$</small>), we use an MSE loss. But since <small>$a$</small> is a sparse combination of features in <small>$h$</small>, we also want to ensure that <small>$h$</small> is a sparse vector—so we add an L1 penalty/regularization term (with hyperparameter <small>$\lambda$</small>). For a single training example, our SAE loss is</p>
+<p><small> $$\mathcal{L}(a, \hat{a}) = ||a - \hat{a}||_2^2 + \lambda ||h||_1$$ </small></p>
+<blockquote>
+<p>To be super clear, the original model <small>$f(x)$</small> was trained on the <u>input</u> dataset. The SAE is trained on <small>$a$</small>, the <u>activations</u> that were gathered from running the original model on a bunch of data.</p>
+</blockquote>
+<p>There are a few more details (dead neuron resampling, etc.) that improve the utility of the SAEs—but this is the core.</p>
+<h2 id="using-saes-to-interpret-model-activations">Using SAEs to Interpret Model Activations</h2>
+<p>Now that we have features, we can interpret them!</p>
+<p>For large language models, one way we can do this is to prompt them carefully and see what features in the SAE activate. If we input a bunch of prompts related to dolphins to an LLM, collect the activations, run them through the SAE, and see that neuron <small>$i$</small> in the SAE hidden state consistently activates, then we can be reasonably confident that the <small>$i$</small>th neuron of the SAE correlates with dolphins. (We can't get causal relationships, but correlations are still very useful!)</p>
+<p>Once we find that the <small>$i$</small>th neuron in the SAE that corresponds to a particular feature (ex. dolphins), we can create a &quot;fake&quot; hidden state with only the <small>$i$</small>th neuron active. If we pass that hidden state through the SAE decoder, we can get the direction in the model's activation space that corresponds to that feature! Like a dictionary, we can use the SAE to translate back and forth between interpretable features and directions in activation space!</p>
+<center>
+    <img src="/images/2024-05-29-superposition-saes-mech-interp-intro/sae_interp.png" width="90%" style="border-radius: 0.5em;"/>
+</center>
+<p>Of course, there are multiple ways to actually use the SAE for interpretability—this is frontier research after all. This is just one possible way.</p>
+<p>For further reading, I'll point to <a href="https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html#searching">this section</a> and <a href="https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html#feature-survey">this section</a> of the Scaling Monosemanticity paper (which are relatively digestible). If you want to read even further into mechanistic interpretability, look into this <a href="https://arxiv.org/abs/2310.01405">paper</a> and <a href="https://vgel.me/posts/">post</a> on steering vectors, which are related!</p>
+<h2 id="references">References</h2>
+<ol>
+<li><a href="https://transformer-circuits.pub/2022/toy_model/index.html">Toy Models of Superposition</a></li>
+<li><a href="https://transformer-circuits.pub/2023/monosemantic-features/index.html">Towards Monosemanticity: Decomposing Language Models With Dictionary Learning</a></li>
+<li><a href="https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html">Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet</a></li>
+<li><a href="https://openreview.net/pdf?id=F76bwRSLeK">Sparse Autoencoders Find Highly Interpretable Features in Language Models</a></li>
+<li><a href="https://colab.research.google.com/drive/15S4ISFVMQtfc0FPi29HRaX03dWxL65zx?usp=sharing">MATS Colab Exercises</a></li>
+</ol>
+
+  <h4 class="subtitle handwritten">2024-05-29</h4>
+
+  </main>
+
+  <footer>
+      <a href="/colophon" id="colophon-button">
+        <svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#4385BE"><path d="M3 15C5.48276 15 7.34483 12 7.34483 12C7.34483 12 9.2069 15 11.6897 15C14.1724 15 16.6552 12 16.6552 12C16.6552 12 19.1379 15 21 15" stroke="#4385BE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 20C5.48276 20 7.34483 17 7.34483 17C7.34483 17 9.2069 20 11.6897 20C14.1724 20 16.6552 17 16.6552 17C16.6552 17 19.1379 20 21 20" stroke="#4385BE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 10C19 6.13401 15.866 3 12 3C8.13401 3 5 6.13401 5 10" stroke="#4385BE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </a>
+  </footer>
+</body>

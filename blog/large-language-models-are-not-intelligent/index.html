@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head></head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+  <title> Tanay Biradar </title>
+
+  <script src="/themetoggle.js"></script>
+  <script async src="/footnote.js"></script>
+  <script data-goatcounter="https://tbanalytics.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+  <link rel="preload" href="/fonts/IBMPlexSans-Regular.ttf" as="font" type="font/ttf">
+  <link rel="preload" href="/fonts/IBMPlexSans-Light.ttf" as="font" type="font/ttf">
+  <link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg"/>
+  <link rel="stylesheet" href="/style.css"/>
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+            // customised options
+            // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+          });
+      });
+  </script>
+
+
+</head>
+
+<body>
+  <header>
+    <a href="/" class="title">
+      <h1 id="header-name">Tanay Biradar</h1>
+    </a>
+    <div class="header-links">
+      <a href="/blog" style="margin-left: 20px;">Writing</a>
+      
+      <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+    </div>
+    
+  </header>
+
+  <main>
+    
+  <h2 class="title">🌳 LLMs are not intelligent </h2>
+  <blockquote>
+<p><strong>Update - 2024/09/16</strong></p>
+<p>My take in this post is somewhat pessimistic. As time has
+gone by, I'm a bit more excited about the ability of LLMs to
+synthesize novel knowledge. Andrej Karpathy has some positive views in
+this <a href="https://www.youtube.com/watch?v=hM_h0UA7upI">podcast</a>, and this <a href="https://nicholas.carlini.com/writing/2024/how-i-use-ai.html">blog post</a> by Nicholas Carlini
+has a good neutral-ish (also somewhat optimistic) view.</p>
+</blockquote>
+<p>I've found myself using LLMs less and less over time. They're great for generating summaries, rephrasing writing, explaining concepts, and writing some code—things I refer to as &quot;manual labor.&quot; But if you ask them to do anything reasoning-heavy, they fail very often.</p>
+<p>Today's LLMs are not actually intelligent; they're just really good stochastic parrots.</p>
+<h3 id="memorization-is-a-big-deal">Memorization is a big deal</h3>
+<p>About 4 months ago, I read a paper titled <a href="https://arxiv.org/abs/2311.17035">Scalable Extraction of Training Data from (Production) Language Models</a>. That was when I realized memorization is a <em>powerful</em> tool for LLM performance.</p>
+<blockquote>
+<p>Aside (for context): DeepMind previously found <a href="https://arxiv.org/abs/2203.15556">laws</a> governing the optimal model size/number of training tokens under a fixed FLOPS budget. Popular models, such as LLaMA-7B and Mistral-7B may be trained with few parameters—but they're overtrained compared to these Chinchilla-optimal token counts. LLaMA3, for instance, was pretrained on over <a href="https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md">15 trillion tokens</a>.</p>
+</blockquote>
+<p>When attacking both closed LLMs (like GPT-3.5-instruct) and semi-closed models (such as LLaMA), the authors found a significant relationship between overtraining and memorization. Nearly 0.30% of LLaMA-7B's generated tokens were memorized. And nearly 0.80% of LLaMA-65B's generated tokens were memorized! Meanwhile, around 0.50% of Mistral-7B's generated tokens were memorized.</p>
+<p><em>And these are lower bounds!</em></p>
+<p>On the other hand, undertrained models such as OPT-1.3B and OPT-6.7B had much lower memorization rates (around 0.03% and 0.09%, respectively).</p>
+<p>The percentages may seem small, but the results indicate that language models regularly spit out memorized training data. And memorization rates of 0.30%-0.80% in the overtrained models are nontrivial.</p>
+<h3 id="what-do-benchmarks-even-measure">What do benchmarks even measure?</h3>
+<p>It's probably not a coincidence that these overtrained, memorizing models are exactly the ones that perform well on popular benchmarks. For instance, LLaMA-65B and Mistral-7B score significantly <a href="https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu">higher</a> on the MMLU benchmark compared to the undertrained OPT-66B.</p>
+<p>The <a href="https://github.com/jzhang38/TinyLlama">TinyLlama</a> project provides some more evidence for this hypothesis. They overtrained a 1.1-billion parameter model with 3 trillion tokens. All else held constant, the Commonsense benchmark scores increase approximately linearly with the number of training tokens.</p>
+<p>This relationship between overtraining and benchmarks leads me to wonder: What do benchmarks even measure? We use benchmark scores as a proxy for knowledge, reasoning, and intelligence. But are they really measuring those abilities? Or are they measuring memorization? Memorization isn't intelligence—and if the pretraining dataset may be <a href="https://arxiv.org/pdf/2311.04850">contaminated</a> by benchmark data, these benchmark scores tell us even less about the intelligence of our LLMs.</p>
+<h3 id="it-s-all-about-the-data">It's all about the data</h3>
+<p>About a week ago, I read a little post titled <a href="https://nonint.com/2023/06/10/the-it-in-ai-models-is-the-dataset/">The “it” in AI models is the dataset</a>. And that got me thinking...there's a reason Meta, Mistral, and other companies that release &quot;open&quot; models don't release their training data.</p>
+<p><a href="https://arxiv.org/abs/2309.14402">This paper</a> from Meta uses controlled studies to really show how much training data matters.  Successfully fine-tuning a LLM on question-answering tasks depends <em>highly</em> on data augmentation: One of the paper's experiments shows a 9.7% knowledge extraction accuracy without augmentation, but a 96.6% accuracy with data augmentation.</p>
+<p>Why? If the model hasn't seen a question phrased in a particular way during training, it'll <a href="https://arxiv.org/abs/2306.11270">probably perform worse</a> on that question during generation. Augmentation gives the LLM a higher diversity of data, so that no matter how a user phrases a question, the model is more likely to have seen that phrasing before. (In other words, in-distribution performance is much better than out-of-distribution performance.)</p>
+<p>Again—this research suggests memorization, not intelligence.</p>
+<h3 id="limitations-on-reasoning">Limitations on Reasoning</h3>
+<p>I've repeatedly mentioned that memorization and intelligence are not the same. But is that really the case? The answer is yes: Even if an LLM &quot;memorizes&quot; a fact, it cannot reliably answer basic <em>reasoning</em> questions about that fact.</p>
+<p>If a model sees the sentence, &quot;BTS's debut song is titled 'No More Dream,'&quot; it likely won't be able to answer the question, &quot;What artist debuted with the song 'No More Dream'?&quot; LLMs struggle with this kind of task, called <em>inverse search</em>.</p>
+<p>And LLMs cannot reliably answer comparison questions, either. From the Meta <a href="https://arxiv.org/abs/2309.14402">paper</a>:</p>
+<blockquote>
+<p>Determining whether a month is even or odd requires 10,000 training samples to achieve a 75% accuracy, despite theoretically needing a sample complexity on the order of O(12).</p>
+<p>Ranking months [such as indicating that April comes before July] requires 50,000 training samples to reach an 85% test accuracy, even with a theoretical sample complexity of O(122), provided no hint is given.</p>
+</blockquote>
+<p>Surprisingly, <u>this holds regardless of finetuning, prompting, or pretraining.</u></p>
+<p>All this is bad news if we expect today's LLMs to genuinely become intelligent.</p>
+<p>But if you're just trying to quickly write some code to generate Matplotlib figures, things have never been better.</p>
+
+  <h4 class="subtitle handwritten">2024-04-30</h4>
+
+  </main>
+
+  <footer>
+      <a href="/colophon" id="colophon-button">
+        <svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#4385BE"><path d="M3 15C5.48276 15 7.34483 12 7.34483 12C7.34483 12 9.2069 15 11.6897 15C14.1724 15 16.6552 12 16.6552 12C16.6552 12 19.1379 15 21 15" stroke="#4385BE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 20C5.48276 20 7.34483 17 7.34483 17C7.34483 17 9.2069 20 11.6897 20C14.1724 20 16.6552 17 16.6552 17C16.6552 17 19.1379 20 21 20" stroke="#4385BE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 10C19 6.13401 15.866 3 12 3C8.13401 3 5 6.13401 5 10" stroke="#4385BE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </a>
+  </footer>
+</body>
