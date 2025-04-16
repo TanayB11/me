@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<head></head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+  <title> Tanay Biradar </title>
+
+  <script src="/themetoggle.js"></script>
+  <script async src="/footnote.js"></script>
+  <script data-goatcounter="https://tbanalytics.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+  <link rel="preload" href="/fonts/IBMPlexSans-Regular.ttf" as="font" type="font/ttf">
+  <link rel="preload" href="/fonts/IBMPlexSans-Light.ttf" as="font" type="font/ttf">
+  <link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg"/>
+  <link rel="stylesheet" href="/style.css"/>
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+            // customised options
+            // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+          });
+      });
+  </script>
+
+
+</head>
+
+<body>
+  <header>
+    <a href="/" class="title">
+      <h1 id="header-name">Tanay Biradar</h1>
+    </a>
+    <div class="header-links">
+      <a href="/blog" style="margin-left: 20px;">Writing</a>
+      
+      <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+    </div>
+    
+  </header>
+
+  <main>
+    
+  <h2 class="title">🌳 Actually Reading AI Research Papers </h2>
+  <p>A while ago, I wrote <a href="/blog/reading-ai-research-papers-harvard-cs197/">this post</a> about reading AI research papers. Those were just some notes I made public; I had hardly read any papers then.</p>
+<p>Since last September, however, things have changed. I'm taking two paper-based classes (Adversarial Robustness in Machine Learning, LLMs + Conversational AI). I'm also leading <a href="https://gaia.datascienceucsb.org/">GAIA</a>, where we read yet more papers. With these experiences under my belt, I can finally say a little more.</p>
+<h3 id="reading-wide-vs-reading-deep">Reading Wide vs. Reading Deep</h3>
+<p><a href="https://www.cs197.seas.harvard.edu/">Harvard's CS197</a> suggests to split reading into two parts: Reading wide vs. reading deep. I talk more about this in my <a href="/blog/reading-ai-research-papers-harvard-cs197/">previous post</a>.</p>
+<ol>
+<li><strong>Reading wide:</strong> Use this to &quot;learn what you don't know&quot; and build a mental model of the topic.</li>
+<li><strong>Read deep</strong> to get a better idea of what techniques researchers use, what benchmarks are popular, and to get context in the field.</li>
+</ol>
+<h3 id="know-thy-field">Know Thy Field</h3>
+<p>Research papers are written by experts for experts; they're dense and full of jargon. That's why we have to &quot;read wide&quot; to understand the key terms—find the papers that are foundational to the field.</p>
+<p>But reading wide is a lot more effective when you know <em>what</em> to read in the first place.</p>
+<p>If you're trying to get into a field, it's useful to find someone who has experience in the field and can direct your reading. In my Adversarial Robustness in ML course, I have the good fortune to have a professor who sends a sequence of papers to read each week.</p>
+<p>If you don't have that luxury, however, it may be useful to email someone who studies that area and ask for good papers. Alternatively, when reading wide, make a mental note of the authors that often receive citations and look up those papers. There will often be a paper trail to some works that provide excellent background! Tools like Connected Papers and Google Scholar can also be really useful to find related works.</p>
+<h3 id="read-deep">Read Deep</h3>
+<p>When selecting papers to read deeply, try to understand as much as possible: The equations, the figures, the surrounding work. That said, don't unnecessarily bang your head against a wall.</p>
+<p>The first few papers take a very long time to read—but as you get more familiar with the structure of research papers and the jargon of your field, the reading time drops. After reading both widely and deeply, you start to realize a few things:</p>
+<ol>
+<li>After reading wide, the introduction and background sections often contain information you're already familiar with. After some time, you can just skim these.</li>
+<li>The parts with the highest ROI on time are the motivation, the architecture, and (maybe) the experiments.</li>
+<li>The papers you read start to feel like a conversation. Each paper examines the state of the field, finds a flaw or limitation of existing work, and proposes something better. The authors then defend their work with experiments and highlight some places for future researchers to improve upon.</li>
+<li>You can start formulating your own questions and criticisms. Maybe you even find ideas for future work!</li>
+</ol>
+<p>For a while, I couldn't read papers very well. I just read whatever seemed interesting at the time. Even after taking the advice of the CS197 lecture notes (which has definitely been useful!), I still wasn't comfortable with reading papers.</p>
+<p>But with a reading strategy, following research suddenly became a lot more enjoyable. By knowing the field and reading deep, I've been able to skim papers for the main ideas, come up with my own ideas for research, and follow talks by researchers.</p>
+
+  <h4 class="subtitle handwritten">2024-02-19</h4>
+
+  </main>
+
+  <footer>
+      <a href="/colophon" id="colophon-button">
+        <svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#4385BE"><path d="M3 15C5.48276 15 7.34483 12 7.34483 12C7.34483 12 9.2069 15 11.6897 15C14.1724 15 16.6552 12 16.6552 12C16.6552 12 19.1379 15 21 15" stroke="#4385BE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 20C5.48276 20 7.34483 17 7.34483 17C7.34483 17 9.2069 20 11.6897 20C14.1724 20 16.6552 17 16.6552 17C16.6552 17 19.1379 20 21 20" stroke="#4385BE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 10C19 6.13401 15.866 3 12 3C8.13401 3 5 6.13401 5 10" stroke="#4385BE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </a>
+  </footer>
+</body>
