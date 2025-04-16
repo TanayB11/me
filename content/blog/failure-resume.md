@@ -14,6 +14,9 @@ I care about, and motivates me to keep doing so.
 
 I copied the idea from [Jacky Zhao](https://jzhao.xyz/posts/a-failure-resume).
 
+### 2025
+- Rejected from Stanford MS CS
+
 ### 2024
 - Other researchers beat me to my project ideas, twice
 - Spent an entire quarter on a research project that ended in a negative result
