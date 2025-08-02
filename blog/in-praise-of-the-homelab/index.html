@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<head></head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+  <title> Tanay Biradar </title>
+
+  <script src="/themetoggle.js"></script>
+  <script async src="/footnote.js"></script>
+  <script data-goatcounter="https://tbanalytics.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+  <link rel="preload" href="/fonts/IBMPlexSans-Regular.ttf" as="font" type="font/ttf">
+  <link rel="preload" href="/fonts/IBMPlexSans-Light.ttf" as="font" type="font/ttf">
+  <link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg"/>
+  <link rel="stylesheet" href="/style.css"/>
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+            // customised options
+            // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+          });
+      });
+  </script>
+
+
+</head>
+
+<body>
+  <header>
+    <a href="/" class="title">
+      <h1 id="header-name">Tanay Biradar</h1>
+    </a>
+    <div class="header-links">
+      <a href="/blog" style="margin-left: 20px;">Writing</a>
+      
+      <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+    </div>
+    
+  </header>
+
+  <main>
+    
+  <h2 class="title">🌱 In praise of the homelab </h2>
+  <blockquote>
+<p>Few of us understood it at the time, but none of the things that we’d go on to share would belong to us anymore.... Our attention, our activities, our locations, our desires—everything about us that we revealed, knowingly or not, was being surveilled and sold in secret.</p>
+</blockquote>
+<p>– Edward Snowden, <em>Permanent Record</em></p>
+<p>If you haven't lately, read through a few <a href="https://tosdr.org/">terms of service</a> and privacy policies online. If you're like me, you'll probably come back horrified.</p>
+<p>I realized we don't get to <em>really</em> choose what to share and whom to share it with. So I wiped (most of) my iCloud Keychain and Google Drive <sup class="footnote-reference"><a href="#1">1</a></sup>.</p>
+<p>Yes, my friends looked at me funny when I told them.</p>
+<p>I'm not a hermit, but I've decided to take back control of my data — passwords, calendars, and notes, for instance.</p>
+<p>My solution? The homelab.</p>
+<p>A homelab can be as simple as an old laptop or a Raspberry Pi. Mine started on a Raspberry Pi 3 and has since snowballed into an AMD Ryzen 5 build.</p>
+<p>Now, I self-host passwords, a VPN, an RSS reader, a git server, and even <a href="https://next.jadeocr.com/">jadeocr</a>.</p>
+<p><strong>You should host your own services, too!</strong> Catalog where your most important digital data lives. Then <a href="https://github.com/awesome-selfhosted/awesome-selfhosted">find</a> a self-hosted alternative you like and migrate.</p>
+<p>Now, here comes the involved bit:</p>
+<h3 id="a-very-brief-guide-to-self-hosting">A very brief guide to self-hosting</h3>
+<p>If you're less sysadmin-inclined, <a href="https://yunohost.org/#/">Yunohost</a> seems to be a good bet to manage everything (although I haven't used it myself).</p>
+<p>I use Ubuntu Server, Docker, and the NGINX reverse proxy <sup class="footnote-reference"><a href="#2">2</a></sup>.</p>
+<p>My services have NGINX config files that look roughly like this. I write them in <code>/etc/nginx/sites-available</code> and symlink them to <code>/etc/nginx/sites-enabled</code> (then restart NGINX).</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span># /etc/nginx/sites-available/reader.conf
+</span><span>server {
+</span><span>	listen 443 ssl;
+</span><span>
+</span><span>	# uncomment after creating certs
+</span><span>	# ssl_certificate /path/to/fullchain.pem;
+</span><span>	# ssl_certificate_key /path/to/privkey.pem;
+</span><span>
+</span><span>	server_name reader.tanaybiradar.com;
+</span><span>
+</span><span>	location / {
+</span><span>		proxy_pass http://localhost:1300/;
+</span><span>	}
+</span><span>}
+</span></code></pre>
+<p>I use <a href="https://certbot.eff.org/">Certbot</a> to manage HTTPS certificates (you <strong>really</strong> want HTTPS on all your services) <sup class="footnote-reference"><a href="#3">3</a></sup>. Then I forwarded port 443 (SSL) from my router to my server.</p>
+<p>The last step was using Cloudflare to set up proxied DNS records for my domains <sup class="footnote-reference"><a href="#4">4</a></sup>. If you're using Cloudflare, make sure set the SSL/TLS encryption mode to &quot;full&quot;.</p>
+<p>That's it! The upfront effort is quite high, but adding additional services takes just a few minutes once you're used to the process.</p>
+<p>That's how you claim a slice of the internet and make it yours. Use services on your own terms and choose what the world gets to see.</p>
+<p>And you'll feel awesome every time you visit your own domain.</p>
+<blockquote>
+<p>&quot;Here are the photos from the trip! https://photos.yourname.com/2023-07-san-francisco&quot;</p>
+</blockquote>
+<p>– You, probably</p>
+<p>Start a homelab! You'll be better for it.</p>
+<hr />
+<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<p>I'm not totally sans-Google. I have some files that live on Google Drive, but I encrypt whatever I can with <a href="https://rclone.org/">rclone</a> and only write non-sensitive data in Google Docs.</p>
+</div>
+<div class="footnote-definition" id="2"><sup class="footnote-definition-label">2</sup>
+<p>A <a href="https://www.cloudflare.com/learning/cdn/glossary/reverse-proxy/">reverse proxy</a> just directs incoming requests on the same server to their appropriate destinations.</p>
+</div>
+<div class="footnote-definition" id="3"><sup class="footnote-definition-label">3</sup>
+<p>Make sure to have your domain's DNS records and NGINX <code>server_name</code> set correctly first. Uncomment lines in the config file and restart NGINX.</p>
+</div>
+<div class="footnote-definition" id="4"><sup class="footnote-definition-label">4</sup>
+<p>to hide your home's IP address from <code>nslookup</code></p>
+</div>
+
+  <h4 class="subtitle handwritten">2023-07-12</h4>
+
+  </main>
+
+  <footer>
+      <a href="/colophon" id="colophon-button">
+        <svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#4385BE"><path d="M3 15C5.48276 15 7.34483 12 7.34483 12C7.34483 12 9.2069 15 11.6897 15C14.1724 15 16.6552 12 16.6552 12C16.6552 12 19.1379 15 21 15" stroke="#4385BE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 20C5.48276 20 7.34483 17 7.34483 17C7.34483 17 9.2069 20 11.6897 20C14.1724 20 16.6552 17 16.6552 17C16.6552 17 19.1379 20 21 20" stroke="#4385BE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 10C19 6.13401 15.866 3 12 3C8.13401 3 5 6.13401 5 10" stroke="#4385BE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </a>
+  </footer>
+</body>
