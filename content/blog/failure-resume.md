@@ -15,6 +15,7 @@ I care about, and motivates me to keep doing so.
 I copied the idea from [Jacky Zhao](https://jzhao.xyz/posts/a-failure-resume).
 
 ### 2025
+- Rejected from an undergrad TA position (again)
 - Rejected from Stanford MS CS
 
 ### 2024
