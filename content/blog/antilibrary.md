@@ -14,7 +14,10 @@ I got the idea from <a href="https://jzhao.xyz/books">Jacky Zhao</a>.
 
 ### Biographical/Memoir
 - *Elon Musk* - Walter Isaacson
-- *Bad Blood* - John Carreyrou
+- [x] *Bad Blood* - John Carreyrou
+    - Interesting account of Elizabeth Holmes and the rise + fall of Theranos. Straightforward storytelling. The story itself is highly intriguing-I'm still amazed how she managed to defraud professors, serial investors, politicians, and even regulators. The company's constant litigation threats show how money really is power.
+- [x] American Kingpin - Nick Bilton
+    - Story of the rise + fall of the Silk Road. Compelling storytelling, going deep into the backstories of its founder (Ross Ulbricht), friends and family, co-conspirators, everyday people, and FBI/DEA investigators. Also a very strong example of how money and power easily corrupts even seemingly innocent people.
 - *The Diary of a Young Girl* - Anne Frank
 - [x] *Man's Search for Meaning* - Viktor E. Frankl
 	- The first ~50% was focused on his experiences in concentration camps. The rest was spent on explaining logotherapy—a psychological school of thought focused on finding meaning. I was expecting the two subjects to be blended into a normal memoir, so this wasn't what I expected. Worthwhile read!
@@ -28,7 +31,8 @@ I got the idea from <a href="https://jzhao.xyz/books">Jacky Zhao</a>.
 - *Meditations* - Marcus Aurelius
 - *Gödel, Escher, Bach: An Eternal Golden Braid* - Douglas R. Hofstadter
 - *Sapiens* - Yuval Noah Harari
-- *The Stranger* - Albert Camus
+- [x]*The Stranger* - Albert Camus
+    - I find the idea of absurdism very interesting, and this book gets a lot of praise. But personally I just couldn't appreciate this novel that much.
 - *A Short History of Nearly Everything* - Bill Bryson
 - *A Brief History of Time* – Stephen Hawking
 - *How to Change Your Mind* - Michael Pollan
