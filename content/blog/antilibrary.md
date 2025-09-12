@@ -31,7 +31,7 @@ I got the idea from <a href="https://jzhao.xyz/books">Jacky Zhao</a>.
 - *Meditations* - Marcus Aurelius
 - *Gödel, Escher, Bach: An Eternal Golden Braid* - Douglas R. Hofstadter
 - *Sapiens* - Yuval Noah Harari
-- [x]*The Stranger* - Albert Camus
+- [x] *The Stranger* - Albert Camus
     - I find the idea of absurdism very interesting, and this book gets a lot of praise. But personally I just couldn't appreciate this novel that much.
 - *A Short History of Nearly Everything* - Bill Bryson
 - *A Brief History of Time* – Stephen Hawking
