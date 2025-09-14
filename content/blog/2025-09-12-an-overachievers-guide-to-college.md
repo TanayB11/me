@@ -18,7 +18,7 @@ That's why I'm calling this "An Overachiever's Guide to College." At the risk of
 - [Philosophy](#philosophy)
 - [The Pillars of Self-Maintenance](#the-pillars-of-self-maintenance)
 - [Academic Strategy](#academic-strategy)
-  - [Preface/Disclaimer](#prefacedisclaimer)
+  - [Preface/Disclaimer](#preface-disclaimer)
   - [The "Advanced" Academic Strategy](#the-advanced-academic-strategy)
 - [General Education (GEs)](#general-education-ges)
 - [Major Classes](#major-classes)
