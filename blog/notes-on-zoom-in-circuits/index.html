@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<head></head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+  <title> Tanay Biradar </title>
+
+  <script src="/themetoggle.js"></script>
+  <script async src="/footnote.js"></script>
+  <script data-goatcounter="https://tbanalytics.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+  <link rel="preload" href="/fonts/IBMPlexSans-Regular.ttf" as="font" type="font/ttf">
+  <link rel="preload" href="/fonts/IBMPlexSans-Light.ttf" as="font" type="font/ttf">
+  <link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg"/>
+  <link rel="stylesheet" href="/style.css"/>
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+            // customised options
+            // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+          });
+      });
+  </script>
+
+
+</head>
+
+<body>
+  <header>
+    <a href="/" class="title">
+      <h1 id="header-name">Tanay Biradar</h1>
+    </a>
+    <div class="header-links">
+      <a href="/blog" style="margin-left: 20px;">Writing</a>
+      
+      <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+    </div>
+    
+  </header>
+
+  <main>
+    
+  <h2 class="title">🌳 Notes: &quot;Zoom In - An Introduction to Circuits&quot; </h2>
+  <h2 id="introduction">Introduction</h2>
+<p>There's an uncanny overlap between the Effective Altruism and machine learning communities. Even more so in mechanistic interpretability, the subfield of ML that focuses on reverse-engineering and understanding the weights inside neural networks.</p>
+<p>I don't consider myself to have gone that deep in to the EA realm, but I've read a few posts on <a href="https://80000hours.org/">80,000 Hours</a>, <a href="https://www.lesswrong.com/">LessWrong</a>. Some people invested in EA have started programs such as <a href="https://www.mitalignment.org/">MAIA</a>, <a href="https://docs.google.com/document/d/1NX0DlZRzD3NP7tBeLjMh76w7-w2s8SxV3wj0P7EYpKY/edit#heading=h.v42p15ouzzd6">STS 10SI</a>, and <a href="https://www.arena.education/">ARENA</a>. I read some of these pages and <a href="https://www.neelnanda.io/mechanistic-interpretability/quickstart">Neel Nanda's blog</a>, which led me to reimplement GPT-2 and explore more of the field.</p>
+<p>One of the &quot;foundational&quot; papers is <a href="https://distill.pub/2020/circuits/zoom-in/">&quot;Zoom In: An Introduction to Circuits&quot;</a> by Olah et. al. on <a href="http://distill.pub/">Distill.pub</a>. Below are some of my comments and notes on the paper. A lot of the content borrows directly from the source, so all figures and direct quotes are attributed to the paper and OpenAI Microscope.</p>
+<h2 id="claims-1-2-neurons-circuits-are-understandable">Claims 1-2: Neurons + circuits are understandable</h2>
+<p>Key ideas:</p>
+<ol>
+<li>The possible activations of a given layer form a vector space. <strong>Features</strong> are directions in that vector space.</li>
+<li><strong>Circuits</strong> are subgraphs of the overall neural network's computational graph. We want to think of them like cells in an organism.</li>
+<li>Both can be rigorously studied (quantitatively and qualitatively), and qualitative study is still important—even though most ML research focuses on maximizing quantitative benchmarks.</li>
+</ol>
+<h3 id="curve-detectors">Curve Detectors</h3>
+<blockquote>
+<p>We believe that neural networks consist of meaningful, understandable features. Early layers contain features like edge or curve detectors, while later layers have features like floppy ear detectors or wheel detectors. The community is divided on whether this is true.</p>
+</blockquote>
+<center>
+    <img
+        src="https://openaipublic.blob.core.windows.net/microscopeprod/2020-07-25/2020-07-25/inceptionv1/lucid.feature_vis/_feature_vis/alpha%3DFalse%26negative%3DFalse%26objective%3Dneuron%26op%3Dmixed3b%253A0%26repeat%3D0%26start%3D352%26steps%3D4096%26stop%3D384/channel-379.png"
+        style="border-radius: 1em;"
+    ></img>
+    <img
+        src="https://openaipublic.blob.core.windows.net/microscopeprod/2020-07-25/2020-07-25/inceptionv1/lucid.feature_vis/_feature_vis/alpha%3DFalse%26negative%3DFalse%26objective%3Dneuron%26op%3Dmixed3b%253A0%26repeat%3D0%26start%3D384%26steps%3D4096%26stop%3D416/channel-388.png"
+        style="border-radius: 1em;"
+    ></img>
+</center>
+<p>The authors uncovered curve detection neurons and presented several arguments as to why they detected curves—and not anything else. Note that these curve detectors have an <em>orientation</em> as well: For instance, left-facing curves did <em>not</em> highly activate the right-facing curve detector's neurons.</p>
+<ol>
+<li>If we try to maximize activations of these neurons, we produce curves</li>
+<li>The training examples that maximized the activations contained curves</li>
+<li>Artificially drawn curves resulted in high activations for these neurons</li>
+<li>Rotating the curves reduced the activation for one orientation's neuron, but another orientation's curve-detecting neuron started to fire</li>
+<li>&quot;We can read a curve detection algorithm off the weights&quot;</li>
+<li>&quot;The downstream clients of curve detectors are features that naturally involve curves&quot;</li>
+<li>We can manually set weights to implement a curve detector</li>
+</ol>
+<p>You can play with the activations for InceptionV1 and other models using <a href="https://microscope.openai.com/models/inceptionv1?models.technique=deep_dream">OpenAI's Microscope</a>.</p>
+<h3 id="high-low-frequency-detectors">High-Low Frequency Detectors</h3>
+<p>However, not all features the network learns are obvious: </p>
+<blockquote>
+<p>[Some neurons] look for low- frequency patterns on one side of their receptive field, and high-frequency patterns on the other side. Like curve detectors, high-low frequency detectors are found in families of features that look for the same thing in different orientations.</p>
+<p>They seem to be one of several heuristics for detecting the boundaries of objects, especially when the background is out of focus.</p>
+</blockquote>
+<center>
+    <img
+        src="https://openaipublic.blob.core.windows.net/microscopeprod/2020-07-25/2020-07-25/inceptionv1/lucid.feature_vis/_feature_vis/alpha%3DFalse%26negative%3DFalse%26objective%3Dneuron%26op%3Dmixed3a%253A0%26repeat%3D1%26start%3D96%26steps%3D4096%26stop%3D128/channel-110.png"
+        style="border-radius: 1em;"
+    ></img>
+    <img
+        src="https://openaipublic.blob.core.windows.net/microscopeprod/2020-07-25/2020-07-25/inceptionv1/lucid.feature_vis/_feature_vis/alpha%3DFalse%26negative%3DFalse%26objective%3Dneuron%26op%3Dmixed3a%253A0%26repeat%3D1%26start%3D96%26steps%3D4096%26stop%3D128/channel-112.png"
+        style="border-radius: 1em;"
+    ></img>
+</center>
+<h3 id="dog-detectors">Dog Detectors</h3>
+<p>The authors also found circuits for detecting for a left-facing dog and a right-facing dog. Those features are then combined to form orientation-invariant dog detectors. (Remember, circuits are just computational subgraphs in the neural network.)</p>
+<p>Note: In the below figure, blue arrows represent negative weights, while red arrows represent positive weights.  The below figure is copied directly from the Distill <a href="https://distill.pub/2020/circuits/zoom-in/">article</a>.</p>
+<img src="/images/2023-11-28-notes-on-zoom-in-circuits/dog_detector.png" style="border-radius: 1em;">
+<blockquote>
+<p>[The network] could easily create invariant neurons by not caring very much about where the eyes, fur and snout went, and just looking for a jumble of them together. But instead, the network has learned to carve apart the left and right cases and handle them separately.</p>
+</blockquote>
+<p>The negative weights are inhibitors. Concretely: A neuron that implements a left-facing head detector looks at the fur orientation from the previous layer. If the fur is oriented left, then the activation for this left-facing head detector increases. If the fur is oriented right, then that activation is lower!</p>
+<h3 id="polysemanticity">Polysemanticity</h3>
+<p>It gets even weirder: Some circuits form a weird combination of &quot;human-understandable features.&quot; The authors label this phenomenon the &quot;polysemanticity of neurons.&quot; There's no reason a neural network has to &quot;learn&quot; in a human-like way; it's remarkable that curve detectors—and even dog detectors (as the paper goes on to discuss)—operate like this at all!</p>
+<p>Even more oddly, neural networks can and sometimes <em>deliberately</em> introduce polysemanticity. If a neuron reads a fur detector, paw detector, and a car detector as input, it may represent a feature that is some weird combination of fur, paw, and car—because <em>of course</em> it doesn't have to behave like a human! It's a pile of linear algebra<sup class="footnote-reference"><a href="#2">1</a></sup>!</p>
+<p>The authors hypothesize that this is done to effectively compress the network's representation of features. It has a finite &quot;representation space&quot; that is governed by its depth and the number of weights. Anthropic has an <a href="https://transformer-circuits.pub/2022/toy_model/index.html">article</a> on this phenomenon, called superposition.</p>
+<p>I came across a Twitter—I mean X—<a href="https://twitter.com/ChombaBupe/status/1727713732359229676">thread</a> the other day that suggests neural networks are just compression. This <a href="https://arxiv.org/pdf/2309.10668.pdf">paper</a> (that I haven't yet read) also appears to suggest the same.</p>
+<p>This is really annoying for interpretability. Is it possible to train models without inherent polysemanticity? Perhaps we can design some loss function that looks at each neuron and discourages polysemantic neurons from forming. But to do this, we need to quantify what makes a neuron polysemantic—something that hasn't been done yet (at least according to my knowledge).</p>
+<h2 id="claim-3-similar-circuits-form-across-models">Claim 3: Similar circuits form across models</h2>
+<p>Do neural networks in general learn in the same ways and develop similar circuits? Evidence suggests yes, but we don't have a good way of really supporting this hypothesis.</p>
+<p>In this way, finding similar circuits across various models is analogous to finding similar traits across species to classify them. That brings us to interpretability as a natural science...</p>
+<h2 id="the-state-of-interpretability">The State of Interpretability</h2>
+<p>Maybe neural networks are too complicated, and it's unfeasible to mathematically understand <em>everything</em> that's going on at the top level. But the hope is that we can break things down into circuits—just as biologists broke down life into cells, and physicists broke up the world into atoms (and now subatomic particles).</p>
+<blockquote>
+<p>Circuits sidestep these challenges by focusing on tiny subgraphs of a neural network for which rigorous empirical investigation is tractable. They’re very much falsifiable: for example, if you understand a circuit, you should be able to predict what will change if you edit the weights.</p>
+</blockquote>
+<p>Perhaps &quot;I found this cool circuit&quot; doesn't get published into NeurIPS or ICML, but it's still important research. If we can find <em>motifs</em>, what the authors call circuit/feature patterns across models and tasks, we will still be able to form general hypotheses and theories about how machines learn.</p>
+<p>Because interpretability is a young niche within machine learning, there's so much low-hanging fruit. And that excites me, because it's accessible! If we want a world with human-centered, safe AI, we need interpretability. And we need to ensure that research and development are <em>not</em> centered in the hands of a powerful, elite few. That's why interpretability excites me—and if I haven't convinced you, I hope you read the entire paper to convince yourself, too.</p>
+<hr />
+<div class="footnote-definition" id="1"><sup class="footnote-definition-label">2</sup>
+<p>https://xkcd.com/1838/</p>
+</div>
+
+  <h4 class="subtitle handwritten">2023-11-28</h4>
+
+  </main>
+
+  <footer>
+      <a href="/colophon" id="colophon-button">
+        <svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#4385BE"><path d="M3 15C5.48276 15 7.34483 12 7.34483 12C7.34483 12 9.2069 15 11.6897 15C14.1724 15 16.6552 12 16.6552 12C16.6552 12 19.1379 15 21 15" stroke="#4385BE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 20C5.48276 20 7.34483 17 7.34483 17C7.34483 17 9.2069 20 11.6897 20C14.1724 20 16.6552 17 16.6552 17C16.6552 17 19.1379 20 21 20" stroke="#4385BE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 10C19 6.13401 15.866 3 12 3C8.13401 3 5 6.13401 5 10" stroke="#4385BE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </a>
+  </footer>
+</body>

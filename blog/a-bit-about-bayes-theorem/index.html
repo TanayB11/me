@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<head></head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+  <title> Tanay Biradar </title>
+
+  <script src="/themetoggle.js"></script>
+  <script async src="/footnote.js"></script>
+  <script data-goatcounter="https://tbanalytics.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+  <link rel="preload" href="/fonts/IBMPlexSans-Regular.ttf" as="font" type="font/ttf">
+  <link rel="preload" href="/fonts/IBMPlexSans-Light.ttf" as="font" type="font/ttf">
+  <link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg"/>
+  <link rel="stylesheet" href="/style.css"/>
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+            // customised options
+            // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+          });
+      });
+  </script>
+
+
+</head>
+
+<body>
+  <header>
+    <a href="/" class="title">
+      <h1 id="header-name">Tanay Biradar</h1>
+    </a>
+    <div class="header-links">
+      <a href="/blog" style="margin-left: 20px;">Writing</a>
+      
+      <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+    </div>
+    
+  </header>
+
+  <main>
+    
+  <h2 class="title">🌳 A bit about Bayes&#x27; Theorem </h2>
+  <p>I struggled for a little while with Bayes' Theorem. I could use the formulas, but I didn't <a href="https://en.wikipedia.org/wiki/Grok#In_computer_programmer_culture">grok</a> the concept.</p>
+<p>There are two popular camps in probability: the <strong>Frequentist</strong> camp and the <strong>Bayesian</strong> camp. Let's say we're interested in the probability that it rains tomorrow in San Francisco (let's say $p = 0.35$).</p>
+<ol>
+<li>The <strong>Frequentists</strong> see that probability and <a href="https://www.lesswrong.com/tag/bayesianism">think</a>, &quot;If we simulated tomorrow a lot of times (approaching an infinite number of times), then 35% of those simulations will have rain.&quot;</li>
+<li>The <strong>Bayesians</strong>, on the other hand think, &quot;We're 35% <em>confident</em> that it'll rain tomorrow.&quot; They see probabilities as confidence scores on a scale from 0 to 1.</li>
+</ol>
+<p>The Bayesian view is often convenient: if you're a frequentist, it doesn't really make immediate sense to say, &quot;There's a 3% chance that nuclear war breaks out in the next 10 years.&quot; We aren't looking into 1000 alternative 10-year timelines and saying &quot;Nuclear war breaks out in 30 of them.&quot; No. We're saying that we're 3% <em>confident</em> that nuclear war will happen in our 10-year timeline.</p>
+<h2 id="bayes-theorem">Bayes' Theorem</h2>
+<p>A Bayesian view of probability also allows us to <em>update</em> our beliefs (confidence scores) when given new information. The classic example is the medical diagnosis: Say we know that COVID-19 occurs in 8% of the general population, the test identifies 99% of people who actually have COVID, and any random person tests positive with 10% probability.</p>
+<p>If we take any random person, we're 8% confident that they have COVID. But if we're given that they test positive, we can use <strong>Bayes' Theorem</strong> to update our beliefs.</p>
+<ol>
+<li>The number 8% is our <strong>prior</strong> probability (belief) that the person has COVID</li>
+<li>We can use Bayes' Theorem to calculate the <strong>posterior</strong> probability that the person has COVID. This is the probability after we've factored in the given information (that they tested positive).</li>
+</ol>
+<p>We want to find the probability <small>$P(C|+)$</small>, the probability the person has COVID (<small>$C$</small>) <em>given</em> that they've tested positive (<small>$+$</small>). Using the definition of conditional probability,</p>
+<small>
+$$
+P(C|+) = \frac{P(C \text{ and } +)}{P(+)} \tag{1}
+$$
+<p>$$
+P(+|C) = \frac{P(C \text{ and } +)}{P(C)} \implies
+P(C \text{ and } +) = P(+|C)P(C)
+\tag{2}
+$$
+</small></p>
+<p>Then, when we substitute the final result from <small>$(2)$</small> into <small>$(1)$</small>, we see that</p>
+<small>
+$$
+P(C|+) = \frac{P(+|C)P(C)}{P(+)} \tag{3}
+$$
+</small>
+<p>This is Bayes' Theorem! If we plug in our numbers, then we get that:</p>
+<small>
+$$
+P(C|+) = \frac{0.99 \cdot 0.08}{0.10} = 0.792
+$$
+</small>
+<p>The end result is counterintuitive—if someone told you the test has a 99% true positive rate (meaning that it correctly identifies 99% of people with COVID), then you might be pretty worried. There's a high chance the person has COVID, given they tested positive, but it's not as straightforward as it might seem because COVID isn't that common in the general population.</p>
+<h2 id="interpreting-bayes-theorem-qualitatively">Interpreting Bayes' Theorem, Qualitatively</h2>
+<p>It's possible to apply the idea of Bayes' Theorem to everyday life as well! Even without actual numbers, we can see how the formula behaves when certain values are small/large:</p>
+<p>If a reliable news source (you are very confident they will publish any truthful story) releases an article about an extremely unlikely event (aliens landing on the surface of Earth), then it makes sense to be skeptical.</p>
+<small>
+$$
+P(\text{truthful} | \text{published}) = \frac{P(\text{published} | \text{truthful})P(\text{truthful})}{P(\text{published})}
+$$
+</small>
+<p>Let's break this down again:</p>
+<ol>
+<li><small>$P(\text{truthful} | \text{published})$</small> is what we're interested in: it's our posterior. We can use this to represent our trust (higher posterior probability means higher trust).</li>
+<li>Maybe you're confident they will publish <em>any truthful</em> story they come across, so <small>$P(\text{published} | \text{truthful})$</small> is high. This is called the <strong>likelihood</strong>. More on this in a second.</li>
+<li>Aliens landing on Earth is very improbable (given our current beliefs), so <small>$P(\text{truthful})$</small> is low. This is the prior.
+<ol>
+<li>Since aliens are unlikely to land on Earth (the prior is low), then our posterior will also be lower because of this.</li>
+</ol>
+</li>
+<li><small>$P(\text{published})$</small> is the probability <em>any</em> story is published by the source. This is called the <strong>marginal</strong>.
+<ol>
+<li>If they don't publish a lot of stories, then our trust (posterior belief) increases. If they publish <em>too</em> many stories, then our trust won't be <em>as</em> high.</li>
+</ol>
+</li>
+<li>Let's consider how the marginal and likelihood <em>together</em> affect the posterior:
+<ol>
+<li>If the news outlet publishes a lot of the true stories that are out there, but it <em>doesn't</em> publish a lot of stories in general, then our posterior belief will be quite high.</li>
+<li>If the news outlet <em>doesn't</em> publish a lot of the truthful stories that are out there, and if the outlet <em>does</em> publish a lot of stories, then we shouldn't have much confidence that aliens have actually landed.</li>
+</ol>
+</li>
+</ol>
+<p>I originally intended for this post to be brief, but it's become more of a rant than I expected. But if we're trying to make more informed and rational decisions when given new information, perhaps Bayes' Theorem is a useful tool.</p>
+
+  <h4 class="subtitle handwritten">2023-12-21</h4>
+
+  </main>
+
+  <footer>
+      <a href="/colophon" id="colophon-button">
+        <svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#4385BE"><path d="M3 15C5.48276 15 7.34483 12 7.34483 12C7.34483 12 9.2069 15 11.6897 15C14.1724 15 16.6552 12 16.6552 12C16.6552 12 19.1379 15 21 15" stroke="#4385BE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 20C5.48276 20 7.34483 17 7.34483 17C7.34483 17 9.2069 20 11.6897 20C14.1724 20 16.6552 17 16.6552 17C16.6552 17 19.1379 20 21 20" stroke="#4385BE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 10C19 6.13401 15.866 3 12 3C8.13401 3 5 6.13401 5 10" stroke="#4385BE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </a>
+  </footer>
+</body>

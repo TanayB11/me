@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<head></head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+  <title> Tanay Biradar </title>
+
+  <script src="/themetoggle.js"></script>
+  <script async src="/footnote.js"></script>
+  <script data-goatcounter="https://tbanalytics.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+  <link rel="preload" href="/fonts/IBMPlexSans-Regular.ttf" as="font" type="font/ttf">
+  <link rel="preload" href="/fonts/IBMPlexSans-Light.ttf" as="font" type="font/ttf">
+  <link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg"/>
+  <link rel="stylesheet" href="/style.css"/>
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+            // customised options
+            // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+          });
+      });
+  </script>
+
+
+</head>
+
+<body>
+  <header>
+    <a href="/" class="title">
+      <h1 id="header-name">Tanay Biradar</h1>
+    </a>
+    <div class="header-links">
+      <a href="/blog" style="margin-left: 20px;">Writing</a>
+      
+      <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+    </div>
+    
+  </header>
+
+  <main>
+    
+  <h2 class="title">🌳 On &quot;The Case for the Reduced Instruction Set Computer&quot; </h2>
+  <blockquote>
+<p>An assignment for CS254 (Advanced Computer Architecture) at UCSB</p>
+</blockquote>
+<p>Personal computers were booming around the 1980s: Apple <a href="https://en.wikipedia.org/wiki/Apple_II">released</a> the famous Apple II in 1977 and started <a href="https://en.wikipedia.org/wiki/Apple_Lisa">selling</a> the Lisa in 1983. Meanwhile, IBM <a href="https://en.wikipedia.org/wiki/IBM_Personal_Computer">released</a> the IBM Personal Computer in 1981. Around this time, complex instruction set computers (CISCs) dominated the market with VAX, x86, and related instruction sets.</p>
+<p>Even today, CISCs <a href="https://en.wikipedia.org/wiki/X86_instruction_listings#Cryptographic_instructions">flaunt</a> their huge instruction sets, which make it easy to perform additions, polynomial evaluations, dot products, and even cryptographic functions. They (usually) make programmers’ lives easier by providing a single instruction for common tasks: Function calls don't have to consist of explicit instructions to push arguments onto the stack, link a return address, and jump to the beginning of the function. In x86, all this functionality is wrapped up in an elegant <code>CALL</code>. Your code takes up less disk space, and life is good.</p>
+<p>This argument is great for marketing teams at computer companies: They can just use “instruction set size” to sell computers. These companies have also been focused on related KPIs such as MIPS (millions of instructions per second) and MHz (GHz today), arguing that &quot;more megahertz = more performance.&quot;</p>
+<p>The problem is that <strong>these metrics are a leaky proxy for performance</strong>.</p>
+<h2 id="example-matrix-multiplication">Example: Matrix multiplication</h2>
+<p>For example, when multiplying a ton of matrices, many simple GPU cores that run at MHz speeds will be much faster than a few complex CPU cores running at GHz speeds. Although the GPU runs slower, it has thousands of cores that can each compute dot products in parallel. CPUs have fewer cores, so their throughput is much more limited.</p>
+<center>
+    <img src="/images/2024-11-23-on-the-case-for-the-risc/cpu-vs-gpu.png" width="70%"
+    style="border-radius: 0.5em;"/>
+</center>
+<center><em>(CPU: <a href="https://github.com/anycore/anycore-riscv-src">AnyCore</a>)</em></center>
+<h2 id="the-only-way-evaluate-your-processor-by-running-the-program">The Only Way: Evaluate your processor by running the program</h2>
+<p>More available instructions add complexity to the hardware, and adding unnecessary instructions can actually <em>impair</em> performance.</p>
+<p>That's why application benchmarks are so important.</p>
+<p>As consumers, we like to evaluate the metrics that companies print on the box. But it's dangerous to just pick a few metrics and blindly optimize for them. We should really be asking, “How fast/efficiently will this processor run my programs?”</p>
+<p>As computer architects David Patterson and David Ditzel write in &quot;The Case for the Reduced Instruction Set Computer” <sup class="footnote-reference"><a href="#1">1</a></sup></p>
+<blockquote>
+<p>Unfortunately, the primary goal of a computer company is not to design the most cost-effective computer; the primary goal of a computer company is to make the most money by selling computers.”</p>
+</blockquote>
+<h2 id="the-case-for-the-reduced-instruction-set-computer">The Case for the Reduced Instruction Set Computer <sup class="footnote-reference"><a href="#1">1</a></sup></h2>
+<p>Most CISCs have a host of problems: Here are the main ones, as outlined in Patterson and Ditzel's paper:</p>
+<h3 id="upward-compatibility">Upward compatibility</h3>
+<p>CISCs add instructions over time, making the instruction set architecture (ISA) increasingly bloated. Once architects commit to adding an instruction to the ISA, they've effectively locked themselves in for life: Binaries will start using the new instructions; to ensure upward compatibility, the instruction won't disappear in future versions of the instruction set.</p>
+<p>Consequently, it is <em>very</em> hard to get rid of badly designed instructions. Like a tower crumbling under its own weight, the architecture becomes increasingly difficult to support.</p>
+<h3 id="irrational-implementations">Irrational implementations</h3>
+<p>One of the worst offenders in CISC design is the irrational implementation: An instruction that probably shouldn't exist. For some reason, such as marketing, an unnecessarily complex instruction finds its way into a CISC ISA. In the paper,</p>
+<blockquote>
+<p>One example was discovered by Peuto and Shustek for the IBM 370 [Peuto,Shustek77]; they found that a sequence of load instructions is faster than a load multiple instruction for fewer than 4 registers.</p>
+</blockquote>
+<p>One dedicated instruction isn't necessarily faster than several smaller ones. And because architects often demand upward compatibility, these irrational implementations often stay in the ISA.</p>
+<p>RISC simply doesn't have this problem: Although RISCs sometimes support extensions with special-purpose instructions, the base instruction set is simple and rarely changes. It's against the RISC philosophy to introduce anything that might <em>possibly</em> be an irrational implementation.</p>
+<h3 id="compilers-don-t-use-all-the-instructions">Compilers don't use all the instructions</h3>
+<p>Of course, CISCs do have useful special-purpose instructions. However, compilers often neglect many of them. Thus, many CISC instructions are effectively useless. In the paper, Patterson and Ditzel write,</p>
+<blockquote>
+<p>Measurements of a particular IBM 360 compiler found that 10 instructions accounted for 80% of all instructions executed, 16 for 90%, 21 for 95%, and 30 for 99% [Alexander75].</p>
+</blockquote>
+<p>If users (programmers and compiler writers) rarely use a CISC instruction, is it worth keeping it? After all, limiting the number of instructions in an instruction set has several advantages, such as:</p>
+<h3 id="design-fab-time-effects">Design + fab time effects</h3>
+<p>One of the mantras of the tech industry is &quot;move fast, break things. While it's probably a bad idea to break things in computer architecture (hardware has to be correct), the companies that win are often the ones that iterate the fastest.</p>
+<p>Design iteration is necessarily slower for CISCs than for RISCs. Complex instructions introduce more complex logic into the CPU. Hardware becomes more difficult to design and test. Architects are more prone to design errors, and fab yields may even be lower due to the added complexity.</p>
+<p>Ultimately, a CISC chip will cost more to produce than a similar RISC chip.</p>
+<h3 id="better-use-of-chip-area">Better use of chip area</h3>
+<p>According to Moore's Law, VLSI design has been getting better and better. So maybe it <em>does</em> make sense to opt for a CISC. However, as the paper argues,</p>
+<blockquote>
+<p>As VLSI technology improves, the RISC architecture can  always stay one step ahead of the comparable CISC. When the CISC becomes realizable on a single chip, the RISC will have the silicon area to use pipelining techniques; when the CISC gets pipelining  the RISC will have on chip caches, etc.</p>
+</blockquote>
+<center>
+    <img src="/images/2024-11-23-on-the-case-for-the-risc/cisc-risc-scaling.png" width="70%"
+    style="border-radius: 0.5em;"/>
+</center>
+<center><em> A theoretical, completely scientific diagram of performance vs. number of transistors.  </em></center>
+<p>Maybe there is a region on the curve where CISC outperforms RISC. But in the long run, RISC is likely to be the better choice. As we get more transistors, the paper argues, we're better off spending our silicon on improving other parts of the processor rather than adding increasingly complex instruction logic. Our branch predictors can improve with larger branch history tables, and we can even go multicore!</p>
+<p>After all, if many CISC instructions don't even make sense to use, and if compilers only use a few instructions to begin with, it makes more sense to spend our silicon budget on things that are <em>guaranteed</em> to be useful.</p>
+<h2 id="risc-is-great-but-not-a-panacea">RISC is great (but not a panacea)</h2>
+<p>Of course, CISCs <em>can</em> be done well. If there is a special-purpose, complex instruction that allows for huge compiler optimizations, then that instruction is probably worth including. And RISC does have drawbacks: A simpler instruction set, for example, usually requires more memory accesses (which can slow performance) <sup class="footnote-reference"><a href="#2">2</a></sup>.</p>
+<p>In principle, however, RISC makes sense for most designs. Apple has been demonstrating this with their Apple Silicon: Transistor count scales roughly quadratically with CPU pipeline width. By choosing to build on ARM (RISC), Apple could afford to spend their silicon budget on increasing the pipeline width. And by building these slower-but-wider machines, Apple has leapfrogged its competition with some of the most powerful and efficient consumer machines.</p>
+<p>As an engineer, I like to solve problems by looking at the simplest solutions first and adding complexity only when necessary. That's why I'm a RISC fan: The philosophy is inherently simpler.</p>
+<hr />
+<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<p>David A. Patterson and David R. Ditzel. 1980. The case for the reduced instruction set computer. SIGARCH Comput. Archit. News 8, 6 (October 1980), 25–33. https://doi.org/10.1145/641914.641917</p>
+</div>
+<div class="footnote-definition" id="2"><sup class="footnote-definition-label">2</sup>
+<p>RISC Architecture. Presented by Crystal Chen, Greg Novick, and Kirk Shimano. https://cs.stanford.edu/people/eroberts/courses/soco/projects/risc/risccisc/</p>
+</div>
+
+  <h4 class="subtitle handwritten">2024-11-23</h4>
+
+  </main>
+
+  <footer>
+      <a href="/colophon" id="colophon-button">
+        <svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#4385BE"><path d="M3 15C5.48276 15 7.34483 12 7.34483 12C7.34483 12 9.2069 15 11.6897 15C14.1724 15 16.6552 12 16.6552 12C16.6552 12 19.1379 15 21 15" stroke="#4385BE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 20C5.48276 20 7.34483 17 7.34483 17C7.34483 17 9.2069 20 11.6897 20C14.1724 20 16.6552 17 16.6552 17C16.6552 17 19.1379 20 21 20" stroke="#4385BE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 10C19 6.13401 15.866 3 12 3C8.13401 3 5 6.13401 5 10" stroke="#4385BE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </a>
+  </footer>
+</body>
