@@ -14,6 +14,8 @@ I got the idea from <a href="https://jzhao.xyz/books">Jacky Zhao</a>.
 
 ### Biographical/Memoir
 - *Elon Musk* - Walter Isaacson
+- [x] Kitchen Confidential - Anthony Bourdain
+    - A raw account of Anthony Bourdain's journey as a chef, featuring everything from the hilarious to the repulsive (mostly repulsive). Although much has supposedly changed since this book was published, this story highlights many inconvenient truths about working in the restaurant industry.
 - [x] *Bad Blood* - John Carreyrou
     - Interesting account of Elizabeth Holmes and the rise + fall of Theranos. Straightforward storytelling. The story itself is highly intriguing-I'm still amazed how she managed to defraud professors, serial investors, politicians, and even regulators. The company's constant litigation threats show how money really is power.
 - [x] American Kingpin - Nick Bilton
@@ -52,7 +54,7 @@ I got the idea from <a href="https://jzhao.xyz/books">Jacky Zhao</a>.
 - [x] *The Richest Man in Babylon* - George Clason
 	- Often described as timeless advice, this book gives financial principles to live by (guard your hard-earned money, put money to work for you). Most of the advice seems applicable today, but some feels a bit archaic.
 - [x] *I Will Teach You to Be Rich* - Ramit Sethi
-	- Much more modern and timely advice: Get the big things right and don't stress so much about the small ones. I enjoy his focus on the idea of a "rich life"—one where you can "spend lavishly on things you really enjoy, but cut back mercilessly on other things." If I had to recommend one book on personal finance, it'd be this one.
+	- Much better than the clickbait-title makes it out to be. Much more modern and timely advice: Get the big things right and don't stress so much about the small ones. I enjoy his focus on the idea of a "rich life"—one where you can "spend lavishly on things you really enjoy, but cut back mercilessly on other things." If I had to recommend one book on personal finance, it'd be this one.
 
 #### Other
 - *The Power of Habit* - Charles Duhigg
