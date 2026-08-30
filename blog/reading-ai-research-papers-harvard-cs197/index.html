@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head></head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+  <title> Tanay Biradar </title>
+
+  <script src="/themetoggle.js"></script>
+  <script async src="/footnote.js"></script>
+  <script data-goatcounter="https://tbanalytics.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+  <link rel="preload" href="/fonts/IBMPlexSans-Regular.ttf" as="font" type="font/ttf">
+  <link rel="preload" href="/fonts/IBMPlexSans-Light.ttf" as="font" type="font/ttf">
+  <link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg"/>
+  <link rel="stylesheet" href="/style.css"/>
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+            // customised options
+            // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+          });
+      });
+  </script>
+
+
+</head>
+
+<body>
+  <header>
+    <a href="/" class="title">
+      <h1 id="header-name">Tanay Biradar</h1>
+    </a>
+    <div class="header-links">
+      <a href="/blog" style="margin-left: 20px;">Writing</a>
+      
+      <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+    </div>
+    
+  </header>
+
+  <main>
+    
+  <h2 class="title">🌳 Reading AI research papers </h2>
+  <p>This is a part of my collection of &quot;Learn in Public&quot; notes. This comes from
+<a href="https://www.cs197.seas.harvard.edu/">Harvard's CS197</a>.</p>
+<ol>
+<li><a href="https://docs.google.com/document/d/1uvAbEhbgS_M-uDMTzmOWRlYxqCkogKRXdbKYYT98ooc/edit#heading=h.2z3yllpny6or">Online Textbook</a></li>
+<li><a href="https://www.cs197.seas.harvard.edu/">Course Page</a></li>
+</ol>
+<p>When learning new topics, follow this order of steps:</p>
+<ol>
+<li><strong>Read wide</strong>, read parts of papers</li>
+<li><strong>Read deep</strong> into papers of interest</li>
+</ol>
+<p>See <a href="https://docs.google.com/document/d/1bPhwNdCCKkm1_adD0rx1YV6r2JG98qYmTxutT5gdAdQ/edit">the lecture notes</a> for full examples</p>
+<h3 id="reading-wide">Reading Wide</h3>
+<p>Use this to &quot;learn what you don't know&quot; and build a mental model of the topic</p>
+<p>Example - We want to learn about image captioning. What we may do:</p>
+<ol>
+<li>Look it up, maybe find the Papers With Code page on image captioning, take notes</li>
+<li>Learn about popular benchmarks (e.g. COCO, nocaps in-domain, etc.), read some papers of models that do well on these benchmarks (e.g. mPLUG)
+<ol>
+<li>Read the abstracts. Write down some key information in our notes (what is the problem, what is the model, how does it solve the problem, important results, etc.)</li>
+<li>We don't have to understand everything, just try to extract the key ideas!</li>
+<li>Write thoughts/comments down, too!</li>
+</ol>
+</li>
+<li>Look at some datasets, take similar notes</li>
+<li>Look at Google Scholar for survey papers, take notes
+<ol>
+<li>Older survey papers are great for background/foundations, but they may not include state-of-the-art (SOTA) methods</li>
+</ol>
+</li>
+</ol>
+<p>At this point we've read wide, and we have notes of things we should know and terms that commonly show up (e.g. &quot;encoder-decoder architecture&quot;). Write a summary paragraph of all these findings.</p>
+<h3 id="reading-deep">Reading Deep</h3>
+<blockquote>
+<p>Most papers are written for an audience that shares a common foundation: that's what allows for the papers to be relatively concise. Building that foundation takes time, in the span of months, if not years.</p>
+</blockquote>
+<p>Take multiple passes over the paper. You don't have to understand 100%, usually 70-80% is good enough!</p>
+<p>Papers with a good introduction will often give some good background. They tend to introduce a problem-solution-problem-solution-problem chain, to which they will then offer a subsequent solution.</p>
+<ul>
+<li>Reading this will give us a good idea of what concepts we need to learn - and what relevant papers we should read</li>
+</ul>
+<p>Often we won't understand the specific methods right away - we'll need to read more papers to understand the relevant context. That's okay! Do your best and keep reading through it.</p>
+<p>Put relevant methods/benchmarks/concepts on a &quot;To Understand/Learn&quot; list</p>
+<h3 id="summary">Summary</h3>
+<p>The first step to learning is knowing what you don't know. Read wide to first get a framework of knowledge, so you can fill in the gaps later.</p>
+<p>Read deep to get a better idea of what techniques researchers use, what benchmarks are popular, and to get context in the field. (It's hard to understand how SOTA speech-to-text—like <a href="https://github.com/openai/whisper">Whisper</a>—works without knowing a bit about transformers!)</p>
+<p>Don't worry about understanding everything right away! Start by focusing on the main ideas and gradually work your way into the details.</p>
+<p>The dense terminology is intimidating because these papers are written by domain experts for other experts. You need to break in by learning their language (their jargon, etc.), which happens best by immersion.</p>
+
+  <h4 class="subtitle handwritten">2023-09-04</h4>
+
+  </main>
+
+  <footer>
+      <a href="/colophon" id="colophon-button">
+        <svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#4385BE"><path d="M3 15C5.48276 15 7.34483 12 7.34483 12C7.34483 12 9.2069 15 11.6897 15C14.1724 15 16.6552 12 16.6552 12C16.6552 12 19.1379 15 21 15" stroke="#4385BE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 20C5.48276 20 7.34483 17 7.34483 17C7.34483 17 9.2069 20 11.6897 20C14.1724 20 16.6552 17 16.6552 17C16.6552 17 19.1379 20 21 20" stroke="#4385BE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 10C19 6.13401 15.866 3 12 3C8.13401 3 5 6.13401 5 10" stroke="#4385BE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </a>
+  </footer>
+</body>
